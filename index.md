@@ -1,2 +1,2 @@
 ## ShineRs
-[ODD Assignment](https://github.com/pjournal/mef03g-ShineRs/blob/master/ShineRs-ODD.html)
+[ODD Assignment](https://pjournal.github.io/mef03g-ShineRs/ShineRs-ODD.html)
