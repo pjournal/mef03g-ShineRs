@@ -1,0 +1,38 @@
+---
+title: "Femicide for the World"
+output: html_document
+---
+
+## Group Name: ShineRs
+### Group Members (Alphabetical Order): 
+
+- [Emir İnanç](https://pjournal.github.io/mef03-emirinanc/)
+- [Mustafa Ömer Güçlü](https://pjournal.github.io/mef03-MustafaOmerGuclu/)
+- [Özge Beğde](https://pjournal.github.io/mef03-OzgeBegde/)
+- [Özgün Kurt](https://pjournal.github.io/mef03-Ozgunkrt/)
+- [Sezer Ulutaş](https://pjournal.github.io/mef03-SezerUlutas/)
+
+#### Brief
+
+This data set contains femicide data for the world. We're investigating femicide data to examine demopgraphic variables to understand the context in which femicides occur: literacy rate, education level, salary, employment situation, book read per person. 
+
+#### Objective
+
+- Analyze and compare femicide rate per variable
+- Determine the cases with the most and the least murder ratio.
+- Group variables into categories: economic and educational
+- Analyze the economic and educational level per city  
+- Identify femicide trends over the cities and years with respect to these categories.
+
+#### Plan
+
+- Prepare the data for analysis: clean, manipulate data to shape it according to our needs
+- Explore the data visually
+- Specifying the most and less dangerous cities for women.
+- Attempt to identify alarming trends
+
+#### References:
+
+- [Eurostats](https://ec.europa.eu/eurostat/data/database)
+- [United Nations](http://data.un.org/)
+- [UNESCO](http://data.uis.unesco.org/)
