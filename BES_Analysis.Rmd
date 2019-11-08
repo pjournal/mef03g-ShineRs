@@ -1,0 +1,150 @@
+---
+title: "BES Analysis"
+author: "Özge, Mustafa, Özgün, Sezer, Emir"
+date: "11/9/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Importing & Organizng Data
+
+shineRs have collected data from EGM [website](https://www.egm.org.tr/) and stored it as an xlsx file. We then fed the excel file into R through the `read_excel` function. In order to analyze the data more effectively we cast the data from long to wide format.
+
+The long format would designate observations in this manner:
+
+| Company | Date       | Explanation                      | Value |
+|---------|------------|----------------------------------|-------|
+| Anadolu | 2012-03-21 | "Devlet Katkisi Fon Tutari (TL)" | 38238 |
+| Allianz | 2012-03-21 | "Emekli Olan Katilimci Sayisi"   | 23823 |
+
+Whereas the wide format would procure us with an orderly strucutre where variables are represented on columns and observations on rows:
+
+| Company | Date       | "Devlet Katkisi Fon Tutari (TL)" | "Emekli Olan Katilimci Sayisi" |
+|---------|------------|----------------------------------|--------------------------------|
+| Anadolu | 2012-03-21 | 38238                            | 23823                          |
+| Allianz | 2012-04-21 | 23880                            | 23028                          |
+
+
+```{r message=FALSE, results='hide' }
+
+library(readxl)
+library(lubridate)
+library(reshape2)
+library(tidyverse)
+library(scales)
+
+ext <- read_excel("31_07_2019_Oncesi_Rapor_Datasi_BES.xlsx")
+
+ext2 <- ext %>%   mutate_if(~sum(is.na(.x)) > 0,
+                    ~if_else(is.na(.x), "_", as.character(.x))) 
+
+ext2$ACIKLAMA <- paste0(ext2$TITLE2,ext2$ACIKLAMA)
+
+ext2 <- ext2[rowSums(is.na(ext)) != ncol(ext), ]
+ext2 <- ext2[ ,!(names(ext2) %in% "TITLE2")]
+ext2 %>% mutate(RAPORTAR = ymd(RAPORTAR))
+ext2$DEGER <- sapply(ext2$DEGER,as.numeric)
+
+ext2 <- dcast(ext2,RAPORTAR+SIRKET ~ACIKLAMA, value.var = "DEGER", fun.aggregate = sum)
+
+names(ext2) <- c("Rapor_tarihi",                                                               
+                 "Sirket",                                                                 
+                 "Devlet Katkisi Fon Birikimi (TL)",                                      
+                 "Devlet Katkisi Fon Tutari (TL)",                                        
+                 "Emekli Olan Katilimci Sayisi",                                          
+                 "Katilimci Sayisi",                                                      
+                 "Katilimcilarin Fon Tutari (TL)",                                        
+                 "Katki Payi Tutari (TL)",                                                
+                 "SS_Emeklilik Sözlesmeleri",            
+                 "SS_Gruba Bagli Bireysel Emeklilik Sözlesmeleri",
+                 "SS_Grup Emeklilik Sözlesmeleri",                
+                 "SS_Isveren Grup Emeklilik Sertifikalari",       
+                 "SS_Toplam",                                     
+                 "YYT_Bireysel Emeklilik S?zlesmeleri (TL)",            
+                 "YYT_Gruba Bagli Bireysel Emeklilik Sözlesmeleri (TL)",
+                 "YYT_Grup Emeklilik Sözlesmeleri (TL)",                
+                 "YYT_Isveren Grup Emeklilik Sertifikalari (TL)",       
+                 "YYT_Toplam (TL)" )
+```
+
+## Analysis & Graphs
+
+# Number of participants hasincreased every year since 2004
+
+As it can be seen from Katilimci Sayisi graph, from 2004 to 2018 the number of participants in the private pension system increased regularly. This increase started to be particularly remarkable after 2012. The fact that the state started to contribute to the funds since 2013 may be one of the reasons.
+
+```{r echo=FALSE}
+
+`%nin%` = Negate(`%in%`)
+
+ext_katilimci <- ext2 %>%  
+  mutate(YIL = format(as.Date(Rapor_tarihi), "%Y")) %>% 
+  select(Sirket, YIL, `Katilimci Sayisi`) %>% 
+  filter(YIL %nin% c(2003,2019)) %>% 
+  group_by(YIL) %>% 
+  summarize(TOPLAM=sum(`Katilimci Sayisi`))
+
+ggplot(ext_katilimci, aes(x=YIL, 
+                          y=TOPLAM, 
+                          group=1)) +
+  geom_line(color="red")+
+  geom_point(color="red")+
+  labs(title = "BES", 
+       subtitle = "Katilimci Sayisi", 
+       caption="(based on data from EGM)")+
+  scale_y_continuous(labels = comma) +
+  theme(axis.text.x = element_text(angle= 35, vjust= 0.5))
+```
+
+
+# Top 5 companies in the sector
+
+When the top 5 companies in the sector are examined from Katilimci Sayisi ve Fon Tutari graph, Garanti Pension, Anadolu Hayat Emeklilik and Avivasa Emeklilik stand out in the number of participants and funds. While the number of participants of Anadolu Hayat Emeklilik and Garanti Emeklilik companies is approximately equal, Anadolu Hayat has managed to raise higher funds.
+
+```{r echo=FALSE}
+ext_katilimci_sirket <- ext2 %>%  
+  mutate(YIL = year(Rapor_tarihi)) %>% 
+  select(Sirket, YIL, `Katilimci Sayisi`) %>% 
+  filter(YIL %nin% c(2003,2019)) %>% 
+  group_by(Sirket) %>% 
+  summarize(TOPLAM=sum(`Katilimci Sayisi`)) %>% 
+  mutate(TOPLAM=round(TOPLAM/1000000))
+
+ext_katilimci_fon_ilk5 <- ext2 %>% 
+  mutate(YIL = year(Rapor_tarihi)) %>% 
+  select(Sirket, YIL, `Katilimcilarin Fon Tutari (TL)`) %>% 
+  filter(YIL %nin% c(2003,2019)) %>% 
+  group_by(Sirket) %>% 
+  summarize(TOPLAM=sum(`Katilimcilarin Fon Tutari (TL)`)) %>% 
+  arrange(desc(TOPLAM)) %>% slice(1:5) %>% mutate(TOPLAM=round(TOPLAM/1000000))
+
+katilimci_fon_2 <- ext_katilimci_fon_ilk5 %>% 
+  left_join(ext_katilimci_sirket,
+            by = c("Sirket"), 
+            suffix=c("_FON_TUTARI", "_katilimci_sayisi"))
+
+ggplot(katilimci_fon_2, 
+       aes(x=reorder(Sirket,TOPLAM_FON_TUTARI),
+           y=TOPLAM_FON_TUTARI,
+           size=TOPLAM_katilimci_sayisi)) +
+  geom_point(alpha=0.5) + 
+  labs(title = "BES", 
+       subtitle = "Katilimci Sayisi ve Fon Tutari", 
+       x="Sirket", 
+       y="Fon Tutari",
+       caption="(based on data from EGM)") +
+  scale_size(range = c(8, 20), 
+             name="Katılımcı Sayısı") +
+  scale_y_continuous(labels = comma, 
+                     limits=c(500000,5000000)) +
+  theme(axis.text.x = element_text(angle=35, vjust=0.6)) +
+  scale_x_discrete(labels=c("Vakıf Emeklilik" = "Vakıf", 
+                            "Allianz Yaşam ve Emeklilik" = "Allianz",
+                            "Garanti Emeklilik ve Hayat" = "Garanti", 
+                            "Anadolu Hayat Emeklilik"="Anadolu",
+                            "Avivasa Emeklilik ve Hayat"= "Avivasa"))
+
+```
