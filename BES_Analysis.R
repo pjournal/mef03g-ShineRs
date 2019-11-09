@@ -105,5 +105,33 @@ ggplot(katilimci_fon_2,
                             "Anadolu Hayat Emeklilik"="Anadolu",
                             "Avivasa Emeklilik ve Hayat"= "Avivasa"))
 
+ext_fon_kisi_ort_dagilimi <- ext2 %>%  
+  mutate(YIL = year(Rapor_tarihi)) %>% 
+  select(Sirket, YIL, `Katilimci Sayisi`,`Katki Payi Tutari (TL)`) %>% 
+  filter(YIL %nin% c(2003,2019) ) %>% 
+  filter(str_detect(Sirket, "Vakıf Emeklilik") | 
+           str_detect(Sirket,"Allianz Yaşam ve Emeklilik")|
+           str_detect(Sirket,"Garanti Emeklilik ve Hayat") | 
+           str_detect(Sirket,"Anadolu Hayat Emeklilik")|
+           str_detect(Sirket,"Avivasa Emeklilik ve Hayat")) %>%
+  group_by(Sirket,YIL) %>% 
+  summarize(ORT_FON=mean(`Katki Payi Tutari (TL)`),
+            ORT_KISI=mean(`Katilimci Sayisi`),
+            ORT_FON_DAGILIMI=round(ORT_FON/ORT_KISI))%>%
+  select(Sirket,YIL,ORT_FON_DAGILIMI)
+
+
+ggplot(ext_fon_kisi_ort_dagilimi,
+       aes(x=YIL,y=ORT_FON_DAGILIMI,
+           size=ORT_FON_DAGILIMI)) +
+  geom_point(aes(shape = Sirket)) +
+  scale_shape_manual(values = c(0,1,4,3,2,17)) +
+  theme(axis.text.x = element_text(angle=35, vjust=0.6)) +
+  labs(title = "BES", 
+       subtitle = "Kişi Başı Ortalama Fon Tutar Yıllık Gelişimi (TL/Kişi vs YIL)", 
+       x="Yıl", 
+       y="Ortalama Fon Tutari / Kişi ",
+       caption="(based on data from EGM)")
+
 
 
