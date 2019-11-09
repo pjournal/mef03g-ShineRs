@@ -72,9 +72,10 @@ names(ext2) <- c("Rapor_tarihi",
 
 ## Analysis & Graphs
 
-# Number of participants hasincreased every year since 2004
+### Number of participants hasincreased every year since 2004
 
 As it can be seen from Katilimci Sayisi graph, from 2004 to 2018 the number of participants in the private pension system increased regularly. This increase started to be particularly remarkable after 2012. The fact that the state started to contribute to the funds since 2013 may be one of the reasons.
+
 
 ```{r echo=FALSE}
 
@@ -100,9 +101,12 @@ ggplot(ext_katilimci, aes(x=YIL,
 ```
 
 
-# Top 5 companies in the sector
+
+### Top 5 companies in the sector
 
 When the top 5 companies in the sector are examined from Katilimci Sayisi ve Fon Tutari graph, Garanti Pension, Anadolu Hayat Emeklilik and Avivasa Emeklilik stand out in the number of participants and funds. While the number of participants of Anadolu Hayat Emeklilik and Garanti Emeklilik companies is approximately equal, Anadolu Hayat has managed to raise higher funds.
+
+
 
 ```{r echo=FALSE}
 ext_katilimci_sirket <- ext2 %>%  
@@ -146,5 +150,43 @@ ggplot(katilimci_fon_2,
                             "Garanti Emeklilik ve Hayat" = "Garanti", 
                             "Anadolu Hayat Emeklilik"="Anadolu",
                             "Avivasa Emeklilik ve Hayat"= "Avivasa"))
+
+```
+
+
+### Average Progression of Funds per Capita
+
+When the top 5 companies in the sector are examined, the yearly development of average fund per individual, from 2004 to 2019, indicates that there is a wider gap among companies. As it can be observed below, currently "Avivasa" has the biggest and "Garanti" has the smallest average.
+
+
+```{r echo=FALSE}
+
+ext_fon_kisi_ort_dagilimi <- ext2 %>%  
+  mutate(YIL = year(Rapor_tarihi)) %>% 
+  select(Sirket, YIL, `Katilimci Sayisi`,`Katki Payi Tutari (TL)`) %>% 
+  filter(YIL %nin% c(2003,2019) ) %>% 
+  filter(str_detect(Sirket, "Vakıf Emeklilik") | 
+           str_detect(Sirket,"Allianz Yaşam ve Emeklilik")|
+           str_detect(Sirket,"Garanti Emeklilik ve Hayat") | 
+           str_detect(Sirket,"Anadolu Hayat Emeklilik")|
+           str_detect(Sirket,"Avivasa Emeklilik ve Hayat")) %>%
+  group_by(Sirket,YIL) %>% 
+  summarize(ORT_FON=mean(`Katki Payi Tutari (TL)`),
+            ORT_KISI=mean(`Katilimci Sayisi`),
+            ORT_FON_DAGILIMI=round(ORT_FON/ORT_KISI))%>%
+  select(Sirket,YIL,ORT_FON_DAGILIMI)
+
+
+ggplot(ext_fon_kisi_ort_dagilimi,
+       aes(x=YIL,y=ORT_FON_DAGILIMI,
+           size=ORT_FON_DAGILIMI)) +
+  geom_point(aes(shape = Sirket)) +
+  scale_shape_manual(values = c(0,1,4,3,2,17)) +
+  theme(axis.text.x = element_text(angle=35, vjust=0.6)) +
+  labs(title = "BES", 
+       subtitle = "Kişi Başı Ortalama Fon Tutar Yıllık Gelişimi (TL/Kişi vs YIL)", 
+       x="Yıl", 
+       y="Ortalama Fon Tutari / Kişi ",
+       caption="(based on data from EGM)")
 
 ```
