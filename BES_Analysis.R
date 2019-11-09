@@ -4,7 +4,7 @@ library(reshape2)
 library(tidyverse)
 library(scales)
 
-setwd("C:/Users/Kafein/Documents/R Scripts/BES")
+#setwd("C:/Users/Kafein/Documents/R Scripts/BES")
 wd <- getwd()
 
 ext <- read_excel("31_07_2019_Oncesi_Rapor_Datasi_BES.xlsx")
@@ -49,7 +49,7 @@ ext_katilimci <- ext2 %>%
   group_by(YIL) %>% 
   summarize(TOPLAM=sum(`Katilimci Sayisi`))
 
-#Plot1
+# Plot1
 
 ggplot(ext_katilimci, aes(x=YIL, 
                           y=TOPLAM, 
@@ -83,7 +83,7 @@ katilimci_fon_2 <- ext_katilimci_fon_ilk5 %>%
             by = c("Sirket"), 
             suffix=c("_FON_TUTARI", "_katilimci_sayisi"))
 
-#Plot2
+# Plot2
 ggplot(katilimci_fon_2, 
        aes(x=reorder(Sirket,TOPLAM_FON_TUTARI),
            y=TOPLAM_FON_TUTARI,
@@ -105,10 +105,11 @@ ggplot(katilimci_fon_2,
                             "Anadolu Hayat Emeklilik"="Anadolu",
                             "Avivasa Emeklilik ve Hayat"= "Avivasa"))
 
+# Plot 3
 ext_fon_kisi_ort_dagilimi <- ext2 %>%  
   mutate(YIL = year(Rapor_tarihi)) %>% 
   select(Sirket, YIL, `Katilimci Sayisi`,`Katki Payi Tutari (TL)`) %>% 
-  filter(YIL %nin% c(2003,2019) ) %>% 
+  filter(YIL %nin% c(2003,2011,2019) ) %>% 
   filter(str_detect(Sirket, "Vakıf Emeklilik") | 
            str_detect(Sirket,"Allianz Yaşam ve Emeklilik")|
            str_detect(Sirket,"Garanti Emeklilik ve Hayat") | 
@@ -124,13 +125,36 @@ ext_fon_kisi_ort_dagilimi <- ext2 %>%
 ggplot(ext_fon_kisi_ort_dagilimi,
        aes(x=YIL,y=ORT_FON_DAGILIMI,
            size=ORT_FON_DAGILIMI)) +
-  geom_point(aes(shape = Sirket)) +
+  geom_point(aes(color=Sirket,shape = Sirket)) +
   scale_shape_manual(values = c(0,1,4,3,2,17)) +
   theme(axis.text.x = element_text(angle=35, vjust=0.6)) +
   labs(title = "BES", 
        subtitle = "Kişi Başı Ortalama Fon Tutar Yıllık Gelişimi (TL/Kişi vs YIL)", 
+       x="Yıl", y="Ortalama Fon Tutari / Kişi ",
+       caption="(based on data from EGM)")
+
+# Plot 4
+ext_bireysel <- ext2  %>% 
+  mutate(YIL = format(as.Date(Rapor_tarihi), "%Y")) %>% 
+  filter(YIL %in% c(2009:2019)) %>%
+  group_by(Sirket,YIL) %>% 
+  summarise(emekli_sozlesme = sum(`SS_Emeklilik Sözlesmeleri`), 
+            toplam_sozlesme = sum(SS_Toplam)) %>% 
+  mutate(emeklilik_oran = round(emekli_sozlesme / toplam_sozlesme,2)) %>% 
+  filter(str_detect(Sirket, "Vakıf Emeklilik") | 
+           str_detect(Sirket,"Allianz Yaşam ve Emeklilik")|
+           str_detect(Sirket,"Garanti Emeklilik ve Hayat") | 
+           str_detect(Sirket,"Anadolu Hayat Emeklilik")|
+           str_detect(Sirket,"Avivasa Emeklilik ve Hayat"))
+
+ggplot(ext_bireysel, 
+       aes(x=YIL,y=Sirket,size=emeklilik_oran)) + 
+  geom_point(aes(color=Sirket,shape=Sirket))+
+  scale_shape_manual(values = c(0,1,4,3,2,17)) +
+  theme(axis.text.x = element_text(angle=35, vjust=0.6)) +
+  labs(title = "BES", subtitle = "Emeklilik Sözleşmelerinin Toplam Sözleşmelere Oranı ", 
        x="Yıl", 
-       y="Ortalama Fon Tutari / Kişi ",
+       y="İlk 5 Şirket ",
        caption="(based on data from EGM)")
 
 
