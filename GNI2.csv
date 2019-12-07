@@ -1,0 +1,4291 @@
+ID;Country;year;Gender;values
+1;Afghanistan;1995;Female;0
+2;Albania;1995;Female;3160
+3;Algeria;1995;Female;1807
+4;Angola;1995;Female;1557
+5;Argentina;1995;Female;8960
+6;Armenia;1995;Female;1577
+7;Australia;1995;Female;21071
+8;Austria;1995;Female;23694
+9;Azerbaijan;1995;Female;2590
+10;Bahamas;1995;Female;24131
+11;Bahrain;1995;Female;19643
+12;Bangladesh;1995;Female;503
+13;Barbados;1995;Female;9984
+14;Belarus;1995;Female;4251
+15;Belgium;1995;Female;22631
+16;Belize;1995;Female;2910
+17;Benin;1995;Female;1052
+18;Bhutan;1995;Female;1622
+19;Bolivia (Plurinational State of);1995;Female;2785
+20;Bosnia and Herzegovina;1995;Female;1340
+21;Botswana;1995;Female;6990
+22;Brazil;1995;Female;7433
+23;Brunei Darussalam;1995;Female;53188
+24;Bulgaria;1995;Female;6649
+25;Burkina Faso;1995;Female;706
+26;Burundi;1995;Female;757
+27;Cabo Verde;1995;Female;1782
+28;Cambodia;1995;Female;920
+29;Cameroon;1995;Female;1777
+30;Canada;1995;Female;22278
+31;Central African Republic;1995;Female;689
+32;Chad;1995;Female;794
+33;Chile;1995;Female;6004
+34;China;1995;Female;1980
+35;Colombia;1995;Female;4198
+36;Comoros;1995;Female;886
+37;Congo;1995;Female;3223
+38;Congo (Democratic Republic of the);1995;Female;600
+39;Costa Rica;1995;Female;4829
+40;Croatia;1995;Female;8896
+41;Cuba;1995;Female;1805
+42;Cyprus;1995;Female;16943
+43;Czechia;1995;Female;13895
+44;Côte d'Ivoire;1995;Female;1529
+45;Denmark;1995;Female;27849
+46;Djibouti;1995;Female;1268
+47;Dominican Republic;1995;Female;3557
+48;Ecuador;1995;Female;4631
+49;Egypt;1995;Female;2457
+50;El Salvador;1995;Female;3412
+51;Equatorial Guinea;1995;Female;1036
+52;Eritrea;1995;Female;1233
+53;Estonia;1995;Female;9206
+54;Eswatini (Kingdom of);1995;Female;4282
+55;Ethiopia;1995;Female;0
+56;Fiji;1995;Female;3357
+57;Finland;1995;Female;21035
+58;France;1995;Female;22917
+59;Gabon;1995;Female;12564
+60;Gambia;1995;Female;940
+61;Georgia;1995;Female;1774
+62;Germany;1995;Female;23446
+63;Ghana;1995;Female;1689
+64;Greece;1995;Female;12940
+65;Guatemala;1995;Female;2966
+66;Guinea;1995;Female;959
+67;Guinea-Bissau;1995;Female;1027
+68;Guyana;1995;Female;1852
+69;Haiti;1995;Female;1186
+70;Honduras;1995;Female;1710
+71;Hong Kong, China (SAR);1995;Female;20889
+72;Hungary;1995;Female;10769
+73;Iceland;1995;Female;21384
+74;India;1995;Female;956
+75;Indonesia;1995;Female;3645
+76;Iran (Islamic Republic of);1995;Female;2339
+77;Iraq;1995;Female;726
+78;Ireland;1995;Female;14858
+79;Israel;1995;Female;16433
+80;Italy;1995;Female;19372
+81;Jamaica;1995;Female;6085
+82;Japan;1995;Female;21644
+83;Jordan;1995;Female;1472
+84;Kazakhstan;1995;Female;6996
+85;Kenya;1995;Female;1777
+86;Korea (Republic of);1995;Female;10913
+87;Kuwait;1995;Female;43978
+88;Kyrgyzstan;1995;Female;1215
+89;Lao People's Democratic Republic;1995;Female;1754
+90;Latvia;1995;Female;6305
+91;Lebanon;1995;Female;4751
+92;Lesotho;1995;Female;2050
+93;Liberia;1995;Female;165
+94;Libya;1995;Female;6900
+95;Lithuania;1995;Female;7100
+96;Luxembourg;1995;Female;31929
+97;Madagascar;1995;Female;1113
+98;Malawi;1995;Female;1206
+99;Malaysia;1995;Female;8409
+100;Maldives;1995;Female;2916
+101;Mali;1995;Female;763
+102;Malta;1995;Female;9459
+103;Mauritania;1995;Female;1312
+104;Mauritius;1995;Female;4747
+105;Mexico;1995;Female;6259
+106;Moldova (Republic of);1995;Female;2194
+107;Mongolia;1995;Female;3307
+108;Montenegro;1995;Female;5108
+109;Morocco;1995;Female;1462
+110;Mozambique;1995;Female;335
+111;Myanmar;1995;Female;676
+112;Namibia;1995;Female;4598
+113;Nepal;1995;Female;1075
+114;Netherlands;1995;Female;24005
+115;New Zealand;1995;Female;17089
+116;Nicaragua;1995;Female;1261
+117;Niger;1995;Female;554
+118;Nigeria;1995;Female;1847
+119;Norway;1995;Female;38374
+120;Oman;1995;Female;9177
+121;Pakistan;1995;Female;663
+122;Palestine, State of;1995;Female;699
+123;Panama;1995;Female;6105
+124;Papua New Guinea;1995;Female;2518
+125;Paraguay;1995;Female;4002
+126;Peru;1995;Female;3950
+127;Philippines;1995;Female;2967
+128;Poland;1995;Female;8359
+129;Portugal;1995;Female;15839
+130;Qatar;1995;Female;26293
+131;Romania;1995;Female;8113
+132;Russian Federation;1995;Female;9717
+133;Rwanda;1995;Female;580
+134;Saint Lucia;1995;Female;6593
+135;Saint Vincent and the Grenadines;1995;Female;3926
+136;Samoa;1995;Female;2038
+137;Sao Tome and Principe;1995;Female;1022
+138;Saudi Arabia;1995;Female;9197
+139;Senegal;1995;Female;892
+140;Serbia;1995;Female;5223
+141;Sierra Leone;1995;Female;1055
+142;Singapore;1995;Female;28748
+143;Slovakia;1995;Female;9762
+144;Slovenia;1995;Female;14185
+145;Solomon Islands;1995;Female;1432
+146;South Africa;1995;Female;6113
+147;South Sudan;1995;Female;0
+148;Spain;1995;Female;15334
+149;Sri Lanka;1995;Female;2365
+150;Sudan;1995;Female;795
+151;Suriname;1995;Female;5021
+152;Sweden;1995;Female;25145
+153;Switzerland;1995;Female;33365
+154;Syrian Arab Republic;1995;Female;1622
+155;Tajikistan;1995;Female;904
+156;Tanzania (United Republic of);1995;Female;1143
+157;Thailand;1995;Female;6971
+158;The former Yugoslav Republic of Macedonia;1995;Female;4924
+159;Timor-Leste;1995;Female;3778
+160;Togo;1995;Female;965
+161;Tonga;1995;Female;2723
+162;Trinidad and Tobago;1995;Female;7256
+163;Tunisia;1995;Female;2228
+164;Turkey;1995;Female;5705
+165;Turkmenistan;1995;Female;3229
+166;Uganda;1995;Female;705
+167;Ukraine;1995;Female;3933
+168;United Arab Emirates;1995;Female;26847
+169;United Kingdom;1995;Female;19885
+170;United States;1995;Female;29842
+171;Uruguay;1995;Female;7620
+172;Uzbekistan;1995;Female;1543
+173;Vanuatu;1995;Female;1742
+174;Venezuela (Bolivarian Republic of);1995;Female;8941
+175;Viet Nam;1995;Female;1589
+176;Yemen;1995;Female;891
+177;Zambia;1995;Female;1519
+178;Zimbabwe;1995;Female;1759
+179;Andorra;1995;Female;0
+180;Antigua and Barbuda;1995;Female;0
+181;Dominica;1995;Female;0
+182;Grenada;1995;Female;0
+183;Kiribati;1995;Female;0
+184;Korea (Democratic People's Rep. of);1995;Female;0
+185;Liechtenstein;1995;Female;0
+186;Marshall Islands;1995;Female;0
+187;Micronesia (Federated States of);1995;Female;0
+188;Monaco;1995;Female;0
+189;Nauru;1995;Female;0
+190;Palau;1995;Female;0
+191;Saint Kitts and Nevis;1995;Female;0
+192;San Marino;1995;Female;0
+193;Seychelles;1995;Female;0
+194;Somalia;1995;Female;0
+195;Tuvalu;1995;Female;0
+196;Afghanistan;2000;Female;0
+197;Albania;2000;Female;4035
+198;Algeria;2000;Female;2049
+199;Angola;2000;Female;2030
+200;Argentina;2000;Female;9171
+201;Armenia;2000;Female;1768
+202;Australia;2000;Female;25313
+203;Austria;2000;Female;24127
+204;Azerbaijan;2000;Female;3383
+205;Bahamas;2000;Female;19283
+206;Bahrain;2000;Female;21784
+207;Bangladesh;2000;Female;626
+208;Barbados;2000;Female;11407
+209;Belarus;2000;Female;5971
+210;Belgium;2000;Female;27007
+211;Belize;2000;Female;3472
+212;Benin;2000;Female;1271
+213;Bhutan;2000;Female;2511
+214;Bolivia (Plurinational State of);2000;Female;3071
+215;Bosnia and Herzegovina;2000;Female;4910
+216;Botswana;2000;Female;7751
+217;Brazil;2000;Female;7904
+218;Brunei Darussalam;2000;Female;56883
+219;Bulgaria;2000;Female;6604
+220;Burkina Faso;2000;Female;815
+221;Burundi;2000;Female;676
+222;Cabo Verde;2000;Female;2382
+223;Cambodia;2000;Female;1165
+224;Cameroon;2000;Female;1939
+225;Canada;2000;Female;26667
+226;Central African Republic;2000;Female;686
+227;Chad;2000;Female;744
+228;Chile;2000;Female;7510
+229;China;2000;Female;2866
+230;Colombia;2000;Female;5081
+231;Comoros;2000;Female;934
+232;Congo;2000;Female;2887
+233;Congo (Democratic Republic of the);2000;Female;484
+234;Costa Rica;2000;Female;5625
+235;Croatia;2000;Female;12410
+236;Cuba;2000;Female;2288
+237;Cyprus;2000;Female;19506
+238;Czechia;2000;Female;15226
+239;Côte d'Ivoire;2000;Female;1653
+240;Denmark;2000;Female;32432
+241;Djibouti;2000;Female;1198
+242;Dominican Republic;2000;Female;4745
+243;Ecuador;2000;Female;4471
+244;Egypt;2000;Female;2555
+245;El Salvador;2000;Female;4092
+246;Equatorial Guinea;2000;Female;6460
+247;Eritrea;2000;Female;1310
+248;Estonia;2000;Female;11785
+249;Eswatini (Kingdom of);2000;Female;3981
+250;Ethiopia;2000;Female;471
+251;Fiji;2000;Female;3721
+252;Finland;2000;Female;27419
+253;France;2000;Female;26240
+254;Gabon;2000;Female;10502
+255;Gambia;2000;Female;1019
+256;Georgia;2000;Female;2234
+257;Germany;2000;Female;26238
+258;Ghana;2000;Female;1856
+259;Greece;2000;Female;15951
+260;Guatemala;2000;Female;3624
+261;Guinea;2000;Female;1066
+262;Guinea-Bissau;2000;Female;1014
+263;Guyana;2000;Female;2215
+264;Haiti;2000;Female;1372
+265;Honduras;2000;Female;1812
+266;Hong Kong, China (SAR);2000;Female;23047
+267;Hungary;2000;Female;12750
+268;Iceland;2000;Female;26445
+269;India;2000;Female;1152
+270;Indonesia;2000;Female;3154
+271;Iran (Islamic Republic of);2000;Female;3244
+272;Iraq;2000;Female;2328
+273;Ireland;2000;Female;22872
+274;Israel;2000;Female;18748
+275;Italy;2000;Female;22593
+276;Jamaica;2000;Female;5490
+277;Japan;2000;Female;22748
+278;Jordan;2000;Female;1710
+279;Kazakhstan;2000;Female;7090
+280;Kenya;2000;Female;1766
+281;Korea (Republic of);2000;Female;13928
+282;Kuwait;2000;Female;40247
+283;Kyrgyzstan;2000;Female;1420
+284;Lao People's Democratic Republic;2000;Female;2077
+285;Latvia;2000;Female;8466
+286;Lebanon;2000;Female;4762
+287;Lesotho;2000;Female;2508
+288;Liberia;2000;Female;542
+289;Libya;2000;Female;7480
+290;Lithuania;2000;Female;9499
+291;Luxembourg;2000;Female;43757
+292;Madagascar;2000;Female;1183
+293;Malawi;2000;Female;1308
+294;Malaysia;2000;Female;9016
+295;Maldives;2000;Female;4901
+296;Mali;2000;Female;858
+297;Malta;2000;Female;11773
+298;Mauritania;2000;Female;1339
+299;Mauritius;2000;Female;6179
+300;Mexico;2000;Female;8415
+301;Moldova (Republic of);2000;Female;2032
+302;Mongolia;2000;Female;4035
+303;Montenegro;2000;Female;7826
+304;Morocco;2000;Female;1771
+305;Mozambique;2000;Female;502
+306;Myanmar;2000;Female;908
+307;Namibia;2000;Female;4589
+308;Nepal;2000;Female;1071
+309;Netherlands;2000;Female;31543
+310;New Zealand;2000;Female;19606
+311;Nicaragua;2000;Female;1721
+312;Niger;2000;Female;541
+313;Nigeria;2000;Female;1779
+314;Norway;2000;Female;44872
+315;Oman;2000;Female;13486
+316;Pakistan;2000;Female;646
+317;Palestine, State of;2000;Female;910
+318;Panama;2000;Female;7230
+319;Papua New Guinea;2000;Female;2276
+320;Paraguay;2000;Female;3183
+321;Peru;2000;Female;4126
+322;Philippines;2000;Female;3632
+323;Poland;2000;Female;11072
+324;Portugal;2000;Female;18912
+325;Qatar;2000;Female;49539
+326;Romania;2000;Female;8047
+327;Russian Federation;2000;Female;10658
+328;Rwanda;2000;Female;672
+329;Saint Lucia;2000;Female;7614
+330;Saint Vincent and the Grenadines;2000;Female;4664
+331;Samoa;2000;Female;2533
+332;Sao Tome and Principe;2000;Female;1067
+333;Saudi Arabia;2000;Female;10255
+334;Senegal;2000;Female;1016
+335;Serbia;2000;Female;5658
+336;Sierra Leone;2000;Female;602
+337;Singapore;2000;Female;33472
+338;Slovakia;2000;Female;11657
+339;Slovenia;2000;Female;17334
+340;Solomon Islands;2000;Female;1105
+341;South Africa;2000;Female;6719
+342;South Sudan;2000;Female;0
+343;Spain;2000;Female;19241
+344;Sri Lanka;2000;Female;2937
+345;Sudan;2000;Female;911
+346;Suriname;2000;Female;5650
+347;Sweden;2000;Female;29609
+348;Switzerland;2000;Female;39377
+349;Syrian Arab Republic;2000;Female;1481
+350;Tajikistan;2000;Female;853
+351;Tanzania (United Republic of);2000;Female;1221
+352;Thailand;2000;Female;6911
+353;The former Yugoslav Republic of Macedonia;2000;Female;5437
+354;Timor-Leste;2000;Female;2795
+355;Togo;2000;Female;1050
+356;Tonga;2000;Female;2835
+357;Trinidad and Tobago;2000;Female;10743
+358;Tunisia;2000;Female;2915
+359;Turkey;2000;Female;6006
+360;Turkmenistan;2000;Female;3570
+361;Uganda;2000;Female;814
+362;Ukraine;2000;Female;3441
+363;United Arab Emirates;2000;Female;29976
+364;United Kingdom;2000;Female;24663
+365;United States;2000;Female;35157
+366;Uruguay;2000;Female;9004
+367;Uzbekistan;2000;Female;1717
+368;Vanuatu;2000;Female;1905
+369;Venezuela (Bolivarian Republic of);2000;Female;8806
+370;Viet Nam;2000;Female;2223
+371;Yemen;2000;Female;1268
+372;Zambia;2000;Female;1611
+373;Zimbabwe;2000;Female;1633
+374;Andorra;2000;Female;0
+375;Antigua and Barbuda;2000;Female;0
+376;Dominica;2000;Female;0
+377;Grenada;2000;Female;0
+378;Kiribati;2000;Female;0
+379;Korea (Democratic People's Rep. of);2000;Female;0
+380;Liechtenstein;2000;Female;0
+381;Marshall Islands;2000;Female;0
+382;Micronesia (Federated States of);2000;Female;0
+383;Monaco;2000;Female;0
+384;Nauru;2000;Female;0
+385;Palau;2000;Female;0
+386;Saint Kitts and Nevis;2000;Female;0
+387;San Marino;2000;Female;0
+388;Seychelles;2000;Female;0
+389;Somalia;2000;Female;0
+390;Tuvalu;2000;Female;0
+391;Afghanistan;2005;Female;268
+392;Albania;2005;Female;5521
+393;Algeria;2005;Female;2724
+394;Angola;2005;Female;2922
+395;Argentina;2005;Female;9418
+396;Armenia;2005;Female;3508
+397;Australia;2005;Female;28330
+398;Austria;2005;Female;26387
+399;Azerbaijan;2005;Female;4579
+400;Bahamas;2005;Female;18935
+401;Bahrain;2005;Female;25456
+402;Bangladesh;2005;Female;784
+403;Barbados;2005;Female;11910
+404;Belarus;2005;Female;8975
+405;Belgium;2005;Female;29282
+406;Belize;2005;Female;4223
+407;Benin;2005;Female;1406
+408;Bhutan;2005;Female;3397
+409;Bolivia (Plurinational State of);2005;Female;3296
+410;Bosnia and Herzegovina;2005;Female;5641
+411;Botswana;2005;Female;7951
+412;Brazil;2005;Female;9770
+413;Brunei Darussalam;2005;Female;58394
+414;Bulgaria;2005;Female;9995
+415;Burkina Faso;2005;Female;921
+416;Burundi;2005;Female;627
+417;Cabo Verde;2005;Female;2914
+418;Cambodia;2005;Female;1567
+419;Cameroon;2005;Female;2185
+420;Canada;2005;Female;30382
+421;Central African Republic;2005;Female;614
+422;Chad;2005;Female;1161
+423;Chile;2005;Female;9084
+424;China;2005;Female;4402
+425;Colombia;2005;Female;6021
+426;Comoros;2005;Female;974
+427;Congo;2005;Female;2417
+428;Congo (Democratic Republic of the);2005;Female;498
+429;Costa Rica;2005;Female;7647
+430;Croatia;2005;Female;15771
+431;Cuba;2005;Female;3091
+432;Cyprus;2005;Female;23153
+433;Czechia;2005;Female;17836
+434;Côte d'Ivoire;2005;Female;1601
+435;Denmark;2005;Female;35326
+436;Djibouti;2005;Female;1401
+437;Dominican Republic;2005;Female;5345
+438;Ecuador;2005;Female;5548
+439;Egypt;2005;Female;2859
+440;El Salvador;2005;Female;4555
+441;Equatorial Guinea;2005;Female;15685
+442;Eritrea;2005;Female;1288
+443;Estonia;2005;Female;17471
+444;Eswatini (Kingdom of);2005;Female;4521
+445;Ethiopia;2005;Female;512
+446;Fiji;2005;Female;4924
+447;Finland;2005;Female;31553
+448;France;2005;Female;28386
+449;Gabon;2005;Female;10750
+450;Gambia;2005;Female;1046
+451;Georgia;2005;Female;2842
+452;Germany;2005;Female;28085
+453;Ghana;2005;Female;2095
+454;Greece;2005;Female;21215
+455;Guatemala;2005;Female;3976
+456;Guinea;2005;Female;1168
+457;Guinea-Bissau;2005;Female;1021
+458;Guyana;2005;Female;2325
+459;Haiti;2005;Female;1222
+460;Honduras;2005;Female;2303
+461;Hong Kong, China (SAR);2005;Female;29298
+462;Hungary;2005;Female;17118
+463;Iceland;2005;Female;30342
+464;India;2005;Female;1563
+465;Indonesia;2005;Female;3968
+466;Iran (Islamic Republic of);2005;Female;5041
+467;Iraq;2005;Female;2930
+468;Ireland;2005;Female;28689
+469;Israel;2005;Female;20350
+470;Italy;2005;Female;24462
+471;Jamaica;2005;Female;5673
+472;Japan;2005;Female;24490
+473;Jordan;2005;Female;2077
+474;Kazakhstan;2005;Female;10957
+475;Kenya;2005;Female;1770
+476;Korea (Republic of);2005;Female;17367
+477;Kuwait;2005;Female;51795
+478;Kyrgyzstan;2005;Female;1598
+479;Lao People's Democratic Republic;2005;Female;2634
+480;Latvia;2005;Female;13275
+481;Lebanon;2005;Female;4201
+482;Lesotho;2005;Female;2295
+483;Liberia;2005;Female;419
+484;Libya;2005;Female;9681
+485;Lithuania;2005;Female;14326
+486;Luxembourg;2005;Female;50270
+487;Madagascar;2005;Female;1142
+488;Malawi;2005;Female;694
+489;Malaysia;2005;Female;10526
+490;Maldives;2005;Female;5374
+491;Mali;2005;Female;1020
+492;Malta;2005;Female;12745
+493;Mauritania;2005;Female;1520
+494;Mauritius;2005;Female;7429
+495;Mexico;2005;Female;9301
+496;Moldova (Republic of);2005;Female;3086
+497;Mongolia;2005;Female;4954
+498;Montenegro;2005;Female;8531
+499;Morocco;2005;Female;2289
+500;Mozambique;2005;Female;648
+501;Myanmar;2005;Female;1548
+502;Namibia;2005;Female;5564
+503;Nepal;2005;Female;1310
+504;Netherlands;2005;Female;34310
+505;New Zealand;2005;Female;22564
+506;Nicaragua;2005;Female;2185
+507;Niger;2005;Female;562
+508;Nigeria;2005;Female;2712
+509;Norway;2005;Female;50412
+510;Oman;2005;Female;13528
+511;Pakistan;2005;Female;977
+512;Palestine, State of;2005;Female;1452
+513;Panama;2005;Female;7985
+514;Papua New Guinea;2005;Female;2066
+515;Paraguay;2005;Female;3332
+516;Peru;2005;Female;4788
+517;Philippines;2005;Female;4394
+518;Poland;2005;Female;12543
+519;Portugal;2005;Female;21097
+520;Qatar;2005;Female;36524
+521;Romania;2005;Female;11375
+522;Russian Federation;2005;Female;14905
+523;Rwanda;2005;Female;890
+524;Saint Lucia;2005;Female;8035
+525;Saint Vincent and the Grenadines;2005;Female;5875
+526;Samoa;2005;Female;3168
+527;Sao Tome and Principe;2005;Female;1232
+528;Saudi Arabia;2005;Female;13936
+529;Senegal;2005;Female;1166
+530;Serbia;2005;Female;7604
+531;Sierra Leone;2005;Female;886
+532;Singapore;2005;Female;38829
+533;Slovakia;2005;Female;14552
+534;Slovenia;2005;Female;23729
+535;Solomon Islands;2005;Female;1139
+536;South Africa;2005;Female;7739
+537;South Sudan;2005;Female;0
+538;Spain;2005;Female;22534
+539;Sri Lanka;2005;Female;3689
+540;Sudan;2005;Female;1007
+541;Suriname;2005;Female;7287
+542;Sweden;2005;Female;33538
+543;Switzerland;2005;Female;43210
+544;Syrian Arab Republic;2005;Female;1474
+545;Tajikistan;2005;Female;1253
+546;Tanzania (United Republic of);2005;Female;1521
+547;Thailand;2005;Female;8441
+548;The former Yugoslav Republic of Macedonia;2005;Female;6150
+549;Timor-Leste;2005;Female;928
+550;Togo;2005;Female;979
+551;Tonga;2005;Female;3023
+552;Trinidad and Tobago;2005;Female;17566
+553;Tunisia;2005;Female;3557
+554;Turkey;2005;Female;6638
+555;Turkmenistan;2005;Female;4249
+556;Uganda;2005;Female;946
+557;Ukraine;2005;Female;5289
+558;United Arab Emirates;2005;Female;29440
+559;United Kingdom;2005;Female;29327
+560;United States;2005;Female;38455
+561;Uruguay;2005;Female;8966
+562;Uzbekistan;2005;Female;2148
+563;Vanuatu;2005;Female;1785
+564;Venezuela (Bolivarian Republic of);2005;Female;9487
+565;Viet Nam;2005;Female;3006
+566;Yemen;2005;Female;1005
+567;Zambia;2005;Female;1831
+568;Zimbabwe;2005;Female;1313
+569;Andorra;2005;Female;0
+570;Antigua and Barbuda;2005;Female;0
+571;Dominica;2005;Female;0
+572;Grenada;2005;Female;0
+573;Kiribati;2005;Female;0
+574;Korea (Democratic People's Rep. of);2005;Female;0
+575;Liechtenstein;2005;Female;0
+576;Marshall Islands;2005;Female;0
+577;Micronesia (Federated States of);2005;Female;0
+578;Monaco;2005;Female;0
+579;Nauru;2005;Female;0
+580;Palau;2005;Female;0
+581;Saint Kitts and Nevis;2005;Female;0
+582;San Marino;2005;Female;0
+583;Seychelles;2005;Female;0
+584;Somalia;2005;Female;0
+585;Tuvalu;2005;Female;0
+586;Afghanistan;2010;Female;379
+587;Albania;2010;Female;7423
+588;Algeria;2010;Female;3634
+589;Angola;2010;Female;4537
+590;Argentina;2010;Female;11927
+591;Armenia;2010;Female;4622
+592;Australia;2010;Female;31658
+593;Austria;2010;Female;33297
+594;Azerbaijan;2010;Female;10549
+595;Bahamas;2010;Female;18190
+596;Bahrain;2010;Female;27568
+597;Bangladesh;2010;Female;1179
+598;Barbados;2010;Female;12973
+599;Belarus;2010;Female;13164
+600;Belgium;2010;Female;32594
+601;Belize;2010;Female;4743
+602;Benin;2010;Female;1588
+603;Bhutan;2010;Female;4791
+604;Bolivia (Plurinational State of);2010;Female;3588
+605;Bosnia and Herzegovina;2010;Female;6670
+606;Botswana;2010;Female;10530
+607;Brazil;2010;Female;10829
+608;Brunei Darussalam;2010;Female;60567
+609;Bulgaria;2010;Female;11888
+610;Burkina Faso;2010;Female;1056
+611;Burundi;2010;Female;693
+612;Cabo Verde;2010;Female;3776
+613;Cambodia;2010;Female;2111
+614;Cameroon;2010;Female;2395
+615;Canada;2010;Female;31537
+616;Central African Republic;2010;Female;705
+617;Chad;2010;Female;1487
+618;Chile;2010;Female;11875
+619;China;2010;Female;7546
+620;Colombia;2010;Female;8220
+621;Comoros;2010;Female;1014
+622;Congo;2010;Female;3413
+623;Congo (Democratic Republic of the);2010;Female;560
+624;Costa Rica;2010;Female;8708
+625;Croatia;2010;Female;16372
+626;Cuba;2010;Female;4387
+627;Cyprus;2010;Female;25988
+628;Czechia;2010;Female;18750
+629;Côte d'Ivoire;2010;Female;1191
+630;Denmark;2010;Female;36965
+631;Djibouti;2010;Female;1838
+632;Dominican Republic;2010;Female;7535
+633;Ecuador;2010;Female;6178
+634;Egypt;2010;Female;3584
+635;El Salvador;2010;Female;5474
+636;Equatorial Guinea;2010;Female;16788
+637;Eritrea;2010;Female;1162
+638;Estonia;2010;Female;16567
+639;Eswatini (Kingdom of);2010;Female;4701
+640;Ethiopia;2010;Female;805
+641;Fiji;2010;Female;4813
+642;Finland;2010;Female;34083
+643;France;2010;Female;30863
+644;Gabon;2010;Female;9629
+645;Gambia;2010;Female;825
+646;Georgia;2010;Female;4118
+647;Germany;2010;Female;32529
+648;Ghana;2010;Female;2521
+649;Greece;2010;Female;21407
+650;Guatemala;2010;Female;4158
+651;Guinea;2010;Female;1274
+652;Guinea-Bissau;2010;Female;1139
+653;Guyana;2010;Female;3350
+654;Haiti;2010;Female;1245
+655;Honduras;2010;Female;2873
+656;Hong Kong, China (SAR);2010;Female;36727
+657;Hungary;2010;Female;16937
+658;Iceland;2010;Female;26546
+659;India;2010;Female;1909
+660;Indonesia;2010;Female;5338
+661;Iran (Islamic Republic of);2010;Female;5528
+662;Iraq;2010;Female;4085
+663;Ireland;2010;Female;28924
+664;Israel;2010;Female;20920
+665;Italy;2010;Female;26077
+666;Jamaica;2010;Female;5751
+667;Japan;2010;Female;23831
+668;Jordan;2010;Female;2838
+669;Kazakhstan;2010;Female;13429
+670;Kenya;2010;Female;2056
+671;Korea (Republic of);2010;Female;18701
+672;Kuwait;2010;Female;44515
+673;Kyrgyzstan;2010;Female;1769
+674;Lao People's Democratic Republic;2010;Female;3566
+675;Latvia;2010;Female;15471
+676;Lebanon;2010;Female;6580
+677;Lesotho;2010;Female;2409
+678;Liberia;2010;Female;614
+679;Libya;2010;Female;13391
+680;Lithuania;2010;Female;17893
+681;Luxembourg;2010;Female;50409
+682;Madagascar;2010;Female;1105
+683;Malawi;2010;Female;863
+684;Malaysia;2010;Female;14242
+685;Maldives;2010;Female;6833
+686;Mali;2010;Female;1218
+687;Malta;2010;Female;15298
+688;Mauritania;2010;Female;1722
+689;Mauritius;2010;Female;9188
+690;Mexico;2010;Female;10103
+691;Moldova (Republic of);2010;Female;3705
+692;Mongolia;2010;Female;5872
+693;Montenegro;2010;Female;10642
+694;Morocco;2010;Female;2798
+695;Mozambique;2010;Female;844
+696;Myanmar;2010;Female;2605
+697;Namibia;2010;Female;6914
+698;Nepal;2010;Female;1584
+699;Netherlands;2010;Female;36642
+700;New Zealand;2010;Female;22625
+701;Nicaragua;2010;Female;2294
+702;Niger;2010;Female;0
+703;Nigeria;2010;Female;4026
+704;Norway;2010;Female;55250
+705;Oman;2010;Female;15193
+706;Pakistan;2010;Female;1324
+707;Palestine, State of;2010;Female;1389
+708;Panama;2010;Female;10300
+709;Papua New Guinea;2010;Female;2520
+710;Paraguay;2010;Female;4585
+711;Peru;2010;Female;6404
+712;Philippines;2010;Female;5318
+713;Poland;2010;Female;16733
+714;Portugal;2010;Female;22362
+715;Qatar;2010;Female;42464
+716;Romania;2010;Female;13766
+717;Russian Federation;2010;Female;18121
+718;Rwanda;2010;Female;1214
+719;Saint Lucia;2010;Female;9270
+720;Saint Vincent and the Grenadines;2010;Female;7041
+721;Samoa;2010;Female;3798
+722;Sao Tome and Principe;2010;Female;1622
+723;Saudi Arabia;2010;Female;14327
+724;Senegal;2010;Female;1470
+725;Serbia;2010;Female;10430
+726;Sierra Leone;2010;Female;1074
+727;Singapore;2010;Female;51040
+728;Slovakia;2010;Female;18470
+729;Slovenia;2010;Female;24965
+730;Solomon Islands;2010;Female;1092
+731;South Africa;2010;Female;8712
+732;South Sudan;2010;Female;1806
+733;Spain;2010;Female;24211
+734;Sri Lanka;2010;Female;4716
+735;Sudan;2010;Female;1281
+736;Suriname;2010;Female;9366
+737;Sweden;2010;Female;36663
+738;Switzerland;2010;Female;45694
+739;Syrian Arab Republic;2010;Female;1557
+740;Tajikistan;2010;Female;1063
+741;Tanzania (United Republic of);2010;Female;1834
+742;Thailand;2010;Female;10896
+743;The former Yugoslav Republic of Macedonia;2010;Female;8307
+744;Timor-Leste;2010;Female;5196
+745;Togo;2010;Female;830
+746;Tonga;2010;Female;3383
+747;Trinidad and Tobago;2010;Female;23270
+748;Tunisia;2010;Female;4458
+749;Turkey;2010;Female;10245
+750;Turkmenistan;2010;Female;6629
+751;Uganda;2010;Female;1081
+752;Ukraine;2010;Female;6006
+753;United Arab Emirates;2010;Female;18613
+754;United Kingdom;2010;Female;25273
+755;United States;2010;Female;39851
+756;Uruguay;2010;Female;11801
+757;Uzbekistan;2010;Female;3182
+758;Vanuatu;2010;Female;2213
+759;Venezuela (Bolivarian Republic of);2010;Female;12501
+760;Viet Nam;2010;Female;3746
+761;Yemen;2010;Female;929
+762;Zambia;2010;Female;2544
+763;Zimbabwe;2010;Female;1105
+764;Andorra;2010;Female;0
+765;Antigua and Barbuda;2010;Female;0
+766;Dominica;2010;Female;0
+767;Grenada;2010;Female;0
+768;Kiribati;2010;Female;0
+769;Korea (Democratic People's Rep. of);2010;Female;0
+770;Liechtenstein;2010;Female;0
+771;Marshall Islands;2010;Female;0
+772;Micronesia (Federated States of);2010;Female;0
+773;Monaco;2010;Female;0
+774;Nauru;2010;Female;0
+775;Palau;2010;Female;0
+776;Saint Kitts and Nevis;2010;Female;0
+777;San Marino;2010;Female;0
+778;Seychelles;2010;Female;0
+779;Somalia;2010;Female;0
+780;Tuvalu;2010;Female;0
+781;Afghanistan;2011;Female;405
+782;Albania;2011;Female;7634
+783;Algeria;2011;Female;3838
+784;Angola;2011;Female;4489
+785;Argentina;2011;Female;12718
+786;Armenia;2011;Female;5001
+787;Australia;2011;Female;32023
+788;Austria;2011;Female;30341
+789;Azerbaijan;2011;Female;9580
+790;Bahamas;2011;Female;18178
+791;Bahrain;2011;Female;26221
+792;Bangladesh;2011;Female;1261
+793;Barbados;2011;Female;12879
+794;Belarus;2011;Female;13867
+795;Belgium;2011;Female;31904
+796;Belize;2011;Female;5064
+797;Benin;2011;Female;1572
+798;Bhutan;2011;Female;5012
+799;Bolivia (Plurinational State of);2011;Female;3776
+800;Bosnia and Herzegovina;2011;Female;6732
+801;Botswana;2011;Female;12178
+802;Brazil;2011;Female;11832
+803;Brunei Darussalam;2011;Female;66029
+804;Bulgaria;2011;Female;12194
+805;Burkina Faso;2011;Female;1084
+806;Burundi;2011;Female;875
+807;Cabo Verde;2011;Female;3963
+808;Cambodia;2011;Female;2217
+809;Cameroon;2011;Female;2426
+810;Canada;2011;Female;32457
+811;Central African Republic;2011;Female;721
+812;Chad;2011;Female;1452
+813;Chile;2011;Female;12872
+814;China;2011;Female;8180
+815;Colombia;2011;Female;8688
+816;Comoros;2011;Female;1009
+817;Congo;2011;Female;3343
+818;Congo (Democratic Republic of the);2011;Female;572
+819;Costa Rica;2011;Female;9370
+820;Croatia;2011;Female;16544
+821;Cuba;2011;Female;4541
+822;Cyprus;2011;Female;26822
+823;Czechia;2011;Female;19612
+824;Côte d'Ivoire;2011;Female;1123
+825;Denmark;2011;Female;37930
+826;Djibouti;2011;Female;1900
+827;Dominican Republic;2011;Female;8059
+828;Ecuador;2011;Female;6514
+829;Egypt;2011;Female;4549
+830;El Salvador;2011;Female;5587
+831;Equatorial Guinea;2011;Female;17389
+832;Eritrea;2011;Female;1241
+833;Estonia;2011;Female;17880
+834;Eswatini (Kingdom of);2011;Female;4996
+835;Ethiopia;2011;Female;871
+836;Fiji;2011;Female;4927
+837;Finland;2011;Female;33539
+838;France;2011;Female;31425
+839;Gabon;2011;Female;9645
+840;Gambia;2011;Female;765
+841;Georgia;2011;Female;4428
+842;Germany;2011;Female;34632
+843;Ghana;2011;Female;2758
+844;Greece;2011;Female;19447
+845;Guatemala;2011;Female;3913
+846;Guinea;2011;Female;1315
+847;Guinea-Bissau;2011;Female;1212
+848;Guyana;2011;Female;3534
+849;Haiti;2011;Female;1304
+850;Honduras;2011;Female;2766
+851;Hong Kong, China (SAR);2011;Female;37138
+852;Hungary;2011;Female;17166
+853;Iceland;2011;Female;28316
+854;India;2011;Female;1973
+855;Indonesia;2011;Female;5645
+856;Iran (Islamic Republic of);2011;Female;5433
+857;Iraq;2011;Female;4333
+858;Ireland;2011;Female;28925
+859;Israel;2011;Female;21683
+860;Italy;2011;Female;26344
+861;Jamaica;2011;Female;5866
+862;Japan;2011;Female;24205
+863;Jordan;2011;Female;2797
+864;Kazakhstan;2011;Female;13886
+865;Kenya;2011;Female;2138
+866;Korea (Republic of);2011;Female;19395
+867;Kuwait;2011;Female;46069
+868;Kyrgyzstan;2011;Female;1780
+869;Lao People's Democratic Republic;2011;Female;3761
+870;Latvia;2011;Female;16364
+871;Lebanon;2011;Female;6381
+872;Lesotho;2011;Female;2382
+873;Liberia;2011;Female;671
+874;Libya;2011;Female;4721
+875;Lithuania;2011;Female;18935
+876;Luxembourg;2011;Female;51501
+877;Madagascar;2011;Female;1086
+878;Malawi;2011;Female;876
+879;Malaysia;2011;Female;15111
+880;Maldives;2011;Female;7053
+881;Mali;2011;Female;1001
+882;Malta;2011;Female;16229
+883;Mauritania;2011;Female;1727
+884;Mauritius;2011;Female;9490
+885;Mexico;2011;Female;10382
+886;Moldova (Republic of);2011;Female;3956
+887;Mongolia;2011;Female;6534
+888;Montenegro;2011;Female;11316
+889;Morocco;2011;Female;2891
+890;Mozambique;2011;Female;900
+891;Myanmar;2011;Female;2727
+892;Namibia;2011;Female;7237
+893;Nepal;2011;Female;1627
+894;Netherlands;2011;Female;37691
+895;New Zealand;2011;Female;23240
+896;Nicaragua;2011;Female;2417
+897;Niger;2011;Female;0
+898;Nigeria;2011;Female;4143
+899;Norway;2011;Female;55320
+900;Oman;2011;Female;13676
+901;Pakistan;2011;Female;1333
+902;Palestine, State of;2011;Female;1573
+903;Panama;2011;Female;11425
+904;Papua New Guinea;2011;Female;2602
+905;Paraguay;2011;Female;5903
+906;Peru;2011;Female;6784
+907;Philippines;2011;Female;5405
+908;Poland;2011;Female;17557
+909;Portugal;2011;Female;21603
+910;Qatar;2011;Female;48912
+911;Romania;2011;Female;14170
+912;Russian Federation;2011;Female;19089
+913;Rwanda;2011;Female;1225
+914;Saint Lucia;2011;Female;9290
+915;Saint Vincent and the Grenadines;2011;Female;7000
+916;Samoa;2011;Female;3867
+917;Sao Tome and Principe;2011;Female;1595
+918;Saudi Arabia;2011;Female;16846
+919;Senegal;2011;Female;1487
+920;Serbia;2011;Female;10162
+921;Sierra Leone;2011;Female;1086
+922;Singapore;2011;Female;59710
+923;Slovakia;2011;Female;18240
+924;Slovenia;2011;Female;25268
+925;Solomon Islands;2011;Female;1157
+926;South Africa;2011;Female;8951
+927;South Sudan;2011;Female;1841
+928;Spain;2011;Female;24122
+929;Sri Lanka;2011;Female;5097
+930;Sudan;2011;Female;1448
+931;Suriname;2011;Female;9639
+932;Sweden;2011;Female;37295
+933;Switzerland;2011;Female;43905
+934;Syrian Arab Republic;2011;Female;1455
+935;Tajikistan;2011;Female;1104
+936;Tanzania (United Republic of);2011;Female;1926
+937;Thailand;2011;Female;11674
+938;The former Yugoslav Republic of Macedonia;2011;Female;8637
+939;Timor-Leste;2011;Female;5127
+940;Togo;2011;Female;824
+941;Tonga;2011;Female;3504
+942;Trinidad and Tobago;2011;Female;21462
+943;Tunisia;2011;Female;4286
+944;Turkey;2011;Female;11483
+945;Turkmenistan;2011;Female;7363
+946;Uganda;2011;Female;1146
+947;Ukraine;2011;Female;6110
+948;United Arab Emirates;2011;Female;18979
+949;United Kingdom;2011;Female;25409
+950;United States;2011;Female;40214
+951;Uruguay;2011;Female;12639
+952;Uzbekistan;2011;Female;3387
+953;Vanuatu;2011;Female;2206
+954;Venezuela (Bolivarian Republic of);2011;Female;12532
+955;Viet Nam;2011;Female;3934
+956;Yemen;2011;Female;695
+957;Zambia;2011;Female;2659
+958;Zimbabwe;2011;Female;1214
+959;Andorra;2011;Female;0
+960;Antigua and Barbuda;2011;Female;0
+961;Dominica;2011;Female;0
+962;Grenada;2011;Female;0
+963;Kiribati;2011;Female;0
+964;Korea (Democratic People's Rep. of);2011;Female;0
+965;Liechtenstein;2011;Female;0
+966;Marshall Islands;2011;Female;0
+967;Micronesia (Federated States of);2011;Female;0
+968;Monaco;2011;Female;0
+969;Nauru;2011;Female;0
+970;Palau;2011;Female;0
+971;Saint Kitts and Nevis;2011;Female;0
+972;San Marino;2011;Female;0
+973;Seychelles;2011;Female;0
+974;Somalia;2011;Female;0
+975;Tuvalu;2011;Female;0
+976;Afghanistan;2012;Female;469
+977;Albania;2012;Female;8323
+978;Algeria;2012;Female;4069
+979;Angola;2012;Female;4518
+980;Argentina;2012;Female;12622
+981;Armenia;2012;Female;5361
+982;Australia;2012;Female;33137
+983;Austria;2012;Female;30580
+984;Azerbaijan;2012;Female;9299
+985;Bahamas;2012;Female;23713
+986;Bahrain;2012;Female;16265
+987;Bangladesh;2012;Female;1358
+988;Barbados;2012;Female;12850
+989;Belarus;2012;Female;14059
+990;Belgium;2012;Female;32215
+991;Belize;2012;Female;5651
+992;Benin;2012;Female;1594
+993;Bhutan;2012;Female;5391
+994;Bolivia (Plurinational State of);2012;Female;3739
+995;Bosnia and Herzegovina;2012;Female;6734
+996;Botswana;2012;Female;12732
+997;Brazil;2012;Female;12390
+998;Brunei Darussalam;2012;Female;66132
+999;Bulgaria;2012;Female;12428
+1000;Burkina Faso;2012;Female;1149
+1001;Burundi;2012;Female;888
+1002;Cabo Verde;2012;Female;3970
+1003;Cambodia;2012;Female;2324
+1004;Cameroon;2012;Female;2457
+1005;Canada;2012;Female;32739
+1006;Central African Republic;2012;Female;747
+1007;Chad;2012;Female;1534
+1008;Chile;2012;Female;13722
+1009;China;2012;Female;8838
+1010;Colombia;2012;Female;8978
+1011;Comoros;2012;Female;1028
+1012;Congo;2012;Female;3981
+1013;Congo (Democratic Republic of the);2012;Female;587
+1014;Costa Rica;2012;Female;9683
+1015;Croatia;2012;Female;16320
+1016;Cuba;2012;Female;4687
+1017;Cyprus;2012;Female;24593
+1018;Czechia;2012;Female;19845
+1019;Côte d'Ivoire;2012;Female;1237
+1020;Denmark;2012;Female;38073
+1021;Djibouti;2012;Female;1977
+1022;Dominican Republic;2012;Female;8279
+1023;Ecuador;2012;Female;6897
+1024;Egypt;2012;Female;1947
+1025;El Salvador;2012;Female;5417
+1026;Equatorial Guinea;2012;Female;18637
+1027;Eritrea;2012;Female;1302
+1028;Estonia;2012;Female;18798
+1029;Eswatini (Kingdom of);2012;Female;5146
+1030;Ethiopia;2012;Female;921
+1031;Fiji;2012;Female;4963
+1032;Finland;2012;Female;34230
+1033;France;2012;Female;31399
+1034;Gabon;2012;Female;10538
+1035;Gambia;2012;Female;793
+1036;Georgia;2012;Female;5025
+1037;Germany;2012;Female;34665
+1038;Ghana;2012;Female;2878
+1039;Greece;2012;Female;18922
+1040;Guatemala;2012;Female;4686
+1041;Guinea;2012;Female;1375
+1042;Guinea-Bissau;2012;Female;1159
+1043;Guyana;2012;Female;3771
+1044;Haiti;2012;Female;1333
+1045;Honduras;2012;Female;2668
+1046;Hong Kong, China (SAR);2012;Female;37839
+1047;Hungary;2012;Female;16935
+1048;Iceland;2012;Female;29829
+1049;India;2012;Female;2007
+1050;Indonesia;2012;Female;5926
+1051;Iran (Islamic Republic of);2012;Female;4850
+1052;Iraq;2012;Female;4834
+1053;Ireland;2012;Female;28974
+1054;Israel;2012;Female;21668
+1055;Italy;2012;Female;25941
+1056;Jamaica;2012;Female;5897
+1057;Japan;2012;Female;24723
+1058;Jordan;2012;Female;2697
+1059;Kazakhstan;2012;Female;14816
+1060;Kenya;2012;Female;2177
+1061;Korea (Republic of);2012;Female;20016
+1062;Kuwait;2012;Female;47415
+1063;Kyrgyzstan;2012;Female;1860
+1064;Lao People's Democratic Republic;2012;Female;4060
+1065;Latvia;2012;Female;17187
+1066;Lebanon;2012;Female;6130
+1067;Lesotho;2012;Female;2412
+1068;Liberia;2012;Female;667
+1069;Libya;2012;Female;10985
+1070;Lithuania;2012;Female;20176
+1071;Luxembourg;2012;Female;50560
+1072;Madagascar;2012;Female;1072
+1073;Malawi;2012;Female;855
+1074;Malaysia;2012;Female;15745
+1075;Maldives;2012;Female;6769
+1076;Mali;2012;Female;989
+1077;Malta;2012;Female;17123
+1078;Mauritania;2012;Female;1768
+1079;Mauritius;2012;Female;10053
+1080;Mexico;2012;Female;10623
+1081;Moldova (Republic of);2012;Female;4072
+1082;Mongolia;2012;Female;7670
+1083;Montenegro;2012;Female;10954
+1084;Morocco;2012;Female;2874
+1085;Mozambique;2012;Female;952
+1086;Myanmar;2012;Female;2892
+1087;Namibia;2012;Female;7378
+1088;Nepal;2012;Female;1876
+1089;Netherlands;2012;Female;37315
+1090;New Zealand;2012;Female;23925
+1091;Nicaragua;2012;Female;2552
+1092;Niger;2012;Female;105
+1093;Nigeria;2012;Female;4250
+1094;Norway;2012;Female;56216
+1095;Oman;2012;Female;13755
+1096;Pakistan;2012;Female;1365
+1097;Palestine, State of;2012;Female;1762
+1098;Panama;2012;Female;12710
+1099;Papua New Guinea;2012;Female;2638
+1100;Paraguay;2012;Female;5206
+1101;Peru;2012;Female;7235
+1102;Philippines;2012;Female;5692
+1103;Poland;2012;Female;17913
+1104;Portugal;2012;Female;21049
+1105;Qatar;2012;Female;52426
+1106;Romania;2012;Female;14515
+1107;Russian Federation;2012;Female;19714
+1108;Rwanda;2012;Female;1293
+1109;Saint Lucia;2012;Female;8951
+1110;Saint Vincent and the Grenadines;2012;Female;7196
+1111;Samoa;2012;Female;3609
+1112;Sao Tome and Principe;2012;Female;1628
+1113;Saudi Arabia;2012;Female;18217
+1114;Senegal;2012;Female;1506
+1115;Serbia;2012;Female;9911
+1116;Sierra Leone;2012;Female;1282
+1117;Singapore;2012;Female;59509
+1118;Slovakia;2012;Female;18934
+1119;Slovenia;2012;Female;24682
+1120;Solomon Islands;2012;Female;1397
+1121;South Africa;2012;Female;9166
+1122;South Sudan;2012;Female;989
+1123;Spain;2012;Female;23690
+1124;Sri Lanka;2012;Female;5305
+1125;Sudan;2012;Female;1601
+1126;Suriname;2012;Female;9937
+1127;Sweden;2012;Female;38485
+1128;Switzerland;2012;Female;47221
+1129;Syrian Arab Republic;2012;Female;1142
+1130;Tajikistan;2012;Female;1151
+1131;Tanzania (United Republic of);2012;Female;2108
+1132;Thailand;2012;Female;12202
+1133;The former Yugoslav Republic of Macedonia;2012;Female;8505
+1134;Timor-Leste;2012;Female;3016
+1135;Togo;2012;Female;811
+1136;Tonga;2012;Female;3533
+1137;Trinidad and Tobago;2012;Female;21151
+1138;Tunisia;2012;Female;4507
+1139;Turkey;2012;Female;12104
+1140;Turkmenistan;2012;Female;8041
+1141;Uganda;2012;Female;1147
+1142;Ukraine;2012;Female;6251
+1143;United Arab Emirates;2012;Female;19369
+1144;United Kingdom;2012;Female;25561
+1145;United States;2012;Female;40649
+1146;Uruguay;2012;Female;13220
+1147;Uzbekistan;2012;Female;3636
+1148;Vanuatu;2012;Female;2134
+1149;Venezuela (Bolivarian Republic of);2012;Female;13056
+1150;Viet Nam;2012;Female;4168
+1151;Yemen;2012;Female;641
+1152;Zambia;2012;Female;2884
+1153;Zimbabwe;2012;Female;1381
+1154;Andorra;2012;Female;0
+1155;Antigua and Barbuda;2012;Female;0
+1156;Dominica;2012;Female;0
+1157;Grenada;2012;Female;0
+1158;Kiribati;2012;Female;0
+1159;Korea (Democratic People's Rep. of);2012;Female;0
+1160;Liechtenstein;2012;Female;0
+1161;Marshall Islands;2012;Female;0
+1162;Micronesia (Federated States of);2012;Female;0
+1163;Monaco;2012;Female;0
+1164;Nauru;2012;Female;0
+1165;Palau;2012;Female;0
+1166;Saint Kitts and Nevis;2012;Female;0
+1167;San Marino;2012;Female;0
+1168;Seychelles;2012;Female;0
+1169;Somalia;2012;Female;0
+1170;Tuvalu;2012;Female;0
+1171;Afghanistan;2013;Female;492
+1172;Albania;2013;Female;8304
+1173;Algeria;2013;Female;4173
+1174;Angola;2013;Female;4863
+1175;Argentina;2013;Female;12754
+1176;Armenia;2013;Female;5732
+1177;Australia;2013;Female;33706
+1178;Austria;2013;Female;30647
+1179;Azerbaijan;2013;Female;9873
+1180;Bahamas;2013;Female;23587
+1181;Bahrain;2013;Female;17055
+1182;Bangladesh;2013;Female;1608
+1183;Barbados;2013;Female;13012
+1184;Belarus;2013;Female;13902
+1185;Belgium;2013;Female;32594
+1186;Belize;2013;Female;5551
+1187;Benin;2013;Female;1664
+1188;Bhutan;2013;Female;4948
+1189;Bolivia (Plurinational State of);2013;Female;3962
+1190;Bosnia and Herzegovina;2013;Female;6993
+1191;Botswana;2013;Female;13664
+1192;Brazil;2013;Female;11617
+1193;Brunei Darussalam;2013;Female;65480
+1194;Bulgaria;2013;Female;12586
+1195;Burkina Faso;2013;Female;1187
+1196;Burundi;2013;Female;907
+1197;Cabo Verde;2013;Female;4039
+1198;Cambodia;2013;Female;2431
+1199;Cameroon;2013;Female;2513
+1200;Canada;2013;Female;33376
+1201;Central African Republic;2013;Female;467
+1202;Chad;2013;Female;1535
+1203;Chile;2013;Female;14241
+1204;China;2013;Female;9416
+1205;Colombia;2013;Female;9446
+1206;Comoros;2013;Female;1041
+1207;Congo;2013;Female;4281
+1208;Congo (Democratic Republic of the);2013;Female;591
+1209;Costa Rica;2013;Female;9858
+1210;Croatia;2013;Female;16605
+1211;Cuba;2013;Female;4809
+1212;Cyprus;2013;Female;23107
+1213;Czechia;2013;Female;19987
+1214;Côte d'Ivoire;2013;Female;1314
+1215;Denmark;2013;Female;38800
+1216;Djibouti;2013;Female;2052
+1217;Dominican Republic;2013;Female;8437
+1218;Ecuador;2013;Female;7070
+1219;Egypt;2013;Female;3001
+1220;El Salvador;2013;Female;5908
+1221;Equatorial Guinea;2013;Female;18050
+1222;Eritrea;2013;Female;1315
+1223;Estonia;2013;Female;19460
+1224;Eswatini (Kingdom of);2013;Female;5891
+1225;Ethiopia;2013;Female;992
+1226;Fiji;2013;Female;5249
+1227;Finland;2013;Female;32787
+1228;France;2013;Female;31562
+1229;Gabon;2013;Female;11016
+1230;Gambia;2013;Female;814
+1231;Georgia;2013;Female;5388
+1232;Germany;2013;Female;35235
+1233;Ghana;2013;Female;3084
+1234;Greece;2013;Female;18277
+1235;Guatemala;2013;Female;4509
+1236;Guinea;2013;Female;1404
+1237;Guinea-Bissau;2013;Female;1140
+1238;Guyana;2013;Female;3943
+1239;Haiti;2013;Female;1367
+1240;Honduras;2013;Female;2830
+1241;Hong Kong, China (SAR);2013;Female;38810
+1242;Hungary;2013;Female;17685
+1243;Iceland;2013;Female;33682
+1244;India;2013;Female;2121
+1245;Indonesia;2013;Female;6086
+1246;Iran (Islamic Republic of);2013;Female;4637
+1247;Iraq;2013;Female;5880
+1248;Ireland;2013;Female;30699
+1249;Israel;2013;Female;22685
+1250;Italy;2013;Female;24777
+1251;Jamaica;2013;Female;5857
+1252;Japan;2013;Female;25822
+1253;Jordan;2013;Female;2534
+1254;Kazakhstan;2013;Female;16235
+1255;Kenya;2013;Female;2238
+1256;Korea (Republic of);2013;Female;20481
+1257;Kuwait;2013;Female;45439
+1258;Kyrgyzstan;2013;Female;1917
+1259;Lao People's Democratic Republic;2013;Female;4354
+1260;Latvia;2013;Female;17816
+1261;Lebanon;2013;Female;5852
+1262;Lesotho;2013;Female;2389
+1263;Liberia;2013;Female;714
+1264;Libya;2013;Female;5155
+1265;Lithuania;2013;Female;20842
+1266;Luxembourg;2013;Female;49171
+1267;Madagascar;2013;Female;1062
+1268;Malawi;2013;Female;864
+1269;Malaysia;2013;Female;16796
+1270;Maldives;2013;Female;6980
+1271;Mali;2013;Female;1023
+1272;Malta;2013;Female;19279
+1273;Mauritania;2013;Female;1851
+1274;Mauritius;2013;Female;10995
+1275;Mexico;2013;Female;10533
+1276;Moldova (Republic of);2013;Female;4442
+1277;Mongolia;2013;Female;7928
+1278;Montenegro;2013;Female;11479
+1279;Morocco;2013;Female;2999
+1280;Mozambique;2013;Female;992
+1281;Myanmar;2013;Female;3096
+1282;Namibia;2013;Female;8005
+1283;Nepal;2013;Female;1938
+1284;Netherlands;2013;Female;36885
+1285;New Zealand;2013;Female;24269
+1286;Nicaragua;2013;Female;2659
+1287;Niger;2013;Female;105
+1288;Nigeria;2013;Female;4396
+1289;Norway;2013;Female;56316
+1290;Oman;2013;Female;13391
+1291;Pakistan;2013;Female;1384
+1292;Palestine, State of;2013;Female;1644
+1293;Panama;2013;Female;13572
+1294;Papua New Guinea;2013;Female;2692
+1295;Paraguay;2013;Female;4854
+1296;Peru;2013;Female;7727
+1297;Philippines;2013;Female;6076
+1298;Poland;2013;Female;17823
+1299;Portugal;2013;Female;21054
+1300;Qatar;2013;Female;54685
+1301;Romania;2013;Female;15158
+1302;Russian Federation;2013;Female;19884
+1303;Rwanda;2013;Female;1314
+1304;Saint Lucia;2013;Female;8872
+1305;Saint Vincent and the Grenadines;2013;Female;7573
+1306;Samoa;2013;Female;3616
+1307;Sao Tome and Principe;2013;Female;1740
+1308;Saudi Arabia;2013;Female;17604
+1309;Senegal;2013;Female;1511
+1310;Serbia;2013;Female;10467
+1311;Sierra Leone;2013;Female;1457
+1312;Singapore;2013;Female;62087
+1313;Slovakia;2013;Female;19759
+1314;Slovenia;2013;Female;23679
+1315;Solomon Islands;2013;Female;1529
+1316;South Africa;2013;Female;9238
+1317;South Sudan;2013;Female;1021
+1318;Spain;2013;Female;23662
+1319;Sri Lanka;2013;Female;5723
+1320;Sudan;2013;Female;1188
+1321;Suriname;2013;Female;10373
+1322;Sweden;2013;Female;38594
+1323;Switzerland;2013;Female;47808
+1324;Syrian Arab Republic;2013;Female;874
+1325;Tajikistan;2013;Female;2159
+1326;Tanzania (United Republic of);2013;Female;2178
+1327;Thailand;2013;Female;12309
+1328;The former Yugoslav Republic of Macedonia;2013;Female;8731
+1329;Timor-Leste;2013;Female;2928
+1330;Togo;2013;Female;832
+1331;Tonga;2013;Female;3317
+1332;Trinidad and Tobago;2013;Female;23024
+1333;Tunisia;2013;Female;4543
+1334;Turkey;2013;Female;13035
+1335;Turkmenistan;2013;Female;8785
+1336;Uganda;2013;Female;1143
+1337;Ukraine;2013;Female;6286
+1338;United Arab Emirates;2013;Female;22768
+1339;United Kingdom;2013;Female;25835
+1340;United States;2013;Female;40970
+1341;Uruguay;2013;Female;13508
+1342;Uzbekistan;2013;Female;3912
+1343;Vanuatu;2013;Female;2235
+1344;Venezuela (Bolivarian Republic of);2013;Female;13084
+1345;Viet Nam;2013;Female;4370
+1346;Yemen;2013;Female;518
+1347;Zambia;2013;Female;2861
+1348;Zimbabwe;2013;Female;1482
+1349;Andorra;2013;Female;0
+1350;Antigua and Barbuda;2013;Female;0
+1351;Dominica;2013;Female;0
+1352;Grenada;2013;Female;0
+1353;Kiribati;2013;Female;0
+1354;Korea (Democratic People's Rep. of);2013;Female;0
+1355;Liechtenstein;2013;Female;0
+1356;Marshall Islands;2013;Female;0
+1357;Micronesia (Federated States of);2013;Female;0
+1358;Monaco;2013;Female;0
+1359;Nauru;2013;Female;0
+1360;Palau;2013;Female;0
+1361;Saint Kitts and Nevis;2013;Female;0
+1362;San Marino;2013;Female;0
+1363;Seychelles;2013;Female;0
+1364;Somalia;2013;Female;0
+1365;Tuvalu;2013;Female;0
+1366;Afghanistan;2014;Female;509
+1367;Albania;2014;Female;8311
+1368;Algeria;2014;Female;4052
+1369;Angola;2014;Female;5101
+1370;Argentina;2014;Female;12281
+1371;Armenia;2014;Female;5727
+1372;Australia;2014;Female;34113
+1373;Austria;2014;Female;34658
+1374;Azerbaijan;2014;Female;11280
+1375;Bahamas;2014;Female;22727
+1376;Bahrain;2014;Female;16708
+1377;Bangladesh;2014;Female;1694
+1378;Barbados;2014;Female;13175
+1379;Belarus;2014;Female;14237
+1380;Belgium;2014;Female;32850
+1381;Belize;2014;Female;5570
+1382;Benin;2014;Female;1726
+1383;Bhutan;2014;Female;4980
+1384;Bolivia (Plurinational State of);2014;Female;4327
+1385;Bosnia and Herzegovina;2014;Female;7109
+1386;Botswana;2014;Female;14067
+1387;Brazil;2014;Female;12016
+1388;Brunei Darussalam;2014;Female;63922
+1389;Bulgaria;2014;Female;12914
+1390;Burkina Faso;2014;Female;1187
+1391;Burundi;2014;Female;921
+1392;Cabo Verde;2014;Female;3951
+1393;Cambodia;2014;Female;2565
+1394;Cameroon;2014;Female;2623
+1395;Canada;2014;Female;33815
+1396;Central African Republic;2014;Female;470
+1397;Chad;2014;Female;1598
+1398;Chile;2014;Female;14653
+1399;China;2014;Female;10139
+1400;Colombia;2014;Female;9470
+1401;Comoros;2014;Female;1047
+1402;Congo;2014;Female;4975
+1403;Congo (Democratic Republic of the);2014;Female;629
+1404;Costa Rica;2014;Female;10156
+1405;Croatia;2014;Female;16879
+1406;Cuba;2014;Female;4842
+1407;Cyprus;2014;Female;23637
+1408;Czechia;2014;Female;20238
+1409;Côte d'Ivoire;2014;Female;1437
+1410;Denmark;2014;Female;39153
+1411;Djibouti;2014;Female;2158
+1412;Dominican Republic;2014;Female;8901
+1413;Ecuador;2014;Female;7096
+1414;Egypt;2014;Female;3027
+1415;El Salvador;2014;Female;5734
+1416;Equatorial Guinea;2014;Female;17573
+1417;Eritrea;2014;Female;1353
+1418;Estonia;2014;Female;19761
+1419;Eswatini (Kingdom of);2014;Female;5890
+1420;Ethiopia;2014;Female;1069
+1421;Fiji;2014;Female;5217
+1422;Finland;2014;Female;32874
+1423;France;2014;Female;31428
+1424;Gabon;2014;Female;12120
+1425;Gambia;2014;Female;794
+1426;Georgia;2014;Female;5745
+1427;Germany;2014;Female;35761
+1428;Ghana;2014;Female;3087
+1429;Greece;2014;Female;19101
+1430;Guatemala;2014;Female;4561
+1431;Guinea;2014;Female;1423
+1432;Guinea-Bissau;2014;Female;1182
+1433;Guyana;2014;Female;4133
+1434;Haiti;2014;Female;1395
+1435;Honduras;2014;Female;2928
+1436;Hong Kong, China (SAR);2014;Female;41002
+1437;Hungary;2014;Female;18348
+1438;Iceland;2014;Female;33809
+1439;India;2014;Female;2266
+1440;Indonesia;2014;Female;6237
+1441;Iran (Islamic Republic of);2014;Female;4634
+1442;Iraq;2014;Female;5664
+1443;Ireland;2014;Female;33081
+1444;Israel;2014;Female;23267
+1445;Italy;2014;Female;24767
+1446;Jamaica;2014;Female;5899
+1447;Japan;2014;Female;26397
+1448;Jordan;2014;Female;2497
+1449;Kazakhstan;2014;Female;16178
+1450;Kenya;2014;Female;2300
+1451;Korea (Republic of);2014;Female;20896
+1452;Kuwait;2014;Female;43926
+1453;Kyrgyzstan;2014;Female;1997
+1454;Lao People's Democratic Republic;2014;Female;4611
+1455;Latvia;2014;Female;18164
+1456;Lebanon;2014;Female;5567
+1457;Lesotho;2014;Female;2383
+1458;Liberia;2014;Female;605
+1459;Libya;2014;Female;3907
+1460;Lithuania;2014;Female;22074
+1461;Luxembourg;2014;Female;51405
+1462;Madagascar;2014;Female;1065
+1463;Malawi;2014;Female;890
+1464;Malaysia;2014;Female;17668
+1465;Maldives;2014;Female;7028
+1466;Mali;2014;Female;1092
+1467;Malta;2014;Female;20855
+1468;Mauritania;2014;Female;1920
+1469;Mauritius;2014;Female;11301
+1470;Mexico;2014;Female;10601
+1471;Moldova (Republic of);2014;Female;4592
+1472;Mongolia;2014;Female;8617
+1473;Montenegro;2014;Female;11486
+1474;Morocco;2014;Female;3006
+1475;Mozambique;2014;Female;1027
+1476;Myanmar;2014;Female;3305
+1477;Namibia;2014;Female;8690
+1478;Nepal;2014;Female;2057
+1479;Netherlands;2014;Female;36476
+1480;New Zealand;2014;Female;24821
+1481;Nicaragua;2014;Female;2763
+1482;Niger;2014;Female;110
+1483;Nigeria;2014;Female;4637
+1484;Norway;2014;Female;58514
+1485;Oman;2014;Female;12424
+1486;Pakistan;2014;Female;1391
+1487;Palestine, State of;2014;Female;1649
+1488;Panama;2014;Female;14268
+1489;Papua New Guinea;2014;Female;2888
+1490;Paraguay;2014;Female;6481
+1491;Peru;2014;Female;7970
+1492;Philippines;2014;Female;6357
+1493;Poland;2014;Female;18373
+1494;Portugal;2014;Female;21312
+1495;Qatar;2014;Female;56183
+1496;Romania;2014;Female;16104
+1497;Russian Federation;2014;Female;19720
+1498;Rwanda;2014;Female;1374
+1499;Saint Lucia;2014;Female;8768
+1500;Saint Vincent and the Grenadines;2014;Female;7665
+1501;Samoa;2014;Female;3572
+1502;Sao Tome and Principe;2014;Female;1764
+1503;Saudi Arabia;2014;Female;18193
+1504;Senegal;2014;Female;1523
+1505;Serbia;2014;Female;10212
+1506;Sierra Leone;2014;Female;1467
+1507;Singapore;2014;Female;64731
+1508;Slovakia;2014;Female;20018
+1509;Slovenia;2014;Female;24649
+1510;Solomon Islands;2014;Female;1469
+1511;South Africa;2014;Female;9280
+1512;South Sudan;2014;Female;1101
+1513;Spain;2014;Female;23981
+1514;Sri Lanka;2014;Female;5813
+1515;Sudan;2014;Female;1635
+1516;Suriname;2014;Female;10538
+1517;Sweden;2014;Female;39267
+1518;Switzerland;2014;Female;47483
+1519;Syrian Arab Republic;2014;Female;691
+1520;Tajikistan;2014;Female;2110
+1521;Tanzania (United Republic of);2014;Female;2041
+1522;Thailand;2014;Female;12385
+1523;The former Yugoslav Republic of Macedonia;2014;Female;8962
+1524;Timor-Leste;2014;Female;2652
+1525;Togo;2014;Female;893
+1526;Tonga;2014;Female;3308
+1527;Trinidad and Tobago;2014;Female;22375
+1528;Tunisia;2014;Female;4618
+1529;Turkey;2014;Female;13419
+1530;Turkmenistan;2014;Female;9568
+1531;Uganda;2014;Female;1164
+1532;Ukraine;2014;Female;6215
+1533;United Arab Emirates;2014;Female;23517
+1534;United Kingdom;2014;Female;26345
+1535;United States;2014;Female;42248
+1536;Uruguay;2014;Female;13985
+1537;Uzbekistan;2014;Female;4088
+1538;Vanuatu;2014;Female;2235
+1539;Venezuela (Bolivarian Republic of);2014;Female;12785
+1540;Viet Nam;2014;Female;4559
+1541;Yemen;2014;Female;443
+1542;Zambia;2014;Female;2978
+1543;Zimbabwe;2014;Female;1487
+1544;Andorra;2014;Female;0
+1545;Antigua and Barbuda;2014;Female;0
+1546;Dominica;2014;Female;0
+1547;Grenada;2014;Female;0
+1548;Kiribati;2014;Female;0
+1549;Korea (Democratic People's Rep. of);2014;Female;0
+1550;Liechtenstein;2014;Female;0
+1551;Marshall Islands;2014;Female;0
+1552;Micronesia (Federated States of);2014;Female;0
+1553;Monaco;2014;Female;0
+1554;Nauru;2014;Female;0
+1555;Palau;2014;Female;0
+1556;Saint Kitts and Nevis;2014;Female;0
+1557;San Marino;2014;Female;0
+1558;Seychelles;2014;Female;0
+1559;Somalia;2014;Female;0
+1560;Tuvalu;2014;Female;0
+1561;Afghanistan;2015;Female;522
+1562;Albania;2015;Female;9025
+1563;Algeria;2015;Female;4085
+1564;Angola;2015;Female;5458
+1565;Argentina;2015;Female;12338
+1566;Armenia;2015;Female;5932
+1567;Australia;2015;Female;34747
+1568;Austria;2015;Female;34369
+1569;Azerbaijan;2015;Female;11097
+1570;Bahamas;2015;Female;22882
+1571;Bahrain;2015;Female;19291
+1572;Bangladesh;2015;Female;1813
+1573;Barbados;2015;Female;13151
+1574;Belarus;2015;Female;13382
+1575;Belgium;2015;Female;32900
+1576;Belize;2015;Female;5804
+1577;Benin;2015;Female;1720
+1578;Bhutan;2015;Female;5231
+1579;Bolivia (Plurinational State of);2015;Female;4557
+1580;Bosnia and Herzegovina;2015;Female;7349
+1581;Botswana;2015;Female;12230
+1582;Brazil;2015;Female;12554
+1583;Brunei Darussalam;2015;Female;66248
+1584;Bulgaria;2015;Female;13200
+1585;Burkina Faso;2015;Female;1195
+1586;Burundi;2015;Female;859
+1587;Cabo Verde;2015;Female;4041
+1588;Cambodia;2015;Female;2687
+1589;Cameroon;2015;Female;2688
+1590;Canada;2015;Female;33874
+1591;Central African Republic;2015;Female;490
+1592;Chad;2015;Female;1624
+1593;Chile;2015;Female;14961
+1594;China;2015;Female;10718
+1595;Colombia;2015;Female;10143
+1596;Comoros;2015;Female;1032
+1597;Congo;2015;Female;6389
+1598;Congo (Democratic Republic of the);2015;Female;663
+1599;Costa Rica;2015;Female;10366
+1600;Croatia;2015;Female;16517
+1601;Cuba;2015;Female;5053
+1602;Cyprus;2015;Female;25950
+1603;Czechia;2015;Female;21470
+1604;Côte d'Ivoire;2015;Female;1535
+1605;Denmark;2015;Female;39211
+1606;Djibouti;2015;Female;2281
+1607;Dominican Republic;2015;Female;9598
+1608;Ecuador;2015;Female;7262
+1609;Egypt;2015;Female;3292
+1610;El Salvador;2015;Female;5857
+1611;Equatorial Guinea;2015;Female;17962
+1612;Eritrea;2015;Female;1388
+1613;Estonia;2015;Female;20381
+1614;Eswatini (Kingdom of);2015;Female;5852
+1615;Ethiopia;2015;Female;1153
+1616;Fiji;2015;Female;5481
+1617;Finland;2015;Female;33152
+1618;France;2015;Female;31677
+1619;Gabon;2015;Female;11774
+1620;Gambia;2015;Female;803
+1621;Georgia;2015;Female;5964
+1622;Germany;2015;Female;36258
+1623;Ghana;2015;Female;3157
+1624;Greece;2015;Female;19250
+1625;Guatemala;2015;Female;4783
+1626;Guinea;2015;Female;1448
+1627;Guinea-Bissau;2015;Female;1212
+1628;Guyana;2015;Female;4441
+1629;Haiti;2015;Female;1391
+1630;Honduras;2015;Female;3043
+1631;Hong Kong, China (SAR);2015;Female;40919
+1632;Hungary;2015;Female;18632
+1633;Iceland;2015;Female;35299
+1634;India;2015;Female;2437
+1635;Indonesia;2015;Female;6654
+1636;Iran (Islamic Republic of);2015;Female;4879
+1637;Iraq;2015;Female;5696
+1638;Ireland;2015;Female;38166
+1639;Israel;2015;Female;23742
+1640;Italy;2015;Female;24693
+1641;Jamaica;2015;Female;5877
+1642;Japan;2015;Female;26985
+1643;Jordan;2015;Female;2471
+1644;Kazakhstan;2015;Female;17227
+1645;Kenya;2015;Female;2387
+1646;Korea (Republic of);2015;Female;21235
+1647;Kuwait;2015;Female;41835
+1648;Kyrgyzstan;2015;Female;2095
+1649;Lao People's Democratic Republic;2015;Female;4877
+1650;Latvia;2015;Female;18825
+1651;Lebanon;2015;Female;5385
+1652;Lesotho;2015;Female;2442
+1653;Liberia;2015;Female;600
+1654;Libya;2015;Female;3795
+1655;Lithuania;2015;Female;22228
+1656;Luxembourg;2015;Female;49071
+1657;Madagascar;2015;Female;1051
+1658;Malawi;2015;Female;886
+1659;Malaysia;2015;Female;18526
+1660;Maldives;2015;Female;6706
+1661;Mali;2015;Female;1184
+1662;Malta;2015;Female;22799
+1663;Mauritania;2015;Female;1885
+1664;Mauritius;2015;Female;11938
+1665;Mexico;2015;Female;10798
+1666;Moldova (Republic of);2015;Female;4475
+1667;Mongolia;2015;Female;8836
+1668;Montenegro;2015;Female;12078
+1669;Morocco;2015;Female;3121
+1670;Mozambique;2015;Female;1055
+1671;Myanmar;2015;Female;3500
+1672;Namibia;2015;Female;9018
+1673;Nepal;2015;Female;2107
+1674;Netherlands;2015;Female;37247
+1675;New Zealand;2015;Female;25412
+1676;Nicaragua;2015;Female;2921
+1677;Niger;2015;Female;679
+1678;Nigeria;2015;Female;4681
+1679;Norway;2015;Female;59206
+1680;Oman;2015;Female;12427
+1681;Pakistan;2015;Female;1530
+1682;Palestine, State of;2015;Female;1882
+1683;Panama;2015;Female;14058
+1684;Papua New Guinea;2015;Female;2974
+1685;Paraguay;2015;Female;6375
+1686;Peru;2015;Female;7969
+1687;Philippines;2015;Female;6658
+1688;Poland;2015;Female;19067
+1689;Portugal;2015;Female;21846
+1690;Qatar;2015;Female;58159
+1691;Romania;2015;Female;16374
+1692;Russian Federation;2015;Female;19231
+1693;Rwanda;2015;Female;1458
+1694;Saint Lucia;2015;Female;8925
+1695;Saint Vincent and the Grenadines;2015;Female;7605
+1696;Samoa;2015;Female;3715
+1697;Sao Tome and Principe;2015;Female;1818
+1698;Saudi Arabia;2015;Female;18243
+1699;Senegal;2015;Female;1570
+1700;Serbia;2015;Female;10213
+1701;Sierra Leone;2015;Female;1141
+1702;Singapore;2015;Female;66268
+1703;Slovakia;2015;Female;21183
+1704;Slovenia;2015;Female;24631
+1705;Solomon Islands;2015;Female;1521
+1706;South Africa;2015;Female;9176
+1707;South Sudan;2015;Female;1103
+1708;Spain;2015;Female;25177
+1709;Sri Lanka;2015;Female;6086
+1710;Sudan;2015;Female;1700
+1711;Suriname;2015;Female;10163
+1712;Sweden;2015;Female;40528
+1713;Switzerland;2015;Female;48267
+1714;Syrian Arab Republic;2015;Female;627
+1715;Tajikistan;2015;Female;2083
+1716;Tanzania (United Republic of);2015;Female;2106
+1717;Thailand;2015;Female;12798
+1718;The former Yugoslav Republic of Macedonia;2015;Female;9160
+1719;Timor-Leste;2015;Female;3868
+1720;Togo;2015;Female;1198
+1721;Tonga;2015;Female;3414
+1722;Trinidad and Tobago;2015;Female;23482
+1723;Tunisia;2015;Female;4548
+1724;Turkey;2015;Female;14297
+1725;Turkmenistan;2015;Female;10330
+1726;Uganda;2015;Female;1192
+1727;Ukraine;2015;Female;5536
+1728;United Arab Emirates;2015;Female;24500
+1729;United Kingdom;2015;Female;27262
+1730;United States;2015;Female;42950
+1731;Uruguay;2015;Female;14172
+1732;Uzbekistan;2015;Female;4216
+1733;Vanuatu;2015;Female;2233
+1734;Venezuela (Bolivarian Republic of);2015;Female;11544
+1735;Viet Nam;2015;Female;4814
+1736;Yemen;2015;Female;276
+1737;Zambia;2015;Female;2987
+1738;Zimbabwe;2015;Female;1426
+1739;Andorra;2015;Female;0
+1740;Antigua and Barbuda;2015;Female;0
+1741;Dominica;2015;Female;0
+1742;Grenada;2015;Female;0
+1743;Kiribati;2015;Female;0
+1744;Korea (Democratic People's Rep. of);2015;Female;0
+1745;Liechtenstein;2015;Female;0
+1746;Marshall Islands;2015;Female;0
+1747;Micronesia (Federated States of);2015;Female;0
+1748;Monaco;2015;Female;0
+1749;Nauru;2015;Female;0
+1750;Palau;2015;Female;0
+1751;Saint Kitts and Nevis;2015;Female;0
+1752;San Marino;2015;Female;0
+1753;Seychelles;2015;Female;0
+1754;Somalia;2015;Female;0
+1755;Tuvalu;2015;Female;0
+1756;Afghanistan;2016;Female;539
+1757;Albania;2016;Female;9398
+1758;Algeria;2016;Female;4206
+1759;Angola;2016;Female;5204
+1760;Argentina;2016;Female;11995
+1761;Armenia;2016;Female;5795
+1762;Australia;2016;Female;35356
+1763;Austria;2016;Female;34797
+1764;Azerbaijan;2016;Female;10175
+1765;Bahamas;2016;Female;21990
+1766;Bahrain;2016;Female;19124
+1767;Bangladesh;2016;Female;1941
+1768;Barbados;2016;Female;13228
+1769;Belarus;2016;Female;13017
+1770;Belgium;2016;Female;32722
+1771;Belize;2016;Female;5894
+1772;Benin;2016;Female;1748
+1773;Bhutan;2016;Female;5572
+1774;Bolivia (Plurinational State of);2016;Female;4616
+1775;Bosnia and Herzegovina;2016;Female;7487
+1776;Botswana;2016;Female;12520
+1777;Brazil;2016;Female;10052
+1778;Brunei Darussalam;2016;Female;64542
+1779;Bulgaria;2016;Female;13995
+1780;Burkina Faso;2016;Female;1252
+1781;Burundi;2016;Female;828
+1782;Cabo Verde;2016;Female;4186
+1783;Cambodia;2016;Female;2825
+1784;Cameroon;2016;Female;2721
+1785;Canada;2016;Female;34270
+1786;Central African Republic;2016;Female;506
+1787;Chad;2016;Female;1491
+1788;Chile;2016;Female;15009
+1789;China;2016;Female;11364
+1790;Colombia;2016;Female;10346
+1791;Comoros;2016;Female;1019
+1792;Congo;2016;Female;5705
+1793;Congo (Democratic Republic of the);2016;Female;700
+1794;Costa Rica;2016;Female;10277
+1795;Croatia;2016;Female;16624
+1796;Cuba;2016;Female;4983
+1797;Cyprus;2016;Female;26062
+1798;Czechia;2016;Female;22283
+1799;Côte d'Ivoire;2016;Female;2407
+1800;Denmark;2016;Female;39676
+1801;Djibouti;2016;Female;2397
+1802;Dominican Republic;2016;Female;8488
+1803;Ecuador;2016;Female;7331
+1804;Egypt;2016;Female;4001
+1805;El Salvador;2016;Female;5823
+1806;Equatorial Guinea;2016;Female;16279
+1807;Eritrea;2016;Female;1410
+1808;Estonia;2016;Female;20826
+1809;Eswatini (Kingdom of);2016;Female;5784
+1810;Ethiopia;2016;Female;1214
+1811;Fiji;2016;Female;5431
+1812;Finland;2016;Female;33679
+1813;France;2016;Female;32007
+1814;Gabon;2016;Female;11894
+1815;Gambia;2016;Female;1162
+1816;Georgia;2016;Female;5902
+1817;Germany;2016;Female;36880
+1818;Ghana;2016;Female;3182
+1819;Greece;2016;Female;19348
+1820;Guatemala;2016;Female;4717
+1821;Guinea;2016;Female;1552
+1822;Guinea-Bissau;2016;Female;1259
+1823;Guyana;2016;Female;4468
+1824;Haiti;2016;Female;1412
+1825;Honduras;2016;Female;3182
+1826;Hong Kong, China (SAR);2016;Female;41785
+1827;Hungary;2016;Female;19054
+1828;Iceland;2016;Female;37080
+1829;India;2016;Female;2599
+1830;Indonesia;2016;Female;6981
+1831;Iran (Islamic Republic of);2016;Female;5970
+1832;Iraq;2016;Female;6209
+1833;Ireland;2016;Female;40059
+1834;Israel;2016;Female;24291
+1835;Italy;2016;Female;25305
+1836;Jamaica;2016;Female;5880
+1837;Japan;2016;Female;26650
+1838;Jordan;2016;Female;2452
+1839;Kazakhstan;2016;Female;16387
+1840;Kenya;2016;Female;2478
+1841;Korea (Republic of);2016;Female;22071
+1842;Kuwait;2016;Female;41793
+1843;Kyrgyzstan;2016;Female;2074
+1844;Lao People's Democratic Republic;2016;Female;5142
+1845;Latvia;2016;Female;19720
+1846;Lebanon;2016;Female;5338
+1847;Lesotho;2016;Female;2511
+1848;Liberia;2016;Female;578
+1849;Libya;2016;Female;3699
+1850;Lithuania;2016;Female;23112
+1851;Luxembourg;2016;Female;51631
+1852;Madagascar;2016;Female;1155
+1853;Malawi;2016;Female;889
+1854;Malaysia;2016;Female;19110
+1855;Maldives;2016;Female;6676
+1856;Mali;2016;Female;1308
+1857;Malta;2016;Female;23279
+1858;Mauritania;2016;Female;1892
+1859;Mauritius;2016;Female;12069
+1860;Mexico;2016;Female;10826
+1861;Moldova (Republic of);2016;Female;4666
+1862;Mongolia;2016;Female;8898
+1863;Montenegro;2016;Female;12279
+1864;Morocco;2016;Female;3118
+1865;Mozambique;2016;Female;1060
+1866;Myanmar;2016;Female;3664
+1867;Namibia;2016;Female;9083
+1868;Nepal;2016;Female;2098
+1869;Netherlands;2016;Female;37724
+1870;New Zealand;2016;Female;25644
+1871;Nicaragua;2016;Female;3416
+1872;Niger;2016;Female;685
+1873;Nigeria;2016;Female;4503
+1874;Norway;2016;Female;59470
+1875;Oman;2016;Female;11988
+1876;Pakistan;2016;Female;1583
+1877;Palestine, State of;2016;Female;1919
+1878;Panama;2016;Female;12768
+1879;Papua New Guinea;2016;Female;2998
+1880;Paraguay;2016;Female;6222
+1881;Peru;2016;Female;8317
+1882;Philippines;2016;Female;7214
+1883;Poland;2016;Female;19455
+1884;Portugal;2016;Female;22398
+1885;Qatar;2016;Female;59848
+1886;Romania;2016;Female;16972
+1887;Russian Federation;2016;Female;19191
+1888;Rwanda;2016;Female;1509
+1889;Saint Lucia;2016;Female;9069
+1890;Saint Vincent and the Grenadines;2016;Female;7543
+1891;Samoa;2016;Female;3710
+1892;Sao Tome and Principe;2016;Female;1808
+1893;Saudi Arabia;2016;Female;18053
+1894;Senegal;2016;Female;1623
+1895;Serbia;2016;Female;10547
+1896;Sierra Leone;2016;Female;1075
+1897;Singapore;2016;Female;66064
+1898;Slovakia;2016;Female;21887
+1899;Slovenia;2016;Female;25643
+1900;Solomon Islands;2016;Female;1427
+1901;South Africa;2016;Female;9068
+1902;South Sudan;2016;Female;975
+1903;Spain;2016;Female;26139
+1904;Sri Lanka;2016;Female;6341
+1905;Sudan;2016;Female;1747
+1906;Suriname;2016;Female;9183
+1907;Sweden;2016;Female;41379
+1908;Switzerland;2016;Female;47855
+1909;Syrian Arab Republic;2016;Female;591
+1910;Tajikistan;2016;Female;2135
+1911;Tanzania (United Republic of);2016;Female;2199
+1912;Thailand;2016;Female;13314
+1913;The former Yugoslav Republic of Macedonia;2016;Female;9148
+1914;Timor-Leste;2016;Female;3908
+1915;Togo;2016;Female;1228
+1916;Tonga;2016;Female;3700
+1917;Trinidad and Tobago;2016;Female;22536
+1918;Tunisia;2016;Female;4509
+1919;Turkey;2016;Female;14780
+1920;Turkmenistan;2016;Female;10746
+1921;Uganda;2016;Female;1208
+1922;Ukraine;2016;Female;5687
+1923;United Arab Emirates;2016;Female;24956
+1924;United Kingdom;2016;Female;27708
+1925;United States;2016;Female;43251
+1926;Uruguay;2016;Female;14944
+1927;Uzbekistan;2016;Female;4448
+1928;Vanuatu;2016;Female;2257
+1929;Venezuela (Bolivarian Republic of);2016;Female;8691
+1930;Viet Nam;2016;Female;5096
+1931;Yemen;2016;Female;182
+1932;Zambia;2016;Female;2955
+1933;Zimbabwe;2016;Female;1426
+1934;Andorra;2016;Female;0
+1935;Antigua and Barbuda;2016;Female;0
+1936;Dominica;2016;Female;0
+1937;Grenada;2016;Female;0
+1938;Kiribati;2016;Female;0
+1939;Korea (Democratic People's Rep. of);2016;Female;0
+1940;Liechtenstein;2016;Female;0
+1941;Marshall Islands;2016;Female;0
+1942;Micronesia (Federated States of);2016;Female;0
+1943;Monaco;2016;Female;0
+1944;Nauru;2016;Female;0
+1945;Palau;2016;Female;0
+1946;Saint Kitts and Nevis;2016;Female;0
+1947;San Marino;2016;Female;0
+1948;Seychelles;2016;Female;0
+1949;Somalia;2016;Female;0
+1950;Tuvalu;2016;Female;0
+1951;Afghanistan;2017;Female;541
+1952;Albania;2017;Female;9702
+1953;Algeria;2017;Female;4232
+1954;Angola;2017;Female;5063
+1955;Argentina;2017;Female;12395
+1956;Armenia;2017;Female;6358
+1957;Australia;2017;Female;35323
+1958;Austria;2017;Female;35626
+1959;Azerbaijan;2017;Female;10089
+1960;Bahamas;2017;Female;22156
+1961;Bahrain;2017;Female;18774
+1962;Bangladesh;2017;Female;2041
+1963;Barbados;2017;Female;13509
+1964;Belarus;2017;Female;13479
+1965;Belgium;2017;Female;33260
+1966;Belize;2017;Female;5689
+1967;Benin;2017;Female;1795
+1968;Bhutan;2017;Female;6002
+1969;Bolivia (Plurinational State of);2017;Female;4686
+1970;Bosnia and Herzegovina;2017;Female;7723
+1971;Botswana;2017;Female;12613
+1972;Brazil;2017;Female;10073
+1973;Brunei Darussalam;2017;Female;63939
+1974;Bulgaria;2017;Female;14777
+1975;Burkina Faso;2017;Female;1289
+1976;Burundi;2017;Female;807
+1977;Cabo Verde;2017;Female;4295
+1978;Cambodia;2017;Female;2970
+1979;Cameroon;2017;Female;2751
+1980;Canada;2017;Female;34928
+1981;Central African Republic;2017;Female;521
+1982;Chad;2017;Female;1412
+1983;Chile;2017;Female;15137
+1984;China;2017;Female;12053
+1985;Colombia;2017;Female;10271
+1986;Comoros;2017;Female;1027
+1987;Congo;2017;Female;4905
+1988;Congo (Democratic Republic of the);2017;Female;703
+1989;Costa Rica;2017;Female;10419
+1990;Croatia;2017;Female;17507
+1991;Cuba;2017;Female;5001
+1992;Cyprus;2017;Female;26580
+1993;Czechia;2017;Female;23224
+1994;Côte d'Ivoire;2017;Female;2529
+1995;Denmark;2017;Female;40293
+1996;Djibouti;2017;Female;2491
+1997;Dominican Republic;2017;Female;8909
+1998;Ecuador;2017;Female;7388
+1999;Egypt;2017;Female;4081
+2000;El Salvador;2017;Female;5226
+2001;Equatorial Guinea;2017;Female;14869
+2002;Eritrea;2017;Female;1451
+2003;Estonia;2017;Female;21896
+2004;Eswatini (Kingdom of);2017;Female;5722
+2005;Ethiopia;2017;Female;1304
+2006;Fiji;2017;Female;5604
+2007;Finland;2017;Female;34504
+2008;France;2017;Female;32518
+2009;Gabon;2017;Female;11789
+2010;Gambia;2017;Female;1168
+2011;Georgia;2017;Female;6177
+2012;Germany;2017;Female;37689
+2013;Ghana;2017;Female;3349
+2014;Greece;2017;Female;19658
+2015;Guatemala;2017;Female;4768
+2016;Guinea;2017;Female;1804
+2017;Guinea-Bissau;2017;Female;1269
+2018;Guyana;2017;Female;4543
+2019;Haiti;2017;Female;1400
+2020;Honduras;2017;Female;3277
+2021;Hong Kong, China (SAR);2017;Female;43813
+2022;Hungary;2017;Female;19931
+2023;Iceland;2017;Female;38004
+2024;India;2017;Female;2722
+2025;Indonesia;2017;Female;7259
+2026;Iran (Islamic Republic of);2017;Female;6094
+2027;Iraq;2017;Female;6039
+2028;Ireland;2017;Female;42771
+2029;Israel;2017;Female;24620
+2030;Italy;2017;Female;25767
+2031;Jamaica;2017;Female;5898
+2032;Japan;2017;Female;27209
+2033;Jordan;2017;Female;2459
+2034;Kazakhstan;2017;Female;16814
+2035;Kenya;2017;Female;2529
+2036;Korea (Republic of);2017;Female;22572
+2037;Kuwait;2017;Female;39570
+2038;Kyrgyzstan;2017;Female;2159
+2039;Lao People's Democratic Republic;2017;Female;5354
+2040;Latvia;2017;Female;20822
+2041;Lebanon;2017;Female;5523
+2042;Lesotho;2017;Female;2608
+2043;Liberia;2017;Female;577
+2044;Libya;2017;Female;4623
+2045;Lithuania;2017;Female;24366
+2046;Luxembourg;2017;Female;51154
+2047;Madagascar;2017;Female;1173
+2048;Malawi;2017;Female;897
+2049;Malaysia;2017;Female;20004
+2050;Maldives;2017;Female;7064
+2051;Mali;2017;Female;1345
+2052;Malta;2017;Female;24255
+2053;Mauritania;2017;Female;1936
+2054;Mauritius;2017;Female;12558
+2055;Mexico;2017;Female;11065
+2056;Moldova (Republic of);2017;Female;4849
+2057;Mongolia;2017;Female;8482
+2058;Montenegro;2017;Female;12967
+2059;Morocco;2017;Female;3197
+2060;Mozambique;2017;Female;1052
+2061;Myanmar;2017;Female;3860
+2062;Namibia;2017;Female;8895
+2063;Nepal;2017;Female;2219
+2064;Netherlands;2017;Female;38767
+2065;New Zealand;2017;Female;25872
+2066;Nicaragua;2017;Female;3434
+2067;Niger;2017;Female;691
+2068;Nigeria;2017;Female;4433
+2069;Norway;2017;Female;60153
+2070;Oman;2017;Female;11246
+2071;Pakistan;2017;Female;1642
+2072;Palestine, State of;2017;Female;1802
+2073;Panama;2017;Female;13229
+2074;Papua New Guinea;2017;Female;3002
+2075;Paraguay;2017;Female;6212
+2076;Peru;2017;Female;8446
+2077;Philippines;2017;Female;7582
+2078;Poland;2017;Female;20367
+2079;Portugal;2017;Female;23095
+2080;Qatar;2017;Female;59164
+2081;Romania;2017;Female;18217
+2082;Russian Federation;2017;Female;19510
+2083;Rwanda;2017;Female;1568
+2084;Saint Lucia;2017;Female;9388
+2085;Saint Vincent and the Grenadines;2017;Female;7643
+2086;Samoa;2017;Female;3778
+2087;Sao Tome and Principe;2017;Female;1780
+2088;Saudi Arabia;2017;Female;17422
+2089;Senegal;2017;Female;1691
+2090;Serbia;2017;Female;10672
+2091;Sierra Leone;2017;Female;1096
+2092;Singapore;2017;Female;69508
+2093;Slovakia;2017;Female;22600
+2094;Slovenia;2017;Female;26898
+2095;Solomon Islands;2017;Female;1450
+2096;South Africa;2017;Female;9060
+2097;South Sudan;2017;Female;843
+2098;Spain;2017;Female;26954
+2099;Sri Lanka;2017;Female;6462
+2100;Sudan;2017;Female;1785
+2101;Suriname;2017;Female;9132
+2102;Sweden;2017;Female;41743
+2103;Switzerland;2017;Female;47938
+2104;Syrian Arab Republic;2017;Female;561
+2105;Tajikistan;2017;Female;2233
+2106;Tanzania (United Republic of);2017;Female;2282
+2107;Thailand;2017;Female;13793
+2108;The former Yugoslav Republic of Macedonia;2017;Female;9114
+2109;Timor-Leste;2017;Female;3301
+2110;Togo;2017;Female;1265
+2111;Tonga;2017;Female;3769
+2112;Trinidad and Tobago;2017;Female;22008
+2113;Tunisia;2017;Female;4537
+2114;Turkey;2017;Female;15576
+2115;Turkmenistan;2017;Female;11240
+2116;Uganda;2017;Female;1212
+2117;Ukraine;2017;Female;6082
+2118;United Arab Emirates;2017;Female;24973
+2119;United Kingdom;2017;Female;28043
+2120;United States;2017;Female;43899
+2121;Uruguay;2017;Female;15282
+2122;Uzbekistan;2017;Female;4687
+2123;Vanuatu;2017;Female;2340
+2124;Venezuela (Bolivarian Republic of);2017;Female;7401
+2125;Viet Nam;2017;Female;5345
+2126;Yemen;2017;Female;149
+2127;Zambia;2017;Female;2986
+2128;Zimbabwe;2017;Female;1431
+2129;Andorra;2017;Female;0
+2130;Antigua and Barbuda;2017;Female;0
+2131;Dominica;2017;Female;0
+2132;Grenada;2017;Female;0
+2133;Kiribati;2017;Female;0
+2134;Korea (Democratic People's Rep. of);2017;Female;0
+2135;Liechtenstein;2017;Female;0
+2136;Marshall Islands;2017;Female;0
+2137;Micronesia (Federated States of);2017;Female;0
+2138;Monaco;2017;Female;0
+2139;Nauru;2017;Female;0
+2140;Palau;2017;Female;0
+2141;Saint Kitts and Nevis;2017;Female;0
+2142;San Marino;2017;Female;0
+2143;Seychelles;2017;Female;0
+2144;Somalia;2017;Female;0
+2145;Tuvalu;2017;Female;0
+2146;Afghanistan;1995;Male;0
+2147;Albania;1995;Male;5585
+2148;Algeria;1995;Male;15696
+2149;Angola;1995;Male;2218
+2150;Argentina;1995;Male;18584
+2151;Armenia;1995;Male;2827
+2152;Australia;1995;Male;38083
+2153;Austria;1995;Male;44341
+2154;Azerbaijan;1995;Male;4223
+2155;Bahamas;1995;Male;38356
+2156;Bahrain;1995;Male;59117
+2157;Bangladesh;1995;Male;2427
+2158;Barbados;1995;Male;15599
+2159;Belarus;1995;Male;6877
+2160;Belgium;1995;Male;44531
+2161;Belize;1995;Male;8922
+2162;Benin;1995;Male;1929
+2163;Bhutan;1995;Male;3248
+2164;Bolivia (Plurinational State of);1995;Male;5201
+2165;Bosnia and Herzegovina;1995;Male;2734
+2166;Botswana;1995;Male;10772
+2167;Brazil;1995;Male;14836
+2168;Brunei Darussalam;1995;Male;117055
+2169;Bulgaria;1995;Male;9838
+2170;Burkina Faso;1995;Male;1087
+2171;Burundi;1995;Male;945
+2172;Cabo Verde;1995;Male;4348
+2173;Cambodia;1995;Male;1258
+2174;Cameroon;1995;Male;2748
+2175;Canada;1995;Male;40245
+2176;Central African Republic;1995;Male;1116
+2177;Chad;1995;Male;1284
+2178;Chile;1995;Male;17687
+2179;China;1995;Male;3051
+2180;Colombia;1995;Male;12538
+2181;Comoros;1995;Male;1997
+2182;Congo;1995;Male;4519
+2183;Congo (Democratic Republic of the);1995;Male;793
+2184;Costa Rica;1995;Male;12811
+2185;Croatia;1995;Male;16578
+2186;Cuba;1995;Male;4773
+2187;Cyprus;1995;Male;34562
+2188;Czechia;1995;Male;24643
+2189;Côte d'Ivoire;1995;Male;3679
+2190;Denmark;1995;Male;46127
+2191;Djibouti;1995;Male;2890
+2192;Dominican Republic;1995;Male;8632
+2193;Ecuador;1995;Male;10265
+2194;Egypt;1995;Male;10110
+2195;El Salvador;1995;Male;8103
+2196;Equatorial Guinea;1995;Male;2019
+2197;Eritrea;1995;Male;1977
+2198;Estonia;1995;Male;15558
+2199;Eswatini (Kingdom of);1995;Male;7609
+2200;Ethiopia;1995;Male;0
+2201;Fiji;1995;Male;8889
+2202;Finland;1995;Male;32714
+2203;France;1995;Male;39574
+2204;Gabon;1995;Male;26232
+2205;Gambia;1995;Male;1907
+2206;Georgia;1995;Male;2824
+2207;Germany;1995;Male;44378
+2208;Ghana;1995;Male;2373
+2209;Greece;1995;Male;30670
+2210;Guatemala;1995;Male;8172
+2211;Guinea;1995;Male;1374
+2212;Guinea-Bissau;1995;Male;1673
+2213;Guyana;1995;Male;5066
+2214;Haiti;1995;Male;1940
+2215;Honduras;1995;Male;4375
+2216;Hong Kong, China (SAR);1995;Male;44410
+2217;Hungary;1995;Male;19093
+2218;Iceland;1995;Male;32667
+2219;India;1995;Male;3002
+2220;Indonesia;1995;Male;8075
+2221;Iran (Islamic Republic of);1995;Male;22440
+2222;Iraq;1995;Male;8507
+2223;Ireland;1995;Male;33098
+2224;Israel;1995;Male;30240
+2225;Italy;1995;Male;46904
+2226;Jamaica;1995;Male;10013
+2227;Japan;1995;Male;44172
+2228;Jordan;1995;Male;11291
+2229;Kazakhstan;1995;Male;10585
+2230;Kenya;1995;Male;2488
+2231;Korea (Republic of);1995;Male;22011
+2232;Kuwait;1995;Male;127935
+2233;Kyrgyzstan;1995;Male;2065
+2234;Lao People's Democratic Republic;1995;Male;2335
+2235;Latvia;1995;Male;10732
+2236;Lebanon;1995;Male;21277
+2237;Lesotho;1995;Male;3035
+2238;Liberia;1995;Male;261
+2239;Libya;1995;Male;31624
+2240;Lithuania;1995;Male;11976
+2241;Luxembourg;1995;Male;78706
+2242;Madagascar;1995;Male;1556
+2243;Malawi;1995;Male;1628
+2244;Malaysia;1995;Male;19376
+2245;Maldives;1995;Male;9972
+2246;Mali;1995;Male;1834
+2247;Malta;1995;Male;31341
+2248;Mauritania;1995;Male;4224
+2249;Mauritius;1995;Male;12891
+2250;Mexico;1995;Male;17917
+2251;Moldova (Republic of);1995;Male;2975
+2252;Mongolia;1995;Male;5334
+2253;Montenegro;1995;Male;9380
+2254;Morocco;1995;Male;6137
+2255;Mozambique;1995;Male;387
+2256;Myanmar;1995;Male;1254
+2257;Namibia;1995;Male;7723
+2258;Nepal;1995;Male;1564
+2259;Netherlands;1995;Male;46631
+2260;New Zealand;1995;Male;29776
+2261;Nicaragua;1995;Male;4068
+2262;Niger;1995;Male;915
+2263;Nigeria;1995;Male;3281
+2264;Norway;1995;Male;60851
+2265;Oman;1995;Male;58616
+2266;Pakistan;1995;Male;5935
+2267;Palestine, State of;1995;Male;5546
+2268;Panama;1995;Male;11758
+2269;Papua New Guinea;1995;Male;3417
+2270;Paraguay;1995;Male;7888
+2271;Peru;1995;Male;8061
+2272;Philippines;1995;Male;5212
+2273;Poland;1995;Male;14069
+2274;Portugal;1995;Male;28658
+2275;Qatar;1995;Male;103836
+2276;Romania;1995;Male;12873
+2277;Russian Federation;1995;Male;16204
+2278;Rwanda;1995;Male;790
+2279;Saint Lucia;1995;Male;13172
+2280;Saint Vincent and the Grenadines;1995;Male;8596
+2281;Samoa;1995;Male;4805
+2282;Sao Tome and Principe;1995;Male;2556
+2283;Saudi Arabia;1995;Male;72850
+2284;Senegal;1995;Male;2538
+2285;Serbia;1995;Male;9549
+2286;Sierra Leone;1995;Male;1445
+2287;Singapore;1995;Male;61488
+2288;Slovakia;1995;Male;16926
+2289;Slovenia;1995;Male;23196
+2290;Solomon Islands;1995;Male;2430
+2291;South Africa;1995;Male;11755
+2292;South Sudan;1995;Male;0
+2293;Spain;1995;Male;35039
+2294;Sri Lanka;1995;Male;6431
+2295;Sudan;1995;Male;2853
+2296;Suriname;1995;Male;13270
+2297;Sweden;1995;Male;35015
+2298;Switzerland;1995;Male;61757
+2299;Syrian Arab Republic;1995;Male;7525
+2300;Tajikistan;1995;Male;1776
+2301;Tanzania (United Republic of);1995;Male;1539
+2302;Thailand;1995;Male;11412
+2303;The former Yugoslav Republic of Macedonia;1995;Male;10197
+2304;Timor-Leste;1995;Male;9860
+2305;Togo;1995;Male;1309
+2306;Tonga;1995;Male;5975
+2307;Trinidad and Tobago;1995;Male;16143
+2308;Tunisia;1995;Male;9517
+2309;Turkey;1995;Male;18654
+2310;Turkmenistan;1995;Male;6085
+2311;Uganda;1995;Male;1111
+2312;Ukraine;1995;Male;6187
+2313;United Arab Emirates;1995;Male;138122
+2314;United Kingdom;1995;Male;37702
+2315;United States;1995;Male;49956
+2316;Uruguay;1995;Male;15292
+2317;Uzbekistan;1995;Male;2918
+2318;Vanuatu;1995;Male;2965
+2319;Venezuela (Bolivarian Republic of);1995;Male;21281
+2320;Viet Nam;1995;Male;2293
+2321;Yemen;1995;Male;4838
+2322;Zambia;1995;Male;2290
+2323;Zimbabwe;1995;Male;2730
+2324;Andorra;1995;Male;0
+2325;Antigua and Barbuda;1995;Male;0
+2326;Dominica;1995;Male;0
+2327;Grenada;1995;Male;0
+2328;Kiribati;1995;Male;0
+2329;Korea (Democratic People's Rep. of);1995;Male;0
+2330;Liechtenstein;1995;Male;0
+2331;Marshall Islands;1995;Male;0
+2332;Micronesia (Federated States of);1995;Male;0
+2333;Monaco;1995;Male;0
+2334;Nauru;1995;Male;0
+2335;Palau;1995;Male;0
+2336;Saint Kitts and Nevis;1995;Male;0
+2337;San Marino;1995;Male;0
+2338;Seychelles;1995;Male;0
+2339;Somalia;1995;Male;0
+2340;Tuvalu;1995;Male;0
+2341;Afghanistan;2000;Male;0
+2342;Albania;2000;Male;7547
+2343;Algeria;2000;Male;17022
+2344;Angola;2000;Male;2874
+2345;Argentina;2000;Male;20139
+2346;Armenia;2000;Male;4405
+2347;Australia;2000;Male;43801
+2348;Austria;2000;Male;53744
+2349;Azerbaijan;2000;Male;5288
+2350;Bahamas;2000;Male;29213
+2351;Bahrain;2000;Male;61302
+2352;Bangladesh;2000;Male;2726
+2353;Barbados;2000;Male;17622
+2354;Belarus;2000;Male;9447
+2355;Belgium;2000;Male;49768
+2356;Belize;2000;Male;9448
+2357;Benin;2000;Male;2058
+2358;Bhutan;2000;Male;4516
+2359;Bolivia (Plurinational State of);2000;Male;5561
+2360;Bosnia and Herzegovina;2000;Male;10061
+2361;Botswana;2000;Male;11857
+2362;Brazil;2000;Male;14568
+2363;Brunei Darussalam;2000;Male;107447
+2364;Bulgaria;2000;Male;10785
+2365;Burkina Faso;2000;Male;1331
+2366;Burundi;2000;Male;860
+2367;Cabo Verde;2000;Male;5621
+2368;Cambodia;2000;Male;1540
+2369;Cameroon;2000;Male;2965
+2370;Canada;2000;Male;46502
+2371;Central African Republic;2000;Male;1107
+2372;Chad;2000;Male;1217
+2373;Chile;2000;Male;20468
+2374;China;2000;Male;4416
+2375;Colombia;2000;Male;11310
+2376;Comoros;2000;Male;2025
+2377;Congo;2000;Male;4026
+2378;Congo (Democratic Republic of the);2000;Male;649
+2379;Costa Rica;2000;Male;13209
+2380;Croatia;2000;Male;18750
+2381;Cuba;2000;Male;5797
+2382;Cyprus;2000;Male;37338
+2383;Czechia;2000;Male;26664
+2384;Côte d'Ivoire;2000;Male;3844
+2385;Denmark;2000;Male;50774
+2386;Djibouti;2000;Male;2646
+2387;Dominican Republic;2000;Male;10703
+2388;Ecuador;2000;Male;9224
+2389;Egypt;2000;Male;12300
+2390;El Salvador;2000;Male;8532
+2391;Equatorial Guinea;2000;Male;11267
+2392;Eritrea;2000;Male;2046
+2393;Estonia;2000;Male;19065
+2394;Eswatini (Kingdom of);2000;Male;8080
+2395;Ethiopia;2000;Male;763
+2396;Fiji;2000;Male;9615
+2397;Finland;2000;Male;42248
+2398;France;2000;Male;45243
+2399;Gabon;2000;Male;21764
+2400;Gambia;2000;Male;1961
+2401;Georgia;2000;Male;4702
+2402;Germany;2000;Male;47371
+2403;Ghana;2000;Male;2565
+2404;Greece;2000;Male;34000
+2405;Guatemala;2000;Male;8460
+2406;Guinea;2000;Male;1518
+2407;Guinea-Bissau;2000;Male;1639
+2408;Guyana;2000;Male;6454
+2409;Haiti;2000;Male;2125
+2410;Honduras;2000;Male;4629
+2411;Hong Kong, China (SAR);2000;Male;46009
+2412;Hungary;2000;Male;21671
+2413;Iceland;2000;Male;39156
+2414;India;2000;Male;3696
+2415;Indonesia;2000;Male;7702
+2416;Iran (Islamic Republic of);2000;Male;22734
+2417;Iraq;2000;Male;21085
+2418;Ireland;2000;Male;44903
+2419;Israel;2000;Male;31687
+2420;Italy;2000;Male;51038
+2421;Jamaica;2000;Male;9972
+2422;Japan;2000;Male;46447
+2423;Jordan;2000;Male;12511
+2424;Kazakhstan;2000;Male;12937
+2425;Kenya;2000;Male;2462
+2426;Korea (Republic of);2000;Male;27228
+2427;Kuwait;2000;Male;110840
+2428;Kyrgyzstan;2000;Male;2455
+2429;Lao People's Democratic Republic;2000;Male;2758
+2430;Latvia;2000;Male;14332
+2431;Lebanon;2000;Male;20920
+2432;Lesotho;2000;Male;3677
+2433;Liberia;2000;Male;770
+2434;Libya;2000;Male;30722
+2435;Lithuania;2000;Male;14704
+2436;Luxembourg;2000;Male;91387
+2437;Madagascar;2000;Male;1656
+2438;Malawi;2000;Male;1781
+2439;Malaysia;2000;Male;20911
+2440;Maldives;2000;Male;12130
+2441;Mali;2000;Male;2059
+2442;Malta;2000;Male;36545
+2443;Mauritania;2000;Male;4231
+2444;Mauritius;2000;Male;15923
+2445;Mexico;2000;Male;21304
+2446;Moldova (Republic of);2000;Male;2721
+2447;Mongolia;2000;Male;5276
+2448;Montenegro;2000;Male;14086
+2449;Morocco;2000;Male;7064
+2450;Mozambique;2000;Male;590
+2451;Myanmar;2000;Male;1710
+2452;Namibia;2000;Male;7803
+2453;Nepal;2000;Male;1986
+2454;Netherlands;2000;Male;53451
+2455;New Zealand;2000;Male;32909
+2456;Nicaragua;2000;Male;4932
+2457;Niger;2000;Male;916
+2458;Nigeria;2000;Male;3111
+2459;Norway;2000;Male;69832
+2460;Oman;2000;Male;66549
+2461;Pakistan;2000;Male;6082
+2462;Palestine, State of;2000;Male;8388
+2463;Panama;2000;Male;13175
+2464;Papua New Guinea;2000;Male;3100
+2465;Paraguay;2000;Male;7392
+2466;Peru;2000;Male;8797
+2467;Philippines;2000;Male;6293
+2468;Poland;2000;Male;18434
+2469;Portugal;2000;Male;32585
+2470;Qatar;2000;Male;140148
+2471;Romania;2000;Male;12899
+2472;Russian Federation;2000;Male;17162
+2473;Rwanda;2000;Male;906
+2474;Saint Lucia;2000;Male;14224
+2475;Saint Vincent and the Grenadines;2000;Male;9679
+2476;Samoa;2000;Male;5956
+2477;Sao Tome and Principe;2000;Male;2599
+2478;Saudi Arabia;2000;Male;70630
+2479;Senegal;2000;Male;2753
+2480;Serbia;2000;Male;10403
+2481;Sierra Leone;2000;Male;812
+2482;Singapore;2000;Male;69292
+2483;Slovakia;2000;Male;19644
+2484;Slovenia;2000;Male;28329
+2485;Solomon Islands;2000;Male;1863
+2486;South Africa;2000;Male;12060
+2487;South Sudan;2000;Male;0
+2488;Spain;2000;Male;40861
+2489;Sri Lanka;2000;Male;7954
+2490;Sudan;2000;Male;3351
+2491;Suriname;2000;Male;13165
+2492;Sweden;2000;Male;44279
+2493;Switzerland;2000;Male;69053
+2494;Syrian Arab Republic;2000;Male;7773
+2495;Tajikistan;2000;Male;1639
+2496;Tanzania (United Republic of);2000;Male;1710
+2497;Thailand;2000;Male;11147
+2498;The former Yugoslav Republic of Macedonia;2000;Male;11468
+2499;Timor-Leste;2000;Male;7202
+2500;Togo;2000;Male;1393
+2501;Tonga;2000;Male;6461
+2502;Trinidad and Tobago;2000;Male;23155
+2503;Tunisia;2000;Male;11683
+2504;Turkey;2000;Male;21541
+2505;Turkmenistan;2000;Male;6676
+2506;Uganda;2000;Male;1253
+2507;Ukraine;2000;Male;6057
+2508;United Arab Emirates;2000;Male;140901
+2509;United Kingdom;2000;Male;42494
+2510;United States;2000;Male;57713
+2511;Uruguay;2000;Male;16967
+2512;Uzbekistan;2000;Male;3196
+2513;Vanuatu;2000;Male;3261
+2514;Venezuela (Bolivarian Republic of);2000;Male;19923
+2515;Viet Nam;2000;Male;3216
+2516;Yemen;2000;Male;5845
+2517;Zambia;2000;Male;2422
+2518;Zimbabwe;2000;Male;2543
+2519;Andorra;2000;Male;0
+2520;Antigua and Barbuda;2000;Male;0
+2521;Dominica;2000;Male;0
+2522;Grenada;2000;Male;0
+2523;Kiribati;2000;Male;0
+2524;Korea (Democratic People's Rep. of);2000;Male;0
+2525;Liechtenstein;2000;Male;0
+2526;Marshall Islands;2000;Male;0
+2527;Micronesia (Federated States of);2000;Male;0
+2528;Monaco;2000;Male;0
+2529;Nauru;2000;Male;0
+2530;Palau;2000;Male;0
+2531;Saint Kitts and Nevis;2000;Male;0
+2532;San Marino;2000;Male;0
+2533;Seychelles;2000;Male;0
+2534;Somalia;2000;Male;0
+2535;Tuvalu;2000;Male;0
+2536;Afghanistan;2005;Male;1950
+2537;Albania;2005;Male;10190
+2538;Algeria;2005;Male;20149
+2539;Angola;2005;Male;4113
+2540;Argentina;2005;Male;20754
+2541;Armenia;2005;Male;7945
+2542;Australia;2005;Male;46980
+2543;Austria;2005;Male;56852
+2544;Azerbaijan;2005;Male;9372
+2545;Bahamas;2005;Male;28556
+2546;Bahrain;2005;Male;54124
+2547;Bangladesh;2005;Male;3208
+2548;Barbados;2005;Male;17896
+2549;Belarus;2005;Male;14036
+2550;Belgium;2005;Male;51701
+2551;Belize;2005;Male;9895
+2552;Benin;2005;Male;2059
+2553;Bhutan;2005;Male;5415
+2554;Bolivia (Plurinational State of);2005;Male;5754
+2555;Bosnia and Herzegovina;2005;Male;11761
+2556;Botswana;2005;Male;13377
+2557;Brazil;2005;Male;14373
+2558;Brunei Darussalam;2005;Male;107403
+2559;Bulgaria;2005;Male;15063
+2560;Burkina Faso;2005;Male;1621
+2561;Burundi;2005;Male;802
+2562;Cabo Verde;2005;Male;6479
+2563;Cambodia;2005;Male;2230
+2564;Cameroon;2005;Male;3322
+2565;Canada;2005;Male;49092
+2566;Central African Republic;2005;Male;993
+2567;Chad;2005;Male;1877
+2568;Chile;2005;Male;22332
+2569;China;2005;Male;6891
+2570;Colombia;2005;Male;11979
+2571;Comoros;2005;Male;1949
+2572;Congo;2005;Male;3381
+2573;Congo (Democratic Republic of the);2005;Male;648
+2574;Costa Rica;2005;Male;13573
+2575;Croatia;2005;Male;22772
+2576;Cuba;2005;Male;7165
+2577;Cyprus;2005;Male;41731
+2578;Czechia;2005;Male;31666
+2579;Côte d'Ivoire;2005;Male;3511
+2580;Denmark;2005;Male;54714
+2581;Djibouti;2005;Male;2902
+2582;Dominican Republic;2005;Male;10647
+2583;Ecuador;2005;Male;10946
+2584;Egypt;2005;Male;13015
+2585;El Salvador;2005;Male;9189
+2586;Equatorial Guinea;2005;Male;25523
+2587;Eritrea;2005;Male;1939
+2588;Estonia;2005;Male;27157
+2589;Eswatini (Kingdom of);2005;Male;9934
+2590;Ethiopia;2005;Male;956
+2591;Fiji;2005;Male;9543
+2592;Finland;2005;Male;47350
+2593;France;2005;Male;46286
+2594;Gabon;2005;Male;21609
+2595;Gambia;2005;Male;1918
+2596;Georgia;2005;Male;7374
+2597;Germany;2005;Male;48480
+2598;Ghana;2005;Male;3017
+2599;Greece;2005;Male;37348
+2600;Guatemala;2005;Male;8429
+2601;Guinea;2005;Male;1651
+2602;Guinea-Bissau;2005;Male;1617
+2603;Guyana;2005;Male;7002
+2604;Haiti;2005;Male;1861
+2605;Honduras;2005;Male;4749
+2606;Hong Kong, China (SAR);2005;Male;54034
+2607;Hungary;2005;Male;25542
+2608;Iceland;2005;Male;45127
+2609;India;2005;Male;4638
+2610;Indonesia;2005;Male;9018
+2611;Iran (Islamic Republic of);2005;Male;25696
+2612;Iraq;2005;Male;18601
+2613;Ireland;2005;Male;52436
+2614;Israel;2005;Male;32874
+2615;Italy;2005;Male;51590
+2616;Jamaica;2005;Male;10147
+2617;Japan;2005;Male;48919
+2618;Jordan;2005;Male;15480
+2619;Kazakhstan;2005;Male;20194
+2620;Kenya;2005;Male;2682
+2621;Korea (Republic of);2005;Male;33212
+2622;Kuwait;2005;Male;137106
+2623;Kyrgyzstan;2005;Male;2930
+2624;Lao People's Democratic Republic;2005;Male;3491
+2625;Latvia;2005;Male;22155
+2626;Lebanon;2005;Male;19842
+2627;Lesotho;2005;Male;3507
+2628;Liberia;2005;Male;613
+2629;Libya;2005;Male;35646
+2630;Lithuania;2005;Male;22823
+2631;Luxembourg;2005;Male;94389
+2632;Madagascar;2005;Male;1597
+2633;Malawi;2005;Male;973
+2634;Malaysia;2005;Male;24679
+2635;Maldives;2005;Male;11092
+2636;Mali;2005;Male;2409
+2637;Malta;2005;Male;38409
+2638;Mauritania;2005;Male;4697
+2639;Mauritius;2005;Male;18268
+2640;Mexico;2005;Male;21345
+2641;Moldova (Republic of);2005;Male;4385
+2642;Mongolia;2005;Male;7063
+2643;Montenegro;2005;Male;15374
+2644;Morocco;2005;Male;8460
+2645;Mozambique;2005;Male;774
+2646;Myanmar;2005;Male;3014
+2647;Namibia;2005;Male;8839
+2648;Nepal;2005;Male;2074
+2649;Netherlands;2005;Male;52299
+2650;New Zealand;2005;Male;36470
+2651;Nicaragua;2005;Male;5216
+2652;Niger;2005;Male;962
+2653;Nigeria;2005;Male;4607
+2654;Norway;2005;Male;76640
+2655;Oman;2005;Male;61437
+2656;Pakistan;2005;Male;7038
+2657;Palestine, State of;2005;Male;8108
+2658;Panama;2005;Male;14371
+2659;Papua New Guinea;2005;Male;2823
+2660;Paraguay;2005;Male;6885
+2661;Peru;2005;Male;9602
+2662;Philippines;2005;Male;6948
+2663;Poland;2005;Male;21550
+2664;Portugal;2005;Male;31611
+2665;Qatar;2005;Male;129392
+2666;Romania;2005;Male;17142
+2667;Russian Federation;2005;Male;23479
+2668;Rwanda;2005;Male;1183
+2669;Saint Lucia;2005;Male;13741
+2670;Saint Vincent and the Grenadines;2005;Male;11704
+2671;Samoa;2005;Male;6955
+2672;Sao Tome and Principe;2005;Male;3130
+2673;Saudi Arabia;2005;Male;71184
+2674;Senegal;2005;Male;3037
+2675;Serbia;2005;Male;14085
+2676;Sierra Leone;2005;Male;1193
+2677;Singapore;2005;Male;76870
+2678;Slovakia;2005;Male;24619
+2679;Slovenia;2005;Male;30007
+2680;Solomon Islands;2005;Male;1905
+2681;South Africa;2005;Male;13548
+2682;South Sudan;2005;Male;0
+2683;Spain;2005;Male;42582
+2684;Sri Lanka;2005;Male;9184
+2685;Sudan;2005;Male;3990
+2686;Suriname;2005;Male;16149
+2687;Sweden;2005;Male;50305
+2688;Switzerland;2005;Male;71370
+2689;Syrian Arab Republic;2005;Male;9128
+2690;Tajikistan;2005;Male;2404
+2691;Tanzania (United Republic of);2005;Male;2051
+2692;Thailand;2005;Male;13657
+2693;The former Yugoslav Republic of Macedonia;2005;Male;12283
+2694;Timor-Leste;2005;Male;2566
+2695;Togo;2005;Male;1295
+2696;Tonga;2005;Male;6868
+2697;Trinidad and Tobago;2005;Male;32927
+2698;Tunisia;2005;Male;13366
+2699;Turkey;2005;Male;25923
+2700;Turkmenistan;2005;Male;7898
+2701;Uganda;2005;Male;1433
+2702;Ukraine;2005;Male;9352
+2703;United Arab Emirates;2005;Male;120500
+2704;United Kingdom;2005;Male;46807
+2705;United States;2005;Male;62337
+2706;Uruguay;2005;Male;16544
+2707;Uzbekistan;2005;Male;3964
+2708;Vanuatu;2005;Male;3068
+2709;Venezuela (Bolivarian Republic of);2005;Male;20127
+2710;Viet Nam;2005;Male;3701
+2711;Yemen;2005;Male;6420
+2712;Zambia;2005;Male;2767
+2713;Zimbabwe;2005;Male;1923
+2714;Andorra;2005;Male;0
+2715;Antigua and Barbuda;2005;Male;0
+2716;Dominica;2005;Male;0
+2717;Grenada;2005;Male;0
+2718;Kiribati;2005;Male;0
+2719;Korea (Democratic People's Rep. of);2005;Male;0
+2720;Liechtenstein;2005;Male;0
+2721;Marshall Islands;2005;Male;0
+2722;Micronesia (Federated States of);2005;Male;0
+2723;Monaco;2005;Male;0
+2724;Nauru;2005;Male;0
+2725;Palau;2005;Male;0
+2726;Saint Kitts and Nevis;2005;Male;0
+2727;San Marino;2005;Male;0
+2728;Seychelles;2005;Male;0
+2729;Somalia;2005;Male;0
+2730;Tuvalu;2005;Male;0
+2731;Afghanistan;2010;Male;2795
+2732;Albania;2010;Male;12238
+2733;Algeria;2010;Male;21944
+2734;Angola;2010;Male;6343
+2735;Argentina;2010;Male;24513
+2736;Armenia;2010;Male;9786
+2737;Australia;2010;Male;48179
+2738;Austria;2010;Male;54643
+2739;Azerbaijan;2010;Male;20030
+2740;Bahamas;2010;Male;26131
+2741;Bahrain;2010;Male;43079
+2742;Bangladesh;2010;Male;4071
+2743;Barbados;2010;Male;18049
+2744;Belarus;2010;Male;19219
+2745;Belgium;2010;Male;52531
+2746;Belize;2010;Male;9325
+2747;Benin;2010;Male;2024
+2748;Bhutan;2010;Male;7190
+2749;Bolivia (Plurinational State of);2010;Male;6760
+2750;Bosnia and Herzegovina;2010;Male;13204
+2751;Botswana;2010;Male;15077
+2752;Brazil;2010;Male;17495
+2753;Brunei Darussalam;2010;Male;98962
+2754;Bulgaria;2010;Male;18230
+2755;Burkina Faso;2010;Male;1728
+2756;Burundi;2010;Male;828
+2757;Cabo Verde;2010;Male;7386
+2758;Cambodia;2010;Male;2726
+2759;Cameroon;2010;Male;3407
+2760;Canada;2010;Male;48395
+2761;Central African Republic;2010;Male;1071
+2762;Chad;2010;Male;2233
+2763;Chile;2010;Male;24360
+2764;China;2010;Male;11314
+2765;Colombia;2010;Male;12825
+2766;Comoros;2010;Male;1800
+2767;Congo;2010;Male;4480
+2768;Congo (Democratic Republic of the);2010;Male;710
+2769;Costa Rica;2010;Male;16424
+2770;Croatia;2010;Male;23088
+2771;Cuba;2010;Male;8806
+2772;Cyprus;2010;Male;39857
+2773;Czechia;2010;Male;33934
+2774;Côte d'Ivoire;2010;Male;3932
+2775;Denmark;2010;Male;52607
+2776;Djibouti;2010;Male;3398
+2777;Dominican Republic;2010;Male;13906
+2778;Ecuador;2010;Male;12247
+2779;Egypt;2010;Male;15633
+2780;El Salvador;2010;Male;9003
+2781;Equatorial Guinea;2010;Male;25549
+2782;Eritrea;2010;Male;1641
+2783;Estonia;2010;Male;27244
+2784;Eswatini (Kingdom of);2010;Male;9281
+2785;Ethiopia;2010;Male;1340
+2786;Fiji;2010;Male;9348
+2787;Finland;2010;Male;46933
+2788;France;2010;Male;44654
+2789;Gabon;2010;Male;17849
+2790;Gambia;2010;Male;2374
+2791;Georgia;2010;Male;9169
+2792;Germany;2010;Male;50290
+2793;Ghana;2010;Male;3511
+2794;Greece;2010;Male;35054
+2795;Guatemala;2010;Male;8954
+2796;Guinea;2010;Male;1673
+2797;Guinea-Bissau;2010;Male;1658
+2798;Guyana;2010;Male;8409
+2799;Haiti;2010;Male;1773
+2800;Honduras;2010;Male;4708
+2801;Hong Kong, China (SAR);2010;Male;63181
+2802;Hungary;2010;Male;26023
+2803;Iceland;2010;Male;38415
+2804;India;2010;Male;6629
+2805;Indonesia;2010;Male;11035
+2806;Iran (Islamic Republic of);2010;Male;30079
+2807;Iraq;2010;Male;20893
+2808;Ireland;2010;Male;45372
+2809;Israel;2010;Male;37623
+2810;Italy;2010;Male;46767
+2811;Jamaica;2010;Male;9673
+2812;Japan;2010;Male;50110
+2813;Jordan;2010;Male;15687
+2814;Kazakhstan;2010;Male;22730
+2815;Kenya;2010;Male;2883
+2816;Korea (Republic of);2010;Male;42024
+2817;Kuwait;2010;Male;106097
+2818;Kyrgyzstan;2010;Male;3454
+2819;Lao People's Democratic Republic;2010;Male;4382
+2820;Latvia;2010;Male;22045
+2821;Lebanon;2010;Male;25503
+2822;Lesotho;2010;Male;3581
+2823;Liberia;2010;Male;625
+2824;Libya;2010;Male;43967
+2825;Lithuania;2010;Male;23931
+2826;Luxembourg;2010;Male;73483
+2827;Madagascar;2010;Male;1639
+2828;Malawi;2010;Male;1175
+2829;Malaysia;2010;Male;26274
+2830;Maldives;2010;Male;13990
+2831;Mali;2010;Male;2385
+2832;Malta;2010;Male;38559
+2833;Mauritania;2010;Male;4843
+2834;Mauritius;2010;Male;23154
+2835;Mexico;2010;Male;21491
+2836;Moldova (Republic of);2010;Male;4809
+2837;Mongolia;2010;Male;8358
+2838;Montenegro;2010;Male;17303
+2839;Morocco;2010;Male;10012
+2840;Mozambique;2010;Male;933
+2841;Myanmar;2010;Male;4884
+2842;Namibia;2010;Male;9443
+2843;Nepal;2010;Male;2439
+2844;Netherlands;2010;Male;55283
+2845;New Zealand;2010;Male;38723
+2846;Nicaragua;2010;Male;5804
+2847;Niger;2010;Male;0
+2848;Nigeria;2010;Male;5678
+2849;Norway;2010;Male;70573
+2850;Oman;2010;Male;61217
+2851;Pakistan;2010;Male;7398
+2852;Palestine, State of;2010;Male;7425
+2853;Panama;2010;Male;18021
+2854;Papua New Guinea;2010;Male;3213
+2855;Paraguay;2010;Male;8913
+2856;Peru;2010;Male;12101
+2857;Philippines;2010;Male;8164
+2858;Poland;2010;Male;25675
+2859;Portugal;2010;Male;30624
+2860;Qatar;2010;Male;136890
+2861;Romania;2010;Male;21025
+2862;Russian Federation;2010;Male;27402
+2863;Rwanda;2010;Male;1503
+2864;Saint Lucia;2010;Male;14734
+2865;Saint Vincent and the Grenadines;2010;Male;12380
+2866;Samoa;2010;Male;6831
+2867;Sao Tome and Principe;2010;Male;3686
+2868;Saudi Arabia;2010;Male;70643
+2869;Senegal;2010;Male;2873
+2870;Serbia;2010;Male;14468
+2871;Sierra Leone;2010;Male;1357
+2872;Singapore;2010;Male;92872
+2873;Slovakia;2010;Male;31076
+2874;Slovenia;2010;Male;31928
+2875;Solomon Islands;2010;Male;1696
+2876;South Africa;2010;Male;14673
+2877;South Sudan;2010;Male;2382
+2878;Spain;2010;Male;40057
+2879;Sri Lanka;2010;Male;12358
+2880;Sudan;2010;Male;4946
+2881;Suriname;2010;Male;18340
+2882;Sweden;2010;Male;51804
+2883;Switzerland;2010;Male;72633
+2884;Syrian Arab Republic;2010;Male;10531
+2885;Tajikistan;2010;Male;4303
+2886;Tanzania (United Republic of);2010;Male;2309
+2887;Thailand;2010;Male;15021
+2888;The former Yugoslav Republic of Macedonia;2010;Male;14081
+2889;Timor-Leste;2010;Male;10728
+2890;Togo;2010;Male;1276
+2891;Tonga;2010;Male;6744
+2892;Trinidad and Tobago;2010;Male;36339
+2893;Tunisia;2010;Male;15578
+2894;Turkey;2010;Male;25618
+2895;Turkmenistan;2010;Male;11670
+2896;Uganda;2010;Male;1906
+2897;Ukraine;2010;Male;9708
+2898;United Arab Emirates;2010;Male;70477
+2899;United Kingdom;2010;Male;48499
+2900;United States;2010;Male;60759
+2901;Uruguay;2010;Male;21435
+2902;Uzbekistan;2010;Male;5549
+2903;Vanuatu;2010;Male;3458
+2904;Venezuela (Bolivarian Republic of);2010;Male;20398
+2905;Viet Nam;2010;Male;4749
+2906;Yemen;2010;Male;7457
+2907;Zambia;2010;Male;3583
+2908;Zimbabwe;2010;Male;1438
+2909;Andorra;2010;Male;0
+2910;Antigua and Barbuda;2010;Male;0
+2911;Dominica;2010;Male;0
+2912;Grenada;2010;Male;0
+2913;Kiribati;2010;Male;0
+2914;Korea (Democratic People's Rep. of);2010;Male;0
+2915;Liechtenstein;2010;Male;0
+2916;Marshall Islands;2010;Male;0
+2917;Micronesia (Federated States of);2010;Male;0
+2918;Monaco;2010;Male;0
+2919;Nauru;2010;Male;0
+2920;Palau;2010;Male;0
+2921;Saint Kitts and Nevis;2010;Male;0
+2922;San Marino;2010;Male;0
+2923;Seychelles;2010;Male;0
+2924;Somalia;2010;Male;0
+2925;Tuvalu;2010;Male;0
+2926;Afghanistan;2011;Male;2885
+2927;Albania;2011;Male;12763
+2928;Algeria;2011;Male;21698
+2929;Angola;2011;Male;6271
+2930;Argentina;2011;Male;25711
+2931;Armenia;2011;Male;9852
+2932;Australia;2011;Male;48401
+2933;Austria;2011;Male;59581
+2934;Azerbaijan;2011;Male;19856
+2935;Bahamas;2011;Male;26048
+2936;Bahrain;2011;Male;41023
+2937;Bangladesh;2011;Male;4256
+2938;Barbados;2011;Male;18157
+2939;Belarus;2011;Male;20210
+2940;Belgium;2011;Male;51780
+2941;Belize;2011;Male;9611
+2942;Benin;2011;Male;2065
+2943;Bhutan;2011;Male;7591
+2944;Bolivia (Plurinational State of);2011;Male;6872
+2945;Bosnia and Herzegovina;2011;Male;13348
+2946;Botswana;2011;Male;15438
+2947;Brazil;2011;Male;17419
+2948;Brunei Darussalam;2011;Male;93497
+2949;Bulgaria;2011;Male;18335
+2950;Burkina Faso;2011;Male;1758
+2951;Burundi;2011;Male;653
+2952;Cabo Verde;2011;Male;7569
+2953;Cambodia;2011;Male;2868
+2954;Cameroon;2011;Male;3451
+2955;Canada;2011;Male;49230
+2956;Central African Republic;2011;Male;1101
+2957;Chad;2011;Male;2179
+2958;Chile;2011;Male;25631
+2959;China;2011;Male;12274
+2960;Colombia;2011;Male;13309
+2961;Comoros;2011;Male;1810
+2962;Congo;2011;Male;4401
+2963;Congo (Democratic Republic of the);2011;Male;725
+2964;Costa Rica;2011;Male;16500
+2965;Croatia;2011;Male;24100
+2966;Cuba;2011;Male;9093
+2967;Cyprus;2011;Male;39586
+2968;Czechia;2011;Male;33873
+2969;Côte d'Ivoire;2011;Male;3655
+2970;Denmark;2011;Male;52856
+2971;Djibouti;2011;Male;3478
+2972;Dominican Republic;2011;Male;13711
+2973;Ecuador;2011;Male;13022
+2974;Egypt;2011;Male;14494
+2975;El Salvador;2011;Male;9061
+2976;Equatorial Guinea;2011;Male;26277
+2977;Eritrea;2011;Male;1753
+2978;Estonia;2011;Male;29537
+2979;Eswatini (Kingdom of);2011;Male;9699
+2980;Ethiopia;2011;Male;1451
+2981;Fiji;2011;Male;9505
+2982;Finland;2011;Male;48465
+2983;France;2011;Male;45471
+2984;Gabon;2011;Male;17596
+2985;Gambia;2011;Male;2190
+2986;Georgia;2011;Male;10048
+2987;Germany;2011;Male;53260
+2988;Ghana;2011;Male;3850
+2989;Greece;2011;Male;31585
+2990;Guatemala;2011;Male;9393
+2991;Guinea;2011;Male;1724
+2992;Guinea-Bissau;2011;Male;1767
+2993;Guyana;2011;Male;8677
+2994;Haiti;2011;Male;1842
+2995;Honduras;2011;Male;4885
+2996;Hong Kong, China (SAR);2011;Male;67758
+2997;Hungary;2011;Male;26664
+2998;Iceland;2011;Male;40699
+2999;India;2011;Male;7029
+3000;Indonesia;2011;Male;11491
+3001;Iran (Islamic Republic of);2011;Male;30701
+3002;Iraq;2011;Male;21967
+3003;Ireland;2011;Male;45058
+3004;Israel;2011;Male;38835
+3005;Italy;2011;Male;46736
+3006;Jamaica;2011;Male;9842
+3007;Japan;2011;Male;49937
+3008;Jordan;2011;Male;15238
+3009;Kazakhstan;2011;Male;22837
+3010;Kenya;2011;Male;2982
+3011;Korea (Republic of);2011;Male;43385
+3012;Kuwait;2011;Male;108498
+3013;Kyrgyzstan;2011;Male;3460
+3014;Lao People's Democratic Republic;2011;Male;4624
+3015;Latvia;2011;Male;23796
+3016;Lebanon;2011;Male;24512
+3017;Lesotho;2011;Male;3568
+3018;Liberia;2011;Male;679
+3019;Libya;2011;Male;17462
+3020;Lithuania;2011;Male;25631
+3021;Luxembourg;2011;Male;76710
+3022;Madagascar;2011;Male;1608
+3023;Malawi;2011;Male;1200
+3024;Malaysia;2011;Male;27113
+3025;Maldives;2011;Male;14787
+3026;Mali;2011;Male;2616
+3027;Malta;2011;Male;39225
+3028;Mauritania;2011;Male;4799
+3029;Mauritius;2011;Male;23849
+3030;Mexico;2011;Male;21588
+3031;Moldova (Republic of);2011;Male;5136
+3032;Mongolia;2011;Male;9792
+3033;Montenegro;2011;Male;17956
+3034;Morocco;2011;Male;10364
+3035;Mozambique;2011;Male;985
+3036;Myanmar;2011;Male;5126
+3037;Namibia;2011;Male;9815
+3038;Nepal;2011;Male;2480
+3039;Netherlands;2011;Male;56250
+3040;New Zealand;2011;Male;39551
+3041;Nicaragua;2011;Male;6089
+3042;Niger;2011;Male;0
+3043;Nigeria;2011;Male;5778
+3044;Norway;2011;Male;69949
+3045;Oman;2011;Male;55853
+3046;Pakistan;2011;Male;7501
+3047;Palestine, State of;2011;Male;7676
+3048;Panama;2011;Male;20696
+3049;Papua New Guinea;2011;Male;3309
+3050;Paraguay;2011;Male;8305
+3051;Peru;2011;Male;12553
+3052;Philippines;2011;Male;8241
+3053;Poland;2011;Male;26972
+3054;Portugal;2011;Male;31363
+3055;Qatar;2011;Male;141200
+3056;Romania;2011;Male;21441
+3057;Russian Federation;2011;Male;28805
+3058;Rwanda;2011;Male;1632
+3059;Saint Lucia;2011;Male;14700
+3060;Saint Vincent and the Grenadines;2011;Male;12313
+3061;Samoa;2011;Male;6959
+3062;Sao Tome and Principe;2011;Male;3825
+3063;Saudi Arabia;2011;Male;74414
+3064;Senegal;2011;Male;2771
+3065;Serbia;2011;Male;15298
+3066;Sierra Leone;2011;Male;1375
+3067;Singapore;2011;Male;87168
+3068;Slovakia;2011;Male;31957
+3069;Slovenia;2011;Male;31945
+3070;Solomon Islands;2011;Male;1820
+3071;South Africa;2011;Male;14771
+3072;South Sudan;2011;Male;2423
+3073;Spain;2011;Male;39085
+3074;Sri Lanka;2011;Male;13345
+3075;Sudan;2011;Male;5527
+3076;Suriname;2011;Male;18325
+3077;Sweden;2011;Male;52194
+3078;Switzerland;2011;Male;69375
+3079;Syrian Arab Republic;2011;Male;9972
+3080;Tajikistan;2011;Male;4510
+3081;Tanzania (United Republic of);2011;Male;2419
+3082;Thailand;2011;Male;14807
+3083;The former Yugoslav Republic of Macedonia;2011;Male;14177
+3084;Timor-Leste;2011;Male;10509
+3085;Togo;2011;Male;1279
+3086;Tonga;2011;Male;6983
+3087;Trinidad and Tobago;2011;Male;33191
+3088;Tunisia;2011;Male;15100
+3089;Turkey;2011;Male;27768
+3090;Turkmenistan;2011;Male;12984
+3091;Uganda;2011;Male;2015
+3092;Ukraine;2011;Male;10398
+3093;United Arab Emirates;2011;Male;71922
+3094;United Kingdom;2011;Male;48776
+3095;United States;2011;Male;61454
+3096;Uruguay;2011;Male;22297
+3097;Uzbekistan;2011;Male;5916
+3098;Vanuatu;2011;Male;3434
+3099;Venezuela (Bolivarian Republic of);2011;Male;20590
+3100;Viet Nam;2011;Male;4944
+3101;Yemen;2011;Male;6312
+3102;Zambia;2011;Male;3741
+3103;Zimbabwe;2011;Male;1578
+3104;Andorra;2011;Male;0
+3105;Antigua and Barbuda;2011;Male;0
+3106;Dominica;2011;Male;0
+3107;Grenada;2011;Male;0
+3108;Kiribati;2011;Male;0
+3109;Korea (Democratic People's Rep. of);2011;Male;0
+3110;Liechtenstein;2011;Male;0
+3111;Marshall Islands;2011;Male;0
+3112;Micronesia (Federated States of);2011;Male;0
+3113;Monaco;2011;Male;0
+3114;Nauru;2011;Male;0
+3115;Palau;2011;Male;0
+3116;Saint Kitts and Nevis;2011;Male;0
+3117;San Marino;2011;Male;0
+3118;Seychelles;2011;Male;0
+3119;Somalia;2011;Male;0
+3120;Tuvalu;2011;Male;0
+3121;Afghanistan;2012;Male;3189
+3122;Albania;2012;Male;12255
+3123;Algeria;2012;Male;21514
+3124;Angola;2012;Male;6305
+3125;Argentina;2012;Male;25208
+3126;Armenia;2012;Male;10589
+3127;Australia;2012;Male;49852
+3128;Austria;2012;Male;59293
+3129;Azerbaijan;2012;Male;20998
+3130;Bahamas;2012;Male;34205
+3131;Bahrain;2012;Male;48303
+3132;Bangladesh;2012;Male;4477
+3133;Barbados;2012;Male;18133
+3134;Belarus;2012;Male;20493
+3135;Belgium;2012;Male;52234
+3136;Belize;2012;Male;9107
+3137;Benin;2012;Male;2090
+3138;Bhutan;2012;Male;7453
+3139;Bolivia (Plurinational State of);2012;Male;7120
+3140;Bosnia and Herzegovina;2012;Male;13400
+3141;Botswana;2012;Male;15887
+3142;Brazil;2012;Male;17280
+3143;Brunei Darussalam;2012;Male;93085
+3144;Bulgaria;2012;Male;18884
+3145;Burkina Faso;2012;Male;1843
+3146;Burundi;2012;Male;660
+3147;Cabo Verde;2012;Male;7510
+3148;Cambodia;2012;Male;3016
+3149;Cameroon;2012;Male;3492
+3150;Canada;2012;Male;49502
+3151;Central African Republic;2012;Male;1146
+3152;Chad;2012;Male;2294
+3153;Chile;2012;Male;27080
+3154;China;2012;Male;13271
+3155;Colombia;2012;Male;13820
+3156;Comoros;2012;Male;1802
+3157;Congo;2012;Male;5251
+3158;Congo (Democratic Republic of the);2012;Male;745
+3159;Costa Rica;2012;Male;17178
+3160;Croatia;2012;Male;23420
+3161;Cuba;2012;Male;9351
+3162;Cyprus;2012;Male;36849
+3163;Czechia;2012;Male;33921
+3164;Côte d'Ivoire;2012;Male;3966
+3165;Denmark;2012;Male;52706
+3166;Djibouti;2012;Male;3562
+3167;Dominican Republic;2012;Male;13796
+3168;Ecuador;2012;Male;13441
+3169;Egypt;2012;Male;17085
+3170;El Salvador;2012;Male;9077
+3171;Equatorial Guinea;2012;Male;28105
+3172;Eritrea;2012;Male;1841
+3173;Estonia;2012;Male;31368
+3174;Eswatini (Kingdom of);2012;Male;9982
+3175;Ethiopia;2012;Male;1536
+3176;Fiji;2012;Male;9475
+3177;Finland;2012;Male;46219
+3178;France;2012;Male;44591
+3179;Gabon;2012;Male;19135
+3180;Gambia;2012;Male;2241
+3181;Georgia;2012;Male;10871
+3182;Germany;2012;Male;53329
+3183;Ghana;2012;Male;4025
+3184;Greece;2012;Male;30290
+3185;Guatemala;2012;Male;8834
+3186;Guinea;2012;Male;1796
+3187;Guinea-Bissau;2012;Male;1691
+3188;Guyana;2012;Male;9051
+3189;Haiti;2012;Male;1874
+3190;Honduras;2012;Male;5058
+3191;Hong Kong, China (SAR);2012;Male;66323
+3192;Hungary;2012;Male;26719
+3193;Iceland;2012;Male;42282
+3194;India;2012;Male;7336
+3195;Indonesia;2012;Male;12014
+3196;Iran (Islamic Republic of);2012;Male;28415
+3197;Iraq;2012;Male;24033
+3198;Ireland;2012;Male;45121
+3199;Israel;2012;Male;38161
+3200;Italy;2012;Male;44949
+3201;Jamaica;2012;Male;9923
+3202;Japan;2012;Male;50532
+3203;Jordan;2012;Male;14813
+3204;Kazakhstan;2012;Male;23801
+3205;Kenya;2012;Male;3018
+3206;Korea (Republic of);2012;Male;44142
+3207;Kuwait;2012;Male;110417
+3208;Kyrgyzstan;2012;Male;3687
+3209;Lao People's Democratic Republic;2012;Male;4997
+3210;Latvia;2012;Male;24825
+3211;Lebanon;2012;Male;23607
+3212;Lesotho;2012;Male;3640
+3213;Liberia;2012;Male;671
+3214;Libya;2012;Male;37662
+3215;Lithuania;2012;Male;27023
+3216;Luxembourg;2012;Male;74005
+3217;Madagascar;2012;Male;1583
+3218;Malawi;2012;Male;1180
+3219;Malaysia;2012;Male;27395
+3220;Maldives;2012;Male;14845
+3221;Mali;2012;Male;2474
+3222;Malta;2012;Male;38819
+3223;Mauritania;2012;Male;4890
+3224;Mauritius;2012;Male;24370
+3225;Mexico;2012;Male;21756
+3226;Moldova (Republic of);2012;Male;5212
+3227;Mongolia;2012;Male;10382
+3228;Montenegro;2012;Male;17758
+3229;Morocco;2012;Male;10538
+3230;Mozambique;2012;Male;1028
+3231;Myanmar;2012;Male;5453
+3232;Namibia;2012;Male;9882
+3233;Nepal;2012;Male;2379
+3234;Netherlands;2012;Male;55491
+3235;New Zealand;2012;Male;40348
+3236;Nicaragua;2012;Male;6399
+3237;Niger;2012;Male;1587
+3238;Nigeria;2012;Male;5862
+3239;Norway;2012;Male;70618
+3240;Oman;2012;Male;56509
+3241;Pakistan;2012;Male;7640
+3242;Palestine, State of;2012;Male;8582
+3243;Panama;2012;Male;21703
+3244;Papua New Guinea;2012;Male;3347
+3245;Paraguay;2012;Male;8375
+3246;Peru;2012;Male;13334
+3247;Philippines;2012;Male;8689
+3248;Poland;2012;Male;27398
+3249;Portugal;2012;Male;29721
+3250;Qatar;2012;Male;137537
+3251;Romania;2012;Male;21672
+3252;Russian Federation;2012;Male;29766
+3253;Rwanda;2012;Male;1719
+3254;Saint Lucia;2012;Male;13833
+3255;Saint Vincent and the Grenadines;2012;Male;12661
+3256;Samoa;2012;Male;6777
+3257;Sao Tome and Principe;2012;Male;3717
+3258;Saudi Arabia;2012;Male;75176
+3259;Senegal;2012;Male;2803
+3260;Serbia;2012;Male;15111
+3261;Sierra Leone;2012;Male;1621
+3262;Singapore;2012;Male;87342
+3263;Slovakia;2012;Male;32905
+3264;Slovenia;2012;Male;30931
+3265;Solomon Islands;2012;Male;2184
+3266;South Africa;2012;Male;14704
+3267;South Sudan;2012;Male;1296
+3268;Spain;2012;Male;38287
+3269;Sri Lanka;2012;Male;14592
+3270;Sudan;2012;Male;6020
+3271;Suriname;2012;Male;19123
+3272;Sweden;2012;Male;50299
+3273;Switzerland;2012;Male;67303
+3274;Syrian Arab Republic;2012;Male;7927
+3275;Tajikistan;2012;Male;4748
+3276;Tanzania (United Republic of);2012;Male;2284
+3277;Thailand;2012;Male;15458
+3278;The former Yugoslav Republic of Macedonia;2012;Male;14092
+3279;Timor-Leste;2012;Male;6214
+3280;Togo;2012;Male;1257
+3281;Tonga;2012;Male;7037
+3282;Trinidad and Tobago;2012;Male;33247
+3283;Tunisia;2012;Male;15515
+3284;Turkey;2012;Male;28425
+3285;Turkmenistan;2012;Male;14210
+3286;Uganda;2012;Male;2011
+3287;Ukraine;2012;Male;10463
+3288;United Arab Emirates;2012;Male;73398
+3289;United Kingdom;2012;Male;48197
+3290;United States;2012;Male;62380
+3291;Uruguay;2012;Male;22975
+3292;Uzbekistan;2012;Male;6362
+3293;Vanuatu;2012;Male;3295
+3294;Venezuela (Bolivarian Republic of);2012;Male;21408
+3295;Viet Nam;2012;Male;5084
+3296;Yemen;2012;Male;6574
+3297;Zambia;2012;Male;4053
+3298;Zimbabwe;2012;Male;1792
+3299;Andorra;2012;Male;0
+3300;Antigua and Barbuda;2012;Male;0
+3301;Dominica;2012;Male;0
+3302;Grenada;2012;Male;0
+3303;Kiribati;2012;Male;0
+3304;Korea (Democratic People's Rep. of);2012;Male;0
+3305;Liechtenstein;2012;Male;0
+3306;Marshall Islands;2012;Male;0
+3307;Micronesia (Federated States of);2012;Male;0
+3308;Monaco;2012;Male;0
+3309;Nauru;2012;Male;0
+3310;Palau;2012;Male;0
+3311;Saint Kitts and Nevis;2012;Male;0
+3312;San Marino;2012;Male;0
+3313;Seychelles;2012;Male;0
+3314;Somalia;2012;Male;0
+3315;Tuvalu;2012;Male;0
+3316;Afghanistan;2013;Male;3180
+3317;Albania;2013;Male;12957
+3318;Algeria;2013;Male;21503
+3319;Angola;2013;Male;6770
+3320;Argentina;2013;Male;25679
+3321;Armenia;2013;Male;10981
+3322;Australia;2013;Male;50571
+3323;Austria;2013;Male;58833
+3324;Azerbaijan;2013;Male;22009
+3325;Bahamas;2013;Male;33343
+3326;Bahrain;2013;Male;50371
+3327;Bangladesh;2013;Male;4487
+3328;Barbados;2013;Male;17893
+3329;Belarus;2013;Male;20270
+3330;Belgium;2013;Male;50939
+3331;Belize;2013;Male;9006
+3332;Benin;2013;Male;2177
+3333;Bhutan;2013;Male;8036
+3334;Bolivia (Plurinational State of);2013;Male;7439
+3335;Bosnia and Herzegovina;2013;Male;13973
+3336;Botswana;2013;Male;16738
+3337;Brazil;2013;Male;18989
+3338;Brunei Darussalam;2013;Male;90662
+3339;Bulgaria;2013;Male;18893
+3340;Burkina Faso;2013;Male;1880
+3341;Burundi;2013;Male;672
+3342;Cabo Verde;2013;Male;7487
+3343;Cambodia;2013;Male;3162
+3344;Cameroon;2013;Male;3566
+3345;Canada;2013;Male;50151
+3346;Central African Republic;2013;Male;727
+3347;Chad;2013;Male;2288
+3348;Chile;2013;Male;28058
+3349;China;2013;Male;14151
+3350;Colombia;2013;Male;14321
+3351;Comoros;2013;Male;1827
+3352;Congo;2013;Male;5657
+3353;Congo (Democratic Republic of the);2013;Male;749
+3354;Costa Rica;2013;Male;17153
+3355;Croatia;2013;Male;23361
+3356;Cuba;2013;Male;9578
+3357;Cyprus;2013;Male;33871
+3358;Czechia;2013;Male;33592
+3359;Côte d'Ivoire;2013;Male;4151
+3360;Denmark;2013;Male;53254
+3361;Djibouti;2013;Male;3665
+3362;Dominican Republic;2013;Male;14007
+3363;Ecuador;2013;Male;13952
+3364;Egypt;2013;Male;15981
+3365;El Salvador;2013;Male;8684
+3366;Equatorial Guinea;2013;Male;27232
+3367;Eritrea;2013;Male;1860
+3368;Estonia;2013;Male;32775
+3369;Eswatini (Kingdom of);2013;Male;10116
+3370;Ethiopia;2013;Male;1655
+3371;Fiji;2013;Male;10042
+3372;Finland;2013;Male;46572
+3373;France;2013;Male;44451
+3374;Gabon;2013;Male;19788
+3375;Gambia;2013;Male;2291
+3376;Georgia;2013;Male;11075
+3377;Germany;2013;Male;52852
+3378;Ghana;2013;Male;4324
+3379;Greece;2013;Male;29318
+3380;Guatemala;2013;Male;9258
+3381;Guinea;2013;Male;1829
+3382;Guinea-Bissau;2013;Male;1657
+3383;Guyana;2013;Male;9302
+3384;Haiti;2013;Male;1907
+3385;Honduras;2013;Male;4951
+3386;Hong Kong, China (SAR);2013;Male;68752
+3387;Hungary;2013;Male;27608
+3388;Iceland;2013;Male;47286
+3389;India;2013;Male;7693
+3390;Indonesia;2013;Male;12585
+3391;Iran (Islamic Republic of);2013;Male;28157
+3392;Iraq;2013;Male;29017
+3393;Ireland;2013;Male;47234
+3394;Israel;2013;Male;38743
+3395;Italy;2013;Male;44079
+3396;Jamaica;2013;Male;9832
+3397;Japan;2013;Male;51527
+3398;Jordan;2013;Male;14621
+3399;Kazakhstan;2013;Male;26095
+3400;Kenya;2013;Male;3076
+3401;Korea (Republic of);2013;Male;45046
+3402;Kuwait;2013;Male;105461
+3403;Kyrgyzstan;2013;Male;3957
+3404;Lao People's Democratic Republic;2013;Male;5372
+3405;Latvia;2013;Male;25891
+3406;Lebanon;2013;Male;22650
+3407;Lesotho;2013;Male;3632
+3408;Liberia;2013;Male;709
+3409;Libya;2013;Male;18580
+3410;Lithuania;2013;Male;28774
+3411;Luxembourg;2013;Male;71988
+3412;Madagascar;2013;Male;1580
+3413;Malawi;2013;Male;1200
+3414;Malaysia;2013;Male;27760
+3415;Maldives;2013;Male;15493
+3416;Mali;2013;Male;2459
+3417;Malta;2013;Male;38190
+3418;Mauritania;2013;Male;5073
+3419;Mauritius;2013;Male;24454
+3420;Mexico;2013;Male;21496
+3421;Moldova (Republic of);2013;Male;5687
+3422;Mongolia;2013;Male;12359
+3423;Montenegro;2013;Male;18306
+3424;Morocco;2013;Male;10898
+3425;Mozambique;2013;Male;1070
+3426;Myanmar;2013;Male;5854
+3427;Namibia;2013;Male;10452
+3428;Nepal;2013;Male;2438
+3429;Netherlands;2013;Male;54876
+3430;New Zealand;2013;Male;40763
+3431;Nicaragua;2013;Male;6625
+3432;Niger;2013;Male;1599
+3433;Nigeria;2013;Male;5994
+3434;Norway;2013;Male;70598
+3435;Oman;2013;Male;55906
+3436;Pakistan;2013;Male;7822
+3437;Palestine, State of;2013;Male;8092
+3438;Panama;2013;Male;22208
+3439;Papua New Guinea;2013;Male;3413
+3440;Paraguay;2013;Male;10569
+3441;Peru;2013;Male;14099
+3442;Philippines;2013;Male;9231
+3443;Poland;2013;Male;28217
+3444;Portugal;2013;Male;29995
+3445;Qatar;2013;Male;135959
+3446;Romania;2013;Male;22251
+3447;Russian Federation;2013;Male;30163
+3448;Rwanda;2013;Male;1745
+3449;Saint Lucia;2013;Male;13672
+3450;Saint Vincent and the Grenadines;2013;Male;12769
+3451;Samoa;2013;Male;6791
+3452;Sao Tome and Principe;2013;Male;3889
+3453;Saudi Arabia;2013;Male;75433
+3454;Senegal;2013;Male;2812
+3455;Serbia;2013;Male;15118
+3456;Sierra Leone;2013;Male;1841
+3457;Singapore;2013;Male;90293
+3458;Slovakia;2013;Male;33285
+3459;Slovenia;2013;Male;31330
+3460;Solomon Islands;2013;Male;2414
+3461;South Africa;2013;Male;14904
+3462;South Sudan;2013;Male;1331
+3463;Spain;2013;Male;37588
+3464;Sri Lanka;2013;Male;14563
+3465;Sudan;2013;Male;4420
+3466;Suriname;2013;Male;19651
+3467;Sweden;2013;Male;50373
+3468;Switzerland;2013;Male;67563
+3469;Syrian Arab Republic;2013;Male;6148
+3470;Tajikistan;2013;Male;4140
+3471;Tanzania (United Republic of);2013;Male;2415
+3472;Thailand;2013;Male;15439
+3473;The former Yugoslav Republic of Macedonia;2013;Male;14453
+3474;Timor-Leste;2013;Male;9170
+3475;Togo;2013;Male;1289
+3476;Tonga;2013;Male;6879
+3477;Trinidad and Tobago;2013;Male;35252
+3478;Tunisia;2013;Male;15719
+3479;Turkey;2013;Male;30158
+3480;Turkmenistan;2013;Male;15562
+3481;Uganda;2013;Male;2015
+3482;Ukraine;2013;Male;10421
+3483;United Arab Emirates;2013;Male;75837
+3484;United Kingdom;2013;Male;48571
+3485;United States;2013;Male;63034
+3486;Uruguay;2013;Male;24141
+3487;Uzbekistan;2013;Male;6857
+3488;Vanuatu;2013;Male;3495
+3489;Venezuela (Bolivarian Republic of);2013;Male;21245
+3490;Viet Nam;2013;Male;5246
+3491;Yemen;2013;Male;6843
+3492;Zambia;2013;Male;4008
+3493;Zimbabwe;2013;Male;1921
+3494;Andorra;2013;Male;0
+3495;Antigua and Barbuda;2013;Male;0
+3496;Dominica;2013;Male;0
+3497;Grenada;2013;Male;0
+3498;Kiribati;2013;Male;0
+3499;Korea (Democratic People's Rep. of);2013;Male;0
+3500;Liechtenstein;2013;Male;0
+3501;Marshall Islands;2013;Male;0
+3502;Micronesia (Federated States of);2013;Male;0
+3503;Monaco;2013;Male;0
+3504;Nauru;2013;Male;0
+3505;Palau;2013;Male;0
+3506;Saint Kitts and Nevis;2013;Male;0
+3507;San Marino;2013;Male;0
+3508;Seychelles;2013;Male;0
+3509;Somalia;2013;Male;0
+3510;Tuvalu;2013;Male;0
+3511;Afghanistan;2014;Male;3120
+3512;Albania;2014;Male;13220
+3513;Algeria;2014;Male;22071
+3514;Angola;2014;Male;7088
+3515;Argentina;2014;Male;24847
+3516;Armenia;2014;Male;11272
+3517;Australia;2014;Male;50912
+3518;Austria;2014;Male;54534
+3519;Azerbaijan;2014;Male;21735
+3520;Bahamas;2014;Male;32632
+3521;Bahrain;2014;Male;49008
+3522;Bangladesh;2014;Male;4618
+3523;Barbados;2014;Male;17650
+3524;Belarus;2014;Male;20746
+3525;Belgium;2014;Male;50629
+3526;Belize;2014;Male;9098
+3527;Benin;2014;Male;2252
+3528;Bhutan;2014;Male;8522
+3529;Bolivia (Plurinational State of);2014;Male;7694
+3530;Bosnia and Herzegovina;2014;Male;14221
+3531;Botswana;2014;Male;17112
+3532;Brazil;2014;Male;18218
+3533;Brunei Darussalam;2014;Male;88158
+3534;Bulgaria;2014;Male;19610
+3535;Burkina Faso;2014;Male;1853
+3536;Burundi;2014;Male;678
+3537;Cabo Verde;2014;Male;7327
+3538;Cambodia;2014;Male;3343
+3539;Cameroon;2014;Male;3716
+3540;Canada;2014;Male;51089
+3541;Central African Republic;2014;Male;733
+3542;Chad;2014;Male;2371
+3543;Chile;2014;Male;28494
+3544;China;2014;Male;15257
+3545;Colombia;2014;Male;15248
+3546;Comoros;2014;Male;1817
+3547;Congo;2014;Male;6580
+3548;Congo (Democratic Republic of the);2014;Male;796
+3549;Costa Rica;2014;Male;17426
+3550;Croatia;2014;Male;23212
+3551;Cuba;2014;Male;9661
+3552;Cyprus;2014;Male;33747
+3553;Czechia;2014;Male;34229
+3554;Côte d'Ivoire;2014;Male;4468
+3555;Denmark;2014;Male;54345
+3556;Djibouti;2014;Male;3799
+3557;Dominican Republic;2014;Male;14890
+3558;Ecuador;2014;Male;14373
+3559;Egypt;2014;Male;16119
+3560;El Salvador;2014;Male;9117
+3561;Equatorial Guinea;2014;Male;26760
+3562;Eritrea;2014;Male;1914
+3563;Estonia;2014;Male;33926
+3564;Eswatini (Kingdom of);2014;Male;10015
+3565;Ethiopia;2014;Male;1773
+3566;Fiji;2014;Male;10267
+3567;Finland;2014;Male;46087
+3568;France;2014;Male;44980
+3569;Gabon;2014;Male;21579
+3570;Gambia;2014;Male;2233
+3571;Georgia;2014;Male;11874
+3572;Germany;2014;Male;53396
+3573;Ghana;2014;Male;4320
+3574;Greece;2014;Male;29316
+3575;Guatemala;2014;Male;9426
+3576;Guinea;2014;Male;1850
+3577;Guinea-Bissau;2014;Male;1724
+3578;Guyana;2014;Male;9537
+3579;Haiti;2014;Male;1937
+3580;Honduras;2014;Male;4877
+3581;Hong Kong, China (SAR);2014;Male;68803
+3582;Hungary;2014;Male;28212
+3583;Iceland;2014;Male;47709
+3584;India;2014;Male;8161
+3585;Indonesia;2014;Male;13067
+3586;Iran (Islamic Republic of);2014;Male;29130
+3587;Iraq;2014;Male;28097
+3588;Ireland;2014;Male;51195
+3589;Israel;2014;Male;39819
+3590;Italy;2014;Male;43638
+3591;Jamaica;2014;Male;9872
+3592;Japan;2014;Male;51521
+3593;Jordan;2014;Male;14385
+3594;Kazakhstan;2014;Male;27581
+3595;Kenya;2014;Male;3137
+3596;Korea (Republic of);2014;Male;46140
+3597;Kuwait;2014;Male;102117
+3598;Kyrgyzstan;2014;Male;4074
+3599;Lao People's Democratic Republic;2014;Male;5825
+3600;Latvia;2014;Male;26731
+3601;Lebanon;2014;Male;21640
+3602;Lesotho;2014;Male;3597
+3603;Liberia;2014;Male;797
+3604;Libya;2014;Male;14699
+3605;Lithuania;2014;Male;30412
+3606;Luxembourg;2014;Male;70140
+3607;Madagascar;2014;Male;1601
+3608;Malawi;2014;Male;1231
+3609;Malaysia;2014;Male;28765
+3610;Maldives;2014;Male;16354
+3611;Mali;2014;Male;2528
+3612;Malta;2014;Male;39829
+3613;Mauritania;2014;Male;5238
+3614;Mauritius;2014;Male;24473
+3615;Mexico;2014;Male;22033
+3616;Moldova (Republic of);2014;Male;5965
+3617;Mongolia;2014;Male;12300
+3618;Montenegro;2014;Male;18612
+3619;Morocco;2014;Male;10909
+3620;Mozambique;2014;Male;1106
+3621;Myanmar;2014;Male;6269
+3622;Namibia;2014;Male;10562
+3623;Nepal;2014;Male;2568
+3624;Netherlands;2014;Male;54749
+3625;New Zealand;2014;Male;41456
+3626;Nicaragua;2014;Male;6855
+3627;Niger;2014;Male;1664
+3628;Nigeria;2014;Male;6303
+3629;Norway;2014;Male;72774
+3630;Oman;2014;Male;52804
+3631;Pakistan;2014;Male;8088
+3632;Palestine, State of;2014;Male;7896
+3633;Panama;2014;Male;23059
+3634;Papua New Guinea;2014;Male;3650
+3635;Paraguay;2014;Male;9654
+3636;Peru;2014;Male;14170
+3637;Philippines;2014;Male;9577
+3638;Poland;2014;Male;29015
+3639;Portugal;2014;Male;30291
+3640;Qatar;2014;Male;134958
+3641;Romania;2014;Male;22974
+3642;Russian Federation;2014;Male;29923
+3643;Rwanda;2014;Male;1821
+3644;Saint Lucia;2014;Male;13792
+3645;Saint Vincent and the Grenadines;2014;Male;12927
+3646;Samoa;2014;Male;6984
+3647;Sao Tome and Principe;2014;Male;4145
+3648;Saudi Arabia;2014;Male;75825
+3649;Senegal;2014;Male;2829
+3650;Serbia;2014;Male;15045
+3651;Sierra Leone;2014;Male;1854
+3652;Singapore;2014;Male;93734
+3653;Slovakia;2014;Male;33992
+3654;Slovenia;2014;Male;32184
+3655;Solomon Islands;2014;Male;2303
+3656;South Africa;2014;Male;14949
+3657;South Sudan;2014;Male;1429
+3658;Spain;2014;Male;38446
+3659;Sri Lanka;2014;Male;15325
+3660;Sudan;2014;Male;6019
+3661;Suriname;2014;Male;19651
+3662;Sweden;2014;Male;51043
+3663;Switzerland;2014;Male;67686
+3664;Syrian Arab Republic;2014;Male;4922
+3665;Tajikistan;2014;Male;4083
+3666;Tanzania (United Republic of);2014;Male;2720
+3667;Thailand;2014;Male;15906
+3668;The former Yugoslav Republic of Macedonia;2014;Male;15156
+3669;Timor-Leste;2014;Male;8245
+3670;Togo;2014;Male;1380
+3671;Tonga;2014;Male;6857
+3672;Trinidad and Tobago;2014;Male;34617
+3673;Tunisia;2014;Male;16087
+3674;Turkey;2014;Male;31283
+3675;Turkmenistan;2014;Male;16985
+3676;Uganda;2014;Male;2043
+3677;Ukraine;2014;Male;10398
+3678;United Arab Emirates;2014;Male;78712
+3679;United Kingdom;2014;Male;49190
+3680;United States;2014;Male;63488
+3681;Uruguay;2014;Male;24683
+3682;Uzbekistan;2014;Male;7182
+3683;Vanuatu;2014;Male;3537
+3684;Venezuela (Bolivarian Republic of);2014;Male;20695
+3685;Viet Nam;2014;Male;5465
+3686;Yemen;2014;Male;6586
+3687;Zambia;2014;Male;4159
+3688;Zimbabwe;2014;Male;1926
+3689;Andorra;2014;Male;0
+3690;Antigua and Barbuda;2014;Male;0
+3691;Dominica;2014;Male;0
+3692;Grenada;2014;Male;0
+3693;Kiribati;2014;Male;0
+3694;Korea (Democratic People's Rep. of);2014;Male;0
+3695;Liechtenstein;2014;Male;0
+3696;Marshall Islands;2014;Male;0
+3697;Micronesia (Federated States of);2014;Male;0
+3698;Monaco;2014;Male;0
+3699;Nauru;2014;Male;0
+3700;Palau;2014;Male;0
+3701;Saint Kitts and Nevis;2014;Male;0
+3702;San Marino;2014;Male;0
+3703;Seychelles;2014;Male;0
+3704;Somalia;2014;Male;0
+3705;Tuvalu;2014;Male;0
+3706;Afghanistan;2015;Male;3050
+3707;Albania;2015;Male;13102
+3708;Algeria;2015;Male;22409
+3709;Angola;2015;Male;7075
+3710;Argentina;2015;Male;24802
+3711;Armenia;2015;Male;11432
+3712;Australia;2015;Male;51584
+3713;Austria;2015;Male;54009
+3714;Azerbaijan;2015;Male;21621
+3715;Bahamas;2015;Male;32525
+3716;Bahrain;2015;Male;56370
+3717;Bangladesh;2015;Male;4827
+3718;Barbados;2015;Male;17871
+3719;Belarus;2015;Male;19498
+3720;Belgium;2015;Male;50858
+3721;Belize;2015;Male;9539
+3722;Benin;2015;Male;2242
+3723;Bhutan;2015;Male;8684
+3724;Bolivia (Plurinational State of);2015;Male;8128
+3725;Bosnia and Herzegovina;2015;Male;14794
+3726;Botswana;2015;Male;18057
+3727;Brazil;2015;Male;16206
+3728;Brunei Darussalam;2015;Male;90246
+3729;Bulgaria;2015;Male;20322
+3730;Burkina Faso;2015;Male;1862
+3731;Burundi;2015;Male;634
+3732;Cabo Verde;2015;Male;7356
+3733;Cambodia;2015;Male;3505
+3734;Cameroon;2015;Male;3797
+3735;Canada;2015;Male;51288
+3736;Central African Republic;2015;Male;763
+3737;Chad;2015;Male;2402
+3738;Chile;2015;Male;28881
+3739;China;2015;Male;16156
+3740;Colombia;2015;Male;15484
+3741;Comoros;2015;Male;1772
+3742;Congo;2015;Male;8446
+3743;Congo (Democratic Republic of the);2015;Male;838
+3744;Costa Rica;2015;Male;17802
+3745;Croatia;2015;Male;25505
+3746;Cuba;2015;Male;10066
+3747;Cyprus;2015;Male;35522
+3748;Czechia;2015;Male;35914
+3749;Côte d'Ivoire;2015;Male;4702
+3750;Denmark;2015;Male;54876
+3751;Djibouti;2015;Male;3959
+3752;Dominican Republic;2015;Male;15732
+3753;Ecuador;2015;Male;13873
+3754;Egypt;2015;Male;16408
+3755;El Salvador;2015;Male;9484
+3756;Equatorial Guinea;2015;Male;27682
+3757;Eritrea;2015;Male;1964
+3758;Estonia;2015;Male;34500
+3759;Eswatini (Kingdom of);2015;Male;9947
+3760;Ethiopia;2015;Male;1902
+3761;Fiji;2015;Male;10720
+3762;Finland;2015;Male;45539
+3763;France;2015;Male;45293
+3764;Gabon;2015;Male;20936
+3765;Gambia;2015;Male;2248
+3766;Georgia;2015;Male;11834
+3767;Germany;2015;Male;53556
+3768;Ghana;2015;Male;4572
+3769;Greece;2015;Male;29407
+3770;Guatemala;2015;Male;9509
+3771;Guinea;2015;Male;1879
+3772;Guinea-Bissau;2015;Male;1766
+3773;Guyana;2015;Male;10091
+3774;Haiti;2015;Male;1930
+3775;Honduras;2015;Male;5008
+3776;Hong Kong, China (SAR);2015;Male;70536
+3777;Hungary;2015;Male;29378
+3778;Iceland;2015;Male;49502
+3779;India;2015;Male;8714
+3780;Indonesia;2015;Male;13371
+3781;Iran (Islamic Republic of);2015;Male;28042
+3782;Iraq;2015;Male;28241
+3783;Ireland;2015;Male;59106
+3784;Israel;2015;Male;39856
+3785;Italy;2015;Male;44051
+3786;Jamaica;2015;Male;9825
+3787;Japan;2015;Male;52236
+3788;Jordan;2015;Male;14157
+3789;Kazakhstan;2015;Male;29488
+3790;Kenya;2015;Male;3230
+3791;Korea (Republic of);2015;Male;47289
+3792;Kuwait;2015;Male;97229
+3793;Kyrgyzstan;2015;Male;4093
+3794;Lao People's Democratic Republic;2015;Male;6174
+3795;Latvia;2015;Male;27679
+3796;Lebanon;2015;Male;20890
+3797;Lesotho;2015;Male;3674
+3798;Liberia;2015;Male;787
+3799;Libya;2015;Male;14355
+3800;Lithuania;2015;Male;30251
+3801;Luxembourg;2015;Male;76603
+3802;Madagascar;2015;Male;1597
+3803;Malawi;2015;Male;1222
+3804;Malaysia;2015;Male;29745
+3805;Maldives;2015;Male;16509
+3806;Mali;2015;Male;2546
+3807;Malta;2015;Male;42646
+3808;Mauritania;2015;Male;5101
+3809;Mauritius;2015;Male;25658
+3810;Mexico;2015;Male;22390
+3811;Moldova (Republic of);2015;Male;5744
+3812;Mongolia;2015;Male;12218
+3813;Montenegro;2015;Male;19425
+3814;Morocco;2015;Male;11273
+3815;Mozambique;2015;Male;1134
+3816;Myanmar;2015;Male;6652
+3817;Namibia;2015;Male;10893
+3818;Nepal;2015;Male;2614
+3819;Netherlands;2015;Male;55335
+3820;New Zealand;2015;Male;42152
+3821;Nicaragua;2015;Male;7158
+3822;Niger;2015;Male;1099
+3823;Nigeria;2015;Male;6352
+3824;Norway;2015;Male;74742
+3825;Oman;2015;Male;53378
+3826;Pakistan;2015;Male;8243
+3827;Palestine, State of;2015;Male;8726
+3828;Panama;2015;Male;22253
+3829;Papua New Guinea;2015;Male;3755
+3830;Paraguay;2015;Male;9956
+3831;Peru;2015;Male;14878
+3832;Philippines;2015;Male;9963
+3833;Poland;2015;Male;30144
+3834;Portugal;2015;Male;30317
+3835;Qatar;2015;Male;137382
+3836;Romania;2015;Male;23957
+3837;Russian Federation;2015;Male;29301
+3838;Rwanda;2015;Male;1928
+3839;Saint Lucia;2015;Male;13993
+3840;Saint Vincent and the Grenadines;2015;Male;12834
+3841;Samoa;2015;Male;7261
+3842;Sao Tome and Principe;2015;Male;4084
+3843;Saudi Arabia;2015;Male;77577
+3844;Senegal;2015;Male;2909
+3845;Serbia;2015;Male;15099
+3846;Sierra Leone;2015;Male;1456
+3847;Singapore;2015;Male;91524
+3848;Slovakia;2015;Male;34902
+3849;Slovenia;2015;Male;32169
+3850;Solomon Islands;2015;Male;2407
+3851;South Africa;2015;Male;15076
+3852;South Sudan;2015;Male;1424
+3853;Spain;2015;Male;39524
+3854;Sri Lanka;2015;Male;15852
+3855;Sudan;2015;Male;6180
+3856;Suriname;2015;Male;19187
+3857;Sweden;2015;Male;52237
+3858;Switzerland;2015;Male;68501
+3859;Syrian Arab Republic;2015;Male;4529
+3860;Tajikistan;2015;Male;4055
+3861;Tanzania (United Republic of);2015;Male;2801
+3862;Thailand;2015;Male;16192
+3863;The former Yugoslav Republic of Macedonia;2015;Male;15514
+3864;Timor-Leste;2015;Male;12010
+3865;Togo;2015;Male;1552
+3866;Tonga;2015;Male;7072
+3867;Trinidad and Tobago;2015;Male;37104
+3868;Tunisia;2015;Male;15986
+3869;Turkey;2015;Male;32243
+3870;Turkmenistan;2015;Male;18378
+3871;Uganda;2015;Male;2083
+3872;Ukraine;2015;Male;9515
+3873;United Arab Emirates;2015;Male;82509
+3874;United Kingdom;2015;Male;49345
+3875;United States;2015;Male;64764
+3876;Uruguay;2015;Male;24749
+3877;Uzbekistan;2015;Male;7418
+3878;Vanuatu;2015;Male;3505
+3879;Venezuela (Bolivarian Republic of);2015;Male;18689
+3880;Viet Nam;2015;Male;5722
+3881;Yemen;2015;Male;4141
+3882;Zambia;2015;Male;4157
+3883;Zimbabwe;2015;Male;1944
+3884;Andorra;2015;Male;0
+3885;Antigua and Barbuda;2015;Male;0
+3886;Dominica;2015;Male;0
+3887;Grenada;2015;Male;0
+3888;Kiribati;2015;Male;0
+3889;Korea (Democratic People's Rep. of);2015;Male;0
+3890;Liechtenstein;2015;Male;0
+3891;Marshall Islands;2015;Male;0
+3892;Micronesia (Federated States of);2015;Male;0
+3893;Monaco;2015;Male;0
+3894;Nauru;2015;Male;0
+3895;Palau;2015;Male;0
+3896;Saint Kitts and Nevis;2015;Male;0
+3897;San Marino;2015;Male;0
+3898;Seychelles;2015;Male;0
+3899;Somalia;2015;Male;0
+3900;Tuvalu;2015;Male;0
+3901;Afghanistan;2016;Male;3029
+3902;Albania;2016;Male;13585
+3903;Algeria;2016;Male;23223
+3904;Angola;2016;Male;6738
+3905;Argentina;2016;Male;23975
+3906;Armenia;2016;Male;11228
+3907;Australia;2016;Male;51976
+3908;Austria;2016;Male;54485
+3909;Azerbaijan;2016;Male;21375
+3910;Bahamas;2016;Male;31473
+3911;Bahrain;2016;Male;55812
+3912;Bangladesh;2016;Male;5050
+3913;Barbados;2016;Male;18227
+3914;Belarus;2016;Male;18923
+3915;Belgium;2016;Male;50734
+3916;Belize;2016;Male;8954
+3917;Benin;2016;Male;2274
+3918;Bhutan;2016;Male;9341
+3919;Bolivia (Plurinational State of);2016;Male;8621
+3920;Bosnia and Herzegovina;2016;Male;15363
+3921;Botswana;2016;Male;18459
+3922;Brazil;2016;Male;17533
+3923;Brunei Darussalam;2016;Male;88485
+3924;Bulgaria;2016;Male;21737
+3925;Burkina Faso;2016;Male;1949
+3926;Burundi;2016;Male;611
+3927;Cabo Verde;2016;Male;7485
+3928;Cambodia;2016;Male;3688
+3929;Cameroon;2016;Male;3839
+3930;Canada;2016;Male;51190
+3931;Central African Republic;2016;Male;786
+3932;Chad;2016;Male;2207
+3933;Chile;2016;Male;28656
+3934;China;2016;Male;17167
+3935;Colombia;2016;Male;15841
+3936;Comoros;2016;Male;1767
+3937;Congo;2016;Male;7554
+3938;Congo (Democratic Republic of the);2016;Male;884
+3939;Costa Rica;2016;Male;18699
+3940;Croatia;2016;Male;25888
+3941;Cuba;2016;Male;9988
+3942;Cyprus;2016;Male;35832
+3943;Czechia;2016;Male;36764
+3944;Côte d'Ivoire;2016;Male;4214
+3945;Denmark;2016;Male;54822
+3946;Djibouti;2016;Male;4132
+3947;Dominican Republic;2016;Male;18112
+3948;Ecuador;2016;Male;13140
+3949;Egypt;2016;Male;16232
+3950;El Salvador;2016;Male;9737
+3951;Equatorial Guinea;2016;Male;25392
+3952;Eritrea;2016;Male;1989
+3953;Estonia;2016;Male;35391
+3954;Eswatini (Kingdom of);2016;Male;9744
+3955;Ethiopia;2016;Male;1993
+3956;Fiji;2016;Male;10645
+3957;Finland;2016;Male;46650
+3958;France;2016;Male;45628
+3959;Gabon;2016;Male;21098
+3960;Gambia;2016;Male;1864
+3961;Georgia;2016;Male;11942
+3962;Germany;2016;Male;53792
+3963;Ghana;2016;Male;4602
+3964;Greece;2016;Male;29375
+3965;Guatemala;2016;Male;9743
+3966;Guinea;2016;Male;2004
+3967;Guinea-Bissau;2016;Male;1831
+3968;Guyana;2016;Male;10040
+3969;Haiti;2016;Male;1957
+3970;Honduras;2016;Male;5016
+3971;Hong Kong, China (SAR);2016;Male;72205
+3972;Hungary;2016;Male;30165
+3973;Iceland;2016;Male;52809
+3974;India;2016;Male;9211
+3975;Indonesia;2016;Male;13843
+3976;Iran (Islamic Republic of);2016;Male;30965
+3977;Iraq;2016;Male;30386
+3978;Ireland;2016;Male;61063
+3979;Israel;2016;Male;40373
+3980;Italy;2016;Male;44664
+3981;Jamaica;2016;Male;9804
+3982;Japan;2016;Male;50432
+3983;Jordan;2016;Male;14038
+3984;Kazakhstan;2016;Male;28088
+3985;Kenya;2016;Male;3324
+3986;Korea (Republic of);2016;Male;48148
+3987;Kuwait;2016;Male;98065
+3988;Kyrgyzstan;2016;Male;4170
+3989;Lao People's Democratic Republic;2016;Male;6507
+3990;Latvia;2016;Male;28356
+3991;Lebanon;2016;Male;20629
+3992;Lesotho;2016;Male;3774
+3993;Liberia;2016;Male;755
+3994;Libya;2016;Male;13963
+3995;Lithuania;2016;Male;31301
+3996;Luxembourg;2016;Male;79160
+3997;Madagascar;2016;Male;1523
+3998;Malawi;2016;Male;1220
+3999;Malaysia;2016;Male;30450
+4000;Maldives;2016;Male;17322
+4001;Mali;2016;Male;2494
+4002;Malta;2016;Male;42693
+4003;Mauritania;2016;Male;5123
+4004;Mauritius;2016;Male;27016
+4005;Mexico;2016;Male;22468
+4006;Moldova (Republic of);2016;Male;6010
+4007;Mongolia;2016;Male;12374
+4008;Montenegro;2016;Male;19743
+4009;Morocco;2016;Male;11260
+4010;Mozambique;2016;Male;1139
+4011;Myanmar;2016;Male;6977
+4012;Namibia;2016;Male;10110
+4013;Nepal;2016;Male;2585
+4014;Netherlands;2016;Male;55796
+4015;New Zealand;2016;Male;41983
+4016;Nicaragua;2016;Male;6924
+4017;Niger;2016;Male;1109
+4018;Nigeria;2016;Male;6127
+4019;Norway;2016;Male;75085
+4020;Oman;2016;Male;51962
+4021;Pakistan;2016;Male;8537
+4022;Palestine, State of;2016;Male;8802
+4023;Panama;2016;Male;24192
+4024;Papua New Guinea;2016;Male;3784
+4025;Paraguay;2016;Male;10562
+4026;Peru;2016;Male;14960
+4027;Philippines;2016;Male;10223
+4028;Poland;2016;Male;30901
+4029;Portugal;2016;Male;31107
+4030;Qatar;2016;Male;137260
+4031;Romania;2016;Male;25409
+4032;Russian Federation;2016;Male;29203
+4033;Rwanda;2016;Male;1988
+4034;Saint Lucia;2016;Male;13913
+4035;Saint Vincent and the Grenadines;2016;Male;13123
+4036;Samoa;2016;Male;7769
+4037;Sao Tome and Principe;2016;Male;3989
+4038;Saudi Arabia;2016;Male;76561
+4039;Senegal;2016;Male;2996
+4040;Serbia;2016;Male;15315
+4041;Sierra Leone;2016;Male;1360
+4042;Singapore;2016;Male;91090
+4043;Slovakia;2016;Male;35586
+4044;Slovenia;2016;Male;32731
+4045;Solomon Islands;2016;Male;2259
+4046;South Africa;2016;Male;14935
+4047;South Sudan;2016;Male;1254
+4048;Spain;2016;Male;40755
+4049;Sri Lanka;2016;Male;16272
+4050;Sudan;2016;Male;6286
+4051;Suriname;2016;Male;17610
+4052;Sweden;2016;Male;53374
+4053;Switzerland;2016;Male;67608
+4054;Syrian Arab Republic;2016;Male;4232
+4055;Tajikistan;2016;Male;4182
+4056;Tanzania (United Republic of);2016;Male;2922
+4057;Thailand;2016;Male;16710
+4058;The former Yugoslav Republic of Macedonia;2016;Male;15967
+4059;Timor-Leste;2016;Male;12055
+4060;Togo;2016;Male;1587
+4061;Tonga;2016;Male;7183
+4062;Trinidad and Tobago;2016;Male;36450
+4063;Tunisia;2016;Male;16013
+4064;Turkey;2016;Male;32497
+4065;Turkmenistan;2016;Male;19162
+4066;Uganda;2016;Male;2104
+4067;Ukraine;2016;Male;9811
+4068;United Arab Emirates;2016;Male;84281
+4069;United Kingdom;2016;Male;49956
+4070;United States;2016;Male;65184
+4071;Uruguay;2016;Male;24384
+4072;Uzbekistan;2016;Male;7833
+4073;Vanuatu;2016;Male;3583
+4074;Venezuela (Bolivarian Republic of);2016;Male;16485
+4075;Viet Nam;2016;Male;6093
+4076;Yemen;2016;Male;2751
+4077;Zambia;2016;Male;4097
+4078;Zimbabwe;2016;Male;1943
+4079;Andorra;2016;Male;0
+4080;Antigua and Barbuda;2016;Male;0
+4081;Dominica;2016;Male;0
+4082;Grenada;2016;Male;0
+4083;Kiribati;2016;Male;0
+4084;Korea (Democratic People's Rep. of);2016;Male;0
+4085;Liechtenstein;2016;Male;0
+4086;Marshall Islands;2016;Male;0
+4087;Micronesia (Federated States of);2016;Male;0
+4088;Monaco;2016;Male;0
+4089;Nauru;2016;Male;0
+4090;Palau;2016;Male;0
+4091;Saint Kitts and Nevis;2016;Male;0
+4092;San Marino;2016;Male;0
+4093;Seychelles;2016;Male;0
+4094;Somalia;2016;Male;0
+4095;Tuvalu;2016;Male;0
+4096;Afghanistan;2017;Male;3030
+4097;Albania;2017;Male;14028
+4098;Algeria;2017;Male;23181
+4099;Angola;2017;Male;6546
+4100;Argentina;2017;Male;24789
+4101;Armenia;2017;Male;12281
+4102;Australia;2017;Male;51857
+4103;Austria;2017;Male;55591
+4104;Azerbaijan;2017;Male;21152
+4105;Bahamas;2017;Male;31397
+4106;Bahrain;2017;Male;55130
+4107;Bangladesh;2017;Male;5285
+4108;Barbados;2017;Male;18384
+4109;Belarus;2017;Male;19592
+4110;Belgium;2017;Male;51302
+4111;Belize;2017;Male;8655
+4112;Benin;2017;Male;2329
+4113;Bhutan;2017;Male;9889
+4114;Bolivia (Plurinational State of);2017;Male;8737
+4115;Bosnia and Herzegovina;2017;Male;15856
+4116;Botswana;2017;Male;18521
+4117;Brazil;2017;Male;17566
+4118;Brunei Darussalam;2017;Male;88204
+4119;Bulgaria;2017;Male;22930
+4120;Burkina Faso;2017;Male;2014
+4121;Burundi;2017;Male;594
+4122;Cabo Verde;2017;Male;7683
+4123;Cambodia;2017;Male;3878
+4124;Cameroon;2017;Male;3878
+4125;Canada;2017;Male;52070
+4126;Central African Republic;2017;Male;809
+4127;Chad;2017;Male;2088
+4128;Chile;2017;Male;28809
+4129;China;2017;Male;18295
+4130;Colombia;2017;Male;15692
+4131;Comoros;2017;Male;1764
+4132;Congo;2017;Male;6483
+4133;Congo (Democratic Republic of the);2017;Male;889
+4134;Costa Rica;2017;Male;18851
+4135;Croatia;2017;Male;27164
+4136;Cuba;2017;Male;10045
+4137;Cyprus;2017;Male;36543
+4138;Czechia;2017;Male;38206
+4139;Côte d'Ivoire;2017;Male;4409
+4140;Denmark;2017;Male;55624
+4141;Djibouti;2017;Male;4286
+4142;Dominican Republic;2017;Male;18975
+4143;Ecuador;2017;Male;13307
+4144;Egypt;2017;Male;16489
+4145;El Salvador;2017;Male;8722
+4146;Equatorial Guinea;2017;Male;23258
+4147;Eritrea;2017;Male;2048
+4148;Estonia;2017;Male;37043
+4149;Eswatini (Kingdom of);2017;Male;9641
+4150;Ethiopia;2017;Male;2136
+4151;Fiji;2017;Male;10963
+4152;Finland;2017;Male;47691
+4153;France;2017;Male;46218
+4154;Gabon;2017;Male;20825
+4155;Gambia;2017;Male;1870
+4156;Georgia;2017;Male;12481
+4157;Germany;2017;Male;54843
+4158;Ghana;2017;Male;4849
+4159;Greece;2017;Male;29796
+4160;Guatemala;2017;Male;9869
+4161;Guinea;2017;Male;2328
+4162;Guinea-Bissau;2017;Male;1843
+4163;Guyana;2017;Male;10295
+4164;Haiti;2017;Male;1937
+4165;Honduras;2017;Male;5159
+4166;Hong Kong, China (SAR);2017;Male;75577
+4167;Hungary;2017;Male;31413
+4168;Iceland;2017;Male;53562
+4169;India;2017;Male;9729
+4170;Indonesia;2017;Male;14385
+4171;Iran (Islamic Republic of);2017;Male;32017
+4172;Iraq;2017;Male;29250
+4173;Ireland;2017;Male;64916
+4174;Israel;2017;Male;40910
+4175;Italy;2017;Male;45326
+4176;Jamaica;2017;Male;9812
+4177;Japan;2017;Male;51326
+4178;Jordan;2017;Male;13971
+4179;Kazakhstan;2017;Male;28815
+4180;Kenya;2017;Male;3398
+4181;Korea (Republic of);2017;Male;49297
+4182;Kuwait;2017;Male;93476
+4183;Kyrgyzstan;2017;Male;4369
+4184;Lao People's Democratic Republic;2017;Male;6789
+4185;Latvia;2017;Male;29924
+4186;Lebanon;2017;Male;21182
+4187;Lesotho;2017;Male;3940
+4188;Liberia;2017;Male;755
+4189;Libya;2017;Male;17472
+4190;Lithuania;2017;Male;32934
+4191;Luxembourg;2017;Male;78737
+4192;Madagascar;2017;Male;1544
+4193;Malawi;2017;Male;1235
+4194;Malaysia;2017;Male;31826
+4195;Maldives;2017;Male;18501
+4196;Mali;2017;Male;2560
+4197;Malta;2017;Male;44446
+4198;Mauritania;2017;Male;5221
+4199;Mauritius;2017;Male;27986
+4200;Mexico;2017;Male;22873
+4201;Moldova (Republic of);2017;Male;6318
+4202;Mongolia;2017;Male;11759
+4203;Montenegro;2017;Male;20692
+4204;Morocco;2017;Male;11561
+4205;Mozambique;2017;Male;1135
+4206;Myanmar;2017;Male;7355
+4207;Namibia;2017;Male;9907
+4208;Nepal;2017;Male;2738
+4209;Netherlands;2017;Male;57123
+4210;New Zealand;2017;Male;42339
+4211;Nicaragua;2017;Male;6930
+4212;Niger;2017;Male;1119
+4213;Nigeria;2017;Male;6008
+4214;Norway;2017;Male;75731
+4215;Oman;2017;Male;49282
+4216;Pakistan;2017;Male;8786
+4217;Palestine, State of;2017;Male;8216
+4218;Panama;2017;Male;25102
+4219;Papua New Guinea;2017;Male;3789
+4220;Paraguay;2017;Male;10486
+4221;Peru;2017;Male;15140
+4222;Philippines;2017;Male;10705
+4223;Poland;2017;Male;32343
+4224;Portugal;2017;Male;32013
+4225;Qatar;2017;Male;135961
+4226;Romania;2017;Male;27358
+4227;Russian Federation;2017;Male;29671
+4228;Rwanda;2017;Male;2064
+4229;Saint Lucia;2017;Male;14101
+4230;Saint Vincent and the Grenadines;2017;Male;13306
+4231;Samoa;2017;Male;7909
+4232;Sao Tome and Principe;2017;Male;4112
+4233;Saudi Arabia;2017;Male;73946
+4234;Senegal;2017;Male;3101
+4235;Serbia;2017;Male;15474
+4236;Sierra Leone;2017;Male;1387
+4237;Singapore;2017;Male;95809
+4238;Slovakia;2017;Male;36726
+4239;Slovenia;2017;Male;34341
+4240;Solomon Islands;2017;Male;2281
+4241;South Africa;2017;Male;14894
+4242;South Sudan;2017;Male;1083
+4243;Spain;2017;Male;41850
+4244;Sri Lanka;2017;Male;16581
+4245;Sudan;2017;Male;6455
+4246;Suriname;2017;Male;17449
+4247;Sweden;2017;Male;53777
+4248;Switzerland;2017;Male;67490
+4249;Syrian Arab Republic;2017;Male;4077
+4250;Tajikistan;2017;Male;4392
+4251;Tanzania (United Republic of);2017;Male;3037
+4252;Thailand;2017;Male;17327
+4253;The former Yugoslav Republic of Macedonia;2017;Male;15897
+4254;Timor-Leste;2017;Male;10282
+4255;Togo;2017;Male;1643
+4256;Tonga;2017;Male;7314
+4257;Trinidad and Tobago;2017;Male;35435
+4258;Tunisia;2017;Male;16152
+4259;Turkey;2017;Male;34313
+4260;Turkmenistan;2017;Male;20083
+4261;Uganda;2017;Male;2109
+4262;Ukraine;2017;Male;10513
+4263;United Arab Emirates;2017;Male;84130
+4264;United Kingdom;2017;Male;50485
+4265;United States;2017;Male;66208
+4266;Uruguay;2017;Male;24905
+4267;Uzbekistan;2017;Male;8264
+4268;Vanuatu;2017;Male;3635
+4269;Venezuela (Bolivarian Republic of);2017;Male;13976
+4270;Viet Nam;2017;Male;6383
+4271;Yemen;2017;Male;2308
+4272;Zambia;2017;Male;4138
+4273;Zimbabwe;2017;Male;1948
+4274;Andorra;2017;Male;0
+4275;Antigua and Barbuda;2017;Male;0
+4276;Dominica;2017;Male;0
+4277;Grenada;2017;Male;0
+4278;Kiribati;2017;Male;0
+4279;Korea (Democratic People's Rep. of);2017;Male;0
+4280;Liechtenstein;2017;Male;0
+4281;Marshall Islands;2017;Male;0
+4282;Micronesia (Federated States of);2017;Male;0
+4283;Monaco;2017;Male;0
+4284;Nauru;2017;Male;0
+4285;Palau;2017;Male;0
+4286;Saint Kitts and Nevis;2017;Male;0
+4287;San Marino;2017;Male;0
+4288;Seychelles;2017;Male;0
+4289;Somalia;2017;Male;0
+4290;Tuvalu;2017;Male;0
