@@ -1,0 +1,817 @@
+---
+title: "Making Sense of Femicide in Social & Economic Context"
+author: "ShineRs"
+date: "12/12/2019"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+---
+# The ShineRs
+
+[Özge Beğde](https://www.linkedin.com/in/%C3%B6zge-be%C4%9Fde-569887aa/)
+[Mustafa Ömer Güçlü](https://www.linkedin.com/in/mustafa-%C3%B6mer-g%C3%BC%C3%A7l%C3%BC/)
+[Sezer Ulutaş](https://www.linkedin.com/in/sezerulutas/)
+[Emir İnanç](https://www.linkedin.com/in/emir-abdulkadir-inanc-01ab7431/)
+[Özgün Kurt](https://www.linkedin.com/in/mehmet-ozgun-kurt-bb0a867a/)
+
+# Dependencies
+
+ShineRs have made use of
+
+```{r message=FALSE, results='hide' }
+library(readxl)
+library(tidyverse)
+library(reshape2,warn.conflicts = FALSE)
+library(scales,warn.conflicts = FALSE)
+library(readxl)
+library(ggplot2)
+library(reshape2)
+library(countrycode)
+library(rworldmap)
+library(maps)       # Provides functions that let us plot the maps
+library(mapdata)    # Contains the hi-resolution points that mark out the countries.
+library(gridExtra)
+library(httr)
+library(ggrepel)
+library(knitr)
+```
+
+# Key Takeaways
+
+In this report ShineRs have analyzed femicide rates from various countries around the world based of data obtained from ”United Nations Office on Drugs and Crime”.
+
+1. Among all the economic indices examined, it was found that the rate of women participating in the labor force was highly associated with the rate of femicide in a given country.
+
+2. GDP per capita appeared to be inversely proportional to the rate of femicide with two notable exceptions: Russia had a high GDP per capita coupled with a high femicide rate, and Iceland had a low GDP per capita coupled with a low femicide rate.
+
+3. The Human Development Indexe score, and other social indicators such as expected schooling years, and literacy did not have a significant impact on the femicide rate.
+
+4. Countries that have the highest femicide rates have also the highest income inequality.
+
+# Datasets
+
+**Human Development Index**: The Human Development Index (HDI) is a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and have a decent standard of living. 
+
+**Expected Years of Schooling(Male/Female)**: Number of years of schooling that a child of school entrance age can expect to receive if prevailing patterns of age-specific enrolment rates persist throughout life disaggregated by sex.
+
+**Adult literacy rate**: Percentage of the population that can, with understanding, both read and write a short simple statement on everyday life.
+
+**Femicide rate**: Rate of countries according to number of women who killed by intimate partners or other family members.
+
+**GDP per capita, PPP (constant 2011 international $)**: GDP per capita based on purchasing power parity (PPP). PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates.
+
+**Research and development (R&D) expenditure as a proportion of Gross Domestic Product (GDP)**:  The amount of research and development expenditure divided by the total output of the economy. 
+
+**The Gini Index**: Measures the extent to which the distribution of income (or, in some cases, consumption expenditure) among individuals or households within an economy deviates from a perfectly equal distribution
+
+**Labor force**: Ratio of proportion of a country’s working-age population (ages 15 and older) that engages in the labour market, either by working or actively looking for work, expressed as a percentage of the working-age population.
+Unemployment Rate:  The percentage of persons in the labour force who are unemployed.
+
+
+# Import & Process Data
+
+## Data Import & Preprocessing
+
+All our sources provide data in wide format. In order to use tidy verbs on these data sets we transform the data into long format. For example the expected years of schooling appeared in the following format:
+
+```{r message=FALSE, results='asis' }
+female_schooling <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/female_schooling.csv",
+                   header=TRUE,
+                   stringsAsFactors = FALSE,
+                   na = "..")
+
+h <- head(female_schooling)
+
+kable(h[,1:8],
+      caption = "Data in Wide Format")
+```
+
+
+Since each csv file that we import has a similar format, a single procedure is enough to import and process data into the desired format. The procedure takes the following steps:
+
+1. import csv file, making sure that NA values are recognized and values are not intepreted as factors.
+2. rename id columns, and rename unwanted columns for easier elimination, if any.
+3. deselect unwanted columns by regex pattern matching
+4. transform data into long format using the melt function in order to have id, variable, and value on one row.
+5. add & correct values using the mutate verb
+6. filter by countries sampled for analysis
+
+This procedure is executed for each dataset imported for the analyses in this report. We aspire to store the steps of this procedure under one R function, so that the procedure could be called parametrically without the need to copy paste the procudure steps.
+
+```{r message=FALSE, results='asis' }
+
+female_schooling <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/female_schooling.csv",
+                   header=TRUE,
+                   stringsAsFactors = FALSE,
+                   na = "..") %>%
+  plyr::rename(
+    c("Country" = "country",
+      "X" = "XXX")) %>%
+  select(-matches("\\w+\\.\\w+|XXX")) %>%
+  
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "expected_yrs",
+       na.rm = TRUE) %>%
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded)))
+  
+h <- head(female_schooling)
+
+kable(h, 
+      caption = "Tidy Data in Long Format")
+
+```
+
+## Sampling Data by Z-Score for Anaylsis
+
+Our analysis aims to compare femicide rate per hundred thousand per country with respect to economic and social indicators including the Gini Index, literacy rate, the rate of women participating in the labor force, GDP per capita, R&D expenditure as a ratio of GDP. Since a side by side comparison for 137 countries is unintuitive, shineRs have decided to sample countries according to z-score in the following way:
+
+**Firstly** we import femicide rate by country, and process data into tidy format.Then We calculate mean femicide rate for each country between years 1990 and 2017. This calculation results in a table that contains the average femicide rate for each one of the 137 countries listed. Next we calculate a z-score to profile the countries based on average femicide rate.
+
+```{r message=FALSE, results='hide' }
+
+#Import & process yearly femicide rate per 100k per country
+world_femicide <-read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/femrate.csv",
+                         stringsAsFactors = FALSE) %>%
+  plyr::rename(
+    c("Country" = "country")) %>%
+  select(-matches("Region|Subregion|Indicator")) %>%
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "femicide_rate_per_100K",
+       na.rm = TRUE) %>%
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded)))
+
+#Caculate average femicide rate & z-score, then sort by average femicide rate
+ordered_ave_rate <- world_femicide %>% 
+  filter(year_recorded %in% (1990:2017)) %>% 
+  group_by(country) %>% 
+  summarise(Ave_Rate = mean(femicide_rate_per_100K)) %>% 
+  mutate(z_score = (Ave_Rate -mean(Ave_Rate )) / sd(Ave_Rate )) %>%
+  arrange(Ave_Rate)
+
+```
+
+**Secondly** we take 3 samples of 5 from the the table above based on their z-score. Turkey is separately taken into account. As references Phippines and Uruguay have a femicide rate of 2.55 and a z-score of 0.00068. Z-scores below this number represent lower femicide rates and the ones above higher femicide rates per country.
+
+*First sample contains Iceland, Ireland, Qatar, Japan, Finland & Aruba with a z-score range of -0.923 and -0.830
+
+*Second sample contains Finland, Aruba, Bulgaria, Romania, Hungary with a z-score range of -0.471 to -0.366
+
+*Third sample contains El Salvador, Jamaica, Honduras, Russian Federation, Guatemala with a z-score range of 2.37 to 4.37
+
+The samples are also referred as group1, group2 and group3 throughout this article. 
+
+```{r message=FALSE, results='asis' }
+
+#All 15 countries in samples 1,2,3 & Turkey
+glossary<- c("Singapore", 
+  "Iceland", 
+  "Ireland", 
+  "Qatar", 
+  "Japan", 
+  "Finland", 
+  "Aruba", 
+  "Bulgaria", 
+  "Romania", 
+  "Hungary", 
+  "Turkey",
+  "Guatemala", 
+  "Honduras", 
+  "Jamaica", 
+  "Russian Federation", 
+  "El Salvador")
+
+#Country samples
+group1 <- c("Singapore", "Iceland", "Ireland","Qatar","Japan")
+group2 <- c("Finland","Aruba","Bulgaria","Romania","Hungary")
+group3 <- c("El Salvador", "Jamaica", "Honduras", "Russian Federation","Guatemala")
+turkey <- "Turkey" ## Turkey is its own group
+
+world_femicide<-read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/femrate.csv",
+                                          stringsAsFactors = FALSE) %>%
+  plyr::rename(
+    c("Country" = "country")) %>%
+  select(-matches("Region|Subregion|Indicator")) %>%
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "femicide_rate_per_100K",
+       na.rm = TRUE) %>%
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey")) %>%
+  
+  filter(country %in% glossary)
+
+#Caculate average femicide rate & z-score, then sort by average femicide rate 
+#& filter by sample countries
+samples <- ordered_ave_rate %>% filter(country %in% glossary)
+
+kable(samples, 
+      caption = "Sample Countries & Average Femicide Rates between 1990 and 2017")
+
+```
+
+Now that we have determined the countries to analyze, let's take a look at them on the world map
+
+```{r message=FALSE, results='hide' }
+# Selected Countries
+glossary.femicide.countries <- glossary
+
+# Retrieve the map data
+some.femicide.maps <- map_data("world", region = glossary.femicide.countries)
+world_map <- map_data("world")
+
+region.lab.data <- some.femicide.maps %>%
+ group_by(region) %>%
+  summarise(long = mean(long), lat = mean(lat))
+```
+
+```{r message=FALSE, echo=FALSE}
+ggplot(world_map, aes(x = long, y = lat)) +
+   geom_polygon(aes( group = group,fill=region),fill="grey")+
+  geom_text_repel(aes(label = region),data = region.lab.data,  size = 5, hjust = 0.8)+
+  scale_fill_viridis_d()+ theme_void()+theme(legend.position = "center")
+```
+
+# Data visualization
+
+## Sample Countries Comparison based on Femicide Rate per 100K
+
+Get the data for the cirucular graph below
+
+```{r}
+group1_best_countries <- ordered_ave_rate %>% 
+  select(country,Ave_Rate) %>% 
+  filter(country %in% group1)
+
+group2_medium_countries <- ordered_ave_rate %>% 
+  select(country,Ave_Rate) %>% 
+  filter(country %in% group2)
+
+group3_worst_countries <- ordered_ave_rate %>% 
+  select(country,Ave_Rate) %>% 
+  filter(country %in% group3)
+
+tur <- ordered_ave_rate %>% 
+  select(country,Ave_Rate) %>% 
+  filter(country == "Turkey")
+
+```
+
+Turkey's position is at below of the Best(Group1) and the Medium(Group2) Countries and below are the Worst Countries & Turkey.
+
+Plot 1
+```{r message=FALSE, echo=FALSE}
+
+plot1<- ggplot(group1_best_countries, 
+               aes(x=Ave_Rate,
+                   color=country))+ 
+  geom_bar() + 
+  coord_polar(theta = "y", 
+              direction=1 ) +
+  labs( x = "Femicide Rate",
+title ="Femicide Rate",
+subtitle = "Group 1",
+caption = "The Best 5 Countries ") 
+
+plot2<-ggplot(group2_medium_countries,
+              aes(x=Ave_Rate,color=country))+ 
+  geom_bar() + 
+  coord_polar(theta = "y", 
+              direction=1 ) +
+  labs( x = "Femicide Rate",
+title ="Femicide Rate",
+subtitle = "Group 2",
+caption = "The Medium 5 Countries ") 
+
+plot3<-ggplot(group3_worst_countries, 
+              aes(x=Ave_Rate,color=country))+ 
+  geom_bar() + 
+  coord_polar(theta = "y", 
+              direction=1 )+
+  labs( x = "Femicide Rate",
+subtitle = "Group 3",
+caption = "The Worst 5 Countries ") 
+
+plot4<-ggplot(tur, aes(x=Ave_Rate,color=country))+
+  geom_bar() + coord_polar(theta = "y", direction=1 )+
+  labs( x = "Femicide Rate",
+subtitle = "Turkey")
+
+grid.arrange(plot1, plot2,plot3,plot4,ncol=2)
+```
+
+## Sample Countries Comparison based on Femicide Rate vs Yearly Development 
+
+Yearly Development of Femicide Rate per 100K Graph implies that our approach to create our Glossary Countries (according to Ave Rate and 30% Data availability) does not conflict with yearly statistics of the selected countries.
+
+Plot2
+```{r message=FALSE, echo=FALSE}
+ggplot(drop_na(world_femicide), 
+       aes(x=year_recorded, y=femicide_rate_per_100K,col=group_name,shape=`country`)) + 
+  geom_point() + 
+  theme(axis.text.x =element_text(angle = 90, hjust = 1)) + 
+  scale_shape_manual(values = c(4:20)) +
+  scale_size() +labs( x = "Year", y = "Rate" ,
+title ="Femicide Rate",
+subtitle = "Femicide Rate per 100K Female Population by Country",
+caption = "Best / Mid / Worst 5 Contries & Turkey  with UN Data") + theme(legend.key.size =unit(0.4, "cm") )
+
+```
+
+
+
+## Human Development Index Rate
+
+ 
+
+```{r message=FALSE, results='hide'}
+hdi <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/hdi.csv", 
+                     na = c("..","n.a"),
+                     stringsAsFactors = FALSE) %>%
+  plyr::rename(
+    c("HDI.Rank..2017." = "hdi_rank", 
+      "Country" = "country")) %>% 
+  
+  melt(id.vars = c("hdi_rank", "country"), 
+       na.rm = TRUE, 
+       variable.name = "year_recorded",
+       value.name = "hdi_score") %>%
+  
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})", "\\1",year_recorded))) %>%
+  #transform(year_recorded = as.numeric(levels(year_recorded))[year_recorded])
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey")) %>%
+  
+  filter(country %in% glossary)
+
+```
+
+
+The line graph shows us how Turkey improved in the Human Development Index and the difference in improvement between other groups. Group 1 coutries have the highest HDI ratios, group 2 countries have medium HDI ratios and group 3 countries have the lowest HDI ratios. We can say Turkey improved its position int the Human Development Index between 1990 and 2017.
+
+```{r message=FALSE, echo=FALSE}
+
+ggplot(drop_na(hdi), aes(x=year_recorded, y=hdi_score, group=group_name)) +
+  geom_point(aes(color=group_name,shape=country))+ scale_shape_manual(values = c(4:20)) +
+  theme(axis.text.x = element_text(angle= 90, vjust= 0.1))+
+  labs(subtitle="Human Development Index Rate by Country", title= "HDI Rate by Country", 
+       caption="(based on data from UNDP)", y="Ratio", x="Year")+ theme(legend.key.size =unit(0.4, "cm") )
+
+```
+
+Line graph for the scatterplot above.
+
+```{r message=FALSE, echo=FALSE}
+hdi2 <- hdi %>% filter(group_name %in% glossary)
+
+ggplot() +
+  geom_line(aes(year_recorded, hdi_score, group = country), 
+            data = hdi, 
+            colour = alpha("darkslategrey", 0.7)) +
+  geom_line(aes(year_recorded, hdi_score, group = country),
+            data = hdi2, 
+            colour = alpha("red", 0.7))+
+  scale_y_continuous()+
+  theme(axis.text.x = element_text(angle= 90, vjust= 0.5))+
+  scale_y_log10() +
+  labs(subtitle="HDI by Country", title= "Turkey Human Development Index",
+       caption="(based on data from WorldBank)", y="HDI Index", x="Year")
+```
+
+
+
+## Literacy Rate
+
+```{r message=FALSE, results='hide' }
+literacy <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/Literacy_Rate.csv", 
+                     na = c("..","n.a"),
+                     stringsAsFactors = FALSE) %>%
+  plyr::rename(
+    c("HDI.Rank..2017." = "hdi_rank", 
+      "Country" = "country")) %>% 
+  
+  melt(id.vars = c("hdi_rank", "country"), 
+       na.rm = TRUE, 
+       variable.name = "year_recorded",
+       value.name = "hdi_score") %>%
+  
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})", "\\1",year_recorded))) %>%
+  #transform(year_recorded = as.numeric(levels(year_recorded))[year_recorded])
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey")) %>%
+  
+  filter(country %in% glossary)
+
+
+
+```
+
+The line graph shows the literacy rate of sample countries between the years 1990 to 2017. Group 1 countries have the highest literacy rate, group 2 countries have medium literacy rates and group 3 countries have the lowest literacy rates and Human Development Index scores. The graph below shows that Turkey's literacy rate have improved over the years. Group 1 countries have the lowest femicide rate so we can say there is a correlation between literacy rate and femicide.
+
+```{r message=FALSE, echo=FALSE}
+ggplot(literacy, aes(x=year_recorded, y=hdi_score, group=country)) +
+  geom_point(aes(color=group_name))+
+  scale_y_continuous()+
+  scale_x_continuous()+
+  theme(axis.text.x = element_text(angle= 90, vjust= 0.5))+
+  labs(subtitle="Literacy Rate by Country", title= "Literacy Rate by Country", 
+       caption="(based on data from UNDP)", y="Ratio", x="Year")
+```
+
+
+
+## Male Schooling in Expected Years
+
+```{r message=FALSE, results='hide' }
+male_schooling <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/male_schooling.csv",
+                           header=TRUE,
+                           stringsAsFactors = FALSE,
+                           na = "..") %>%
+  plyr::rename(
+    c("Country" = "country",
+      "X" = "XXX")) %>%
+  select(-matches("\\w+\\.\\w+|XXX")) %>%
+  
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "expected_yrs",
+       na.rm = TRUE) %>%
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey")) %>%
+  
+  filter(country %in% glossary)
+
+
+```
+
+## Female Schooling in Expected Years
+
+```{r message=FALSE, results='hide' }
+female_schooling <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/female_schooling.csv",
+                   header=TRUE,
+                   stringsAsFactors = FALSE,
+                   na = "..") %>%
+  plyr::rename(
+    c("Country" = "country",
+      "X" = "XXX")) %>%
+  select(-matches("\\w+\\.\\w+|XXX")) %>%
+  
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "expected_yrs",
+       na.rm = TRUE) %>%
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey")) %>%
+  
+  filter(country %in% glossary)
+
+
+```
+
+
+Get the data for the graph.
+
+```{r message=FALSE, results='hide' }
+FaM <- left_join(female_schooling,
+                 male_schooling,
+                 by=c("country","year_recorded"),
+                 suffix=c("_Female","_Male"))
+FaM <- FaM %>% 
+  mutate(Total=expected_yrs_Female+expected_yrs_Male) %>% 
+  mutate(Female_Rate=expected_yrs_Female/Total) %>% 
+  mutate(Male_Rate=expected_yrs_Male/Total) %>% 
+  mutate_if(is.numeric, round, digits = 2)
+FaM2 <- FaM %>% 
+  filter(country %in% glossary)
+```
+
+
+The point graph shows the expected school of year ratio for females. In group 1 countries there is no correlation between expected school of year for females and femicide.
+
+```{r message=FALSE, echo=FALSE}
+ggplot(male_schooling, aes(x=year_recorded, y=expected_yrs, group=group_name, shape=group_name)) +
+  geom_point(aes(color=group_name))+
+  scale_y_continuous()+
+  theme(axis.text.x = element_text(angle= 90, vjust= 0.5))+
+  labs(subtitle="Expected school of Year for Males", title= "Schooling Index", 
+       caption="(based on data from UNDP)", y="Ratio", x="Year")
+```
+
+
+```{r message=FALSE, echo=FALSE}
+ggplot(FaM2, aes(x=Total, y=country, color=group_name_Female, shape=group_name_Female))+
+  geom_point()
+```
+
+
+## Total GDP PPP by Country
+
+Graph shows the GDP per capita for groups 1, 2 and 3. At first sight, GDP size and femicide rates seem to be inversely proportional. However, Russia is counter example to this trend as it has a high femicide rate despite having a high GDP per capita. Conversely, Iceland, compared to its peers in group 1, has a low GDP coupled with a low femicide rate.
+
+```{r message=FALSE, results='hide' }
+GDP <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/WB_GDP.csv",
+                header=TRUE,
+                skip=3) %>%
+      select(-matches("Indicator\\.Name|Indicator\\.Code|Country\\.Code")) %>%
+      plyr::rename(
+        c("Country.Name" = "country")) %>%
+  
+      melt(id.vars="country",
+           variable.name = "year_recorded",
+           value.name = "gdp_USD",
+           na.rm = TRUE) %>%
+      mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+  
+      mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey"),
+             gdp_USD = log(gdp_USD/1000000)) %>%
+  
+      filter(country %in% glossary)
+
+
+```
+
+```{r message=FALSE, echo=FALSE}
+GDP2 <- GDP %>% filter(group_name %in% c("group1", "group2", "group3", "turkey")&
+                         year_recorded>=1990 & year_recorded<=2020)
+plot1 <-ggplot(GDP2, aes(x=year_recorded, y=gdp_USD, color=group_name, shape=country)) +
+  geom_point()+
+  xlim(1990, 2020)+
+  scale_shape_manual(values = c(4:20))+
+  scale_y_continuous(labels=comma)+
+  theme(axis.text.x = element_text(angle= 90, vjust= 0.5),legend.key.size =unit(0.1, "cm"))+
+  labs(subtitle="GDP by Country", title= "Economic Index",
+       caption="(based on data from WorldBank)", y="GDP, PPP (constant 2011 $)", x="Year")
+
+plot1
+```
+
+
+## Research and Development Expenditure Percentage of GDP by Country
+
+```{r message=FALSE, results='hide' }
+
+RDE <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/HDI_GDP.csv",
+                header=TRUE,
+                skip=1,
+                stringsAsFactors = FALSE,
+                na = "..") %>%
+       plyr::rename(
+         c("Country" = "country",
+           "X" = "XXX")) %>%
+       select(-matches("\\w+\\.\\w+|XXX")) %>%
+  
+       melt(id.vars="country",
+            variable.name = "year_recorded",
+            value.name = "rde",
+            na.rm = TRUE) %>%
+       mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+  
+       mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                     country %in% group2 ~ "group2",
+                                     country %in% group3 ~ "group3",
+                                     country == turkey ~ "Turkey")) %>%
+  
+       filter(country %in% glossary)
+
+
+```
+
+When we look at the ratio of R&D expenditures to GDP, it is seen that Russia has the highest rate among its group Suprisingly, the femicide rate of Russia is one of the highest. Remarkably Qatar's R&D expenditures are almost zero, but the femicide rate in Qatar is much less than the rate in Russia. Of the two countries with the highest R&D to GDP ratio, Finland was in 2nd Group and Japan was in 1st Group.
+
+```{r message=FALSE, echo=FALSE}
+RDE2 <- RDE %>% filter(group_name %in% c("group1", "group2", "group3", "turkey"))
+plot2 <- ggplot(RDE2, aes(x=year_recorded, y=rde, col=group_name, shape=country)) +
+  geom_point()+
+  xlim(1995,2015)+
+  scale_shape_manual(values = c(4:20))+
+  scale_y_continuous(labels=comma)+
+  theme(axis.text.x = element_text(angle= 90, vjust= 0.5),legend.key.size =unit(0.1, "cm"))+
+  labs(subtitle="Research and development expenditure percentage of GDP", title= "Economic Index", 
+       caption="(based on data from UNDP)", y="Ratio", x="Year")
+plot2
+```
+
+
+## Rate of Women Participating in the Labor Force
+
+```{r message=FALSE, results='hide' }
+lfr <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/LFR.csv",
+                header=TRUE,
+                skip=1,
+                stringsAsFactors = FALSE,
+                na = "..") %>%
+    plyr::rename(
+      c("Country" = "country",
+        "X" = "XXX")) %>%
+    select(-matches("\\w+\\.\\w+|XXX"))  %>%
+  
+    melt(id.vars="country",
+         variable.name = "year_recorded",
+         value.name = "lfr",
+         na.rm = TRUE) %>%
+    mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+    mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                  country %in% group2 ~ "group2",
+                                  country %in% group3 ~ "group3",
+                                  country == turkey ~ "Turkey")) %>%
+  
+    filter(country %in% glossary)
+
+
+```
+
+
+Rate of women participating in the labor force over time is indicated in the graph below. The difference between groups appears much more clearly. It is noteworthy that Russia and Jamaica, which are also in the 3rd Group, have highest rates on femicide despite the high participation of women in the labor force.
+
+```{r message=FALSE, echo=FALSE}
+LFR2 <- lfr %>% filter(group_name %in% c("group1", "group2", "group3", "turkey"))
+plot3 <- ggplot(LFR2, aes(x=year_recorded, y=lfr, col=group_name, shape=country)) +
+  geom_point()+
+  xlim(1990,2020)+
+  scale_shape_manual(values = c(4:20))+
+  theme(axis.text.x = element_text(angle= 90, vjust= 0.5),legend.key.size =unit(0.1, "cm"))+
+  labs(subtitle="Labor Force Female Rate", title= "Gender",
+       caption="(based on data from UNDP)", y="Ratio", x="Year")
+plot3
+```
+
+
+
+## GINI Index Yearly Development
+
+```{r message=FALSE, results='hide' }
+##Import Gini Index
+
+gini<-read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/GINI_Data.csv",
+               header = TRUE, 
+               stringsAsFactors = FALSE, 
+               na = "..") %>%
+  
+  plyr::rename(
+    c("Country.Name" = "country")) %>%
+  
+  select(-matches("...Series.Name|Series.Code|Country.Code")) %>%
+  
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "gini_index",
+       na.rm = TRUE) %>%
+  
+  mutate(year_recorded = as.numeric(gsub("\\w\\d{4}\\.+\\w{2}(\\d{4})\\.","\\1",
+                                         year_recorded))) %>%
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey"),
+         gini_index = round(as.numeric(gini_index) / 100, 2)) %>%
+  
+  filter(country %in% glossary)
+
+```
+
+Countries that have the highest femicide rates (Group3) have also the highest income inequality at their society. GINI Index Yearly Development Plot shows that while Group2 and Group1 have less income inequality. Turkey and Group3 Countries have unfair income distribution which implies a relation between femicide rate and income inequality 
+
+```{r message=FALSE, echo=FALSE}
+gini_2010<-gini%>%filter(year_recorded>=2010)
+ggplot(gini_2010, aes(x=year_recorded, y=gini_index,col=group_name ,shape=`country`)) + geom_point() + 
+  theme(axis.text.x =element_text(angle = 90, hjust = 1))  + scale_shape_manual(values = c(4:20)) +labs( x = "Year", y = "Index",
+title ="GINI INDEX",
+subtitle = "GINI INDEX : 0 Means Perfect Income Equality / 1 Means Perfect Income Inequality",
+caption = "Best / Mid / Worst 5 Contries & Turkey  with WorldBank Data") + theme(legend.key.size =unit(0.1, "cm") )
+```
+
+
+## Unemployment Rate
+
+```{r message=FALSE, results='hide' }
+## Import unemployment data
+
+unemployment <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/Unemployement.csv", 
+                         skip = 3,
+                         stringsAsFactors = FALSE) %>%
+  plyr::rename(
+    c("Country.Name" = "country")) %>%
+  select(-matches("\\w+\\.\\w+")) %>%
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "unemployment_rate",
+       na.rm = TRUE) %>%
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey")) %>%
+  
+  filter(country %in% glossary)
+
+str(unemployment)
+```
+
+The bar graph shows the average unemployement rate for the sample countries through the period from 1991 to 2017. Generally speaking, "group1" countries with lower femicide rates have a lower percentage of unemployement rate as well. However, Ireland appears on second spot with more than 10% average unemployement rate. The country with the highest unemployement rate is "Jamaica" which is among the group3 countries with the highest femicide rates. Unlike its peers in group2, Bulgaria is one of the countries with high unemployment rate followed by Turkey.
+
+```{r message=FALSE, echo=FALSE}
+ave_unmp <- unemployment  %>% group_by(country,group_name) %>% 
+  summarise(Ave_Unemp=round(mean(unemployment_rate),2))
+
+ggplot(ave_unmp,aes(x=reorder(country,Ave_Unemp) ,y=Ave_Unemp,fill= group_name)) +
+ geom_bar(position="dodge",stat = "identity") +
+  coord_flip() + labs(subtitle= "Average Unemployement Rate", title = "Economic Index",
+       caption="(based on data from World Bank)", y="Rate", x="Country")
+```
+
+
+```{r message=FALSE, results='hide' }
+#Import female male ratio
+df_female_male_ratio <- read.csv(
+  "https://raw.githubusercontent.com/pjournal/mef03g-ShineRs/master/unempratio.csv",
+                                 skip=1,
+                                 na = "..",
+                                 stringsAsFactors = FALSE) %>%
+  plyr::rename(
+    c("Country" = "country",
+      "X" = "XXX")) %>%
+  select(-matches("\\w+\\.\\w+\\.{2}\\d{4}\\.|\\X\\.\\d{1,2}|XXX")) %>%
+  melt(id.vars="country",
+       variable.name = "year_recorded",
+       value.name = "female_male_ratio",
+       na.rm = TRUE) %>%
+  mutate(year_recorded = as.numeric(gsub("\\w{1}(\\d{4})","\\1",year_recorded))) %>%
+  
+  mutate(group_name = case_when(country %in% group1 ~ "group1",
+                                country %in% group2 ~ "group2",
+                                country %in% group3 ~ "group3",
+                                country == turkey ~ "Turkey"),
+         female_male_ratio = as.numeric(female_male_ratio)) %>%
+  
+  filter(country %in% glossary)
+
+```
+
+Female to male average unemployement ratio graph compares the ratio of unemployed women and men in between years 1991 and 2017. Despite the low unemployement rate; the number of unemployed women are  approximately 10 times more than the number of unemployed men in Qatar, besides Qatar is among the group1 countries which have lower femicide rates. Group3 countries are not only have high femicide rates, many of them also have high female to male unemployement ratio. Turkey is following this trend of group3 countries and is has the 4th highest female to male unemployment ratio.
+
+
+```{r message=FALSE, echo=FALSE}
+f_m_ratio <- df_female_male_ratio  %>% group_by(country,group_name) %>% 
+  summarise(f_m_ave=round(mean(female_male_ratio),2))
+ggplot(f_m_ratio,aes(x=reorder(country,-f_m_ave),y=f_m_ave,fill=group_name)) +
+ geom_bar(position="dodge",stat = "identity") +
+  coord_flip() +
+    labs(subtitle="Average Unemployement Rate(Female to Male Ratio)", title= "Economic Index",
+       caption="(based on data from UNDP)", y="Ratio", x="Country")
+```
+
+
+# Conclusion
+
+In the study, it was observed that the countries with high Human Development Index had less femicide rates. A similar result can be mentioned for the literacy rate indicator. Although the economic indicators of the sample countries are generally parallel to the results of the group they are in - especially for GDP data - there are countries that have irregular characteristics. The Gini index and the rate of women participating in the labor force came to the forefront as economic indicators with the highest impact on the femicide rate. In this context, the idea that prevention of income inequality, increasing the effectiveness of women in economic life and raising the level of education in the society are the most important measures that can be taken in order to prevent femicides.
+
+
+# References:
+
+http://hdr.undp.org/en/data  
+
+https://dataunodc.un.org/
+
+https://data.worldbank.org/
+
