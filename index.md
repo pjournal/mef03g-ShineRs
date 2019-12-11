@@ -8,3 +8,4 @@
 
 ## Group Project: Femicide in the World 
 [Project Proposal](https://pjournal.github.io/mef03g-ShineRs/proposalPo_3.html)
+[Project Report](https://pjournal.github.io/mef03g-ShineRs/Proje_10122019.html)
