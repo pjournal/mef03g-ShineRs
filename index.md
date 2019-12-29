@@ -11,4 +11,4 @@
 * [Project Report](https://pjournal.github.io/mef03g-ShineRs/Proje_10122019.html)
 
 ## ShinyAPP
-[ShinyAPP](app.R)
+[ShinyAPP](https://shiners.shinyapps.io/lanet/)
